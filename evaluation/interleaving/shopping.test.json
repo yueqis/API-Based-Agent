@@ -1,0 +1,4090 @@
+[
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 21,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/6s-wireless-headphones-over-ear-noise-canceling-hi-fi-bass-foldable-stereo-wireless-kid-headsets-earbuds-with-built-in-mic-micro-sd-tf-fm-for-iphone-samsung-ipad-pc-black-gold.html",
+    "geolocation": null,
+    "intent_template": "List out reviewers, if exist, who mention about {{description}}",
+    "instantiation_dict": {
+      "description": "ear cups being small"
+    },
+    "intent": "List out reviewers, if exist, who mention about ear cups being small",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Joseph Brzezinski",
+          "Catso",
+          "Dibbins",
+          "Anglebert Dinkherhump",
+          "Michelle Davis"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Joseph Brzezinski, Catso, Dibbins, Anglebert Dinkherhump, Michelle Davis"
+    },
+    "intent_template_id": 222
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 22,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/fujifilm-finepix-z200fd-10mp-digital-camera-with-5x-optical-dual-image-stabilized-zoom-black.html",
+    "geolocation": null,
+    "intent_template": "List out reviewers, if exist, who mention about {{description}}",
+    "instantiation_dict": {
+      "description": "under water photo"
+    },
+    "intent": "List out reviewers, if exist, who mention about under water photo",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no review about under water photo",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 222
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 23,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/3-pack-samsung-galaxy-s6-screen-protector-nearpow-tempered-glass-screen-protector-with-9h-hardness-crystal-clear-easy-bubble-free-installation-scratch-resist.html",
+    "geolocation": null,
+    "intent_template": "List out reviewers, if exist, who mention about {{description}}",
+    "instantiation_dict": {
+      "description": "good fingerprint resistant"
+    },
+    "intent": "List out reviewers, if exist, who mention about good fingerprint resistant",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Rachel",
+          "T. Gannon"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Rachel, T. Gannon, "
+    },
+    "intent_template_id": 222
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 24,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/haflinger-men-s-wool-felt-open-back-slippers-beige-550-peat-us-7.html",
+    "geolocation": null,
+    "intent_template": "List out reviewers, if exist, who mention about {{description}}",
+    "instantiation_dict": {
+      "description": "price being unfair"
+    },
+    "intent": "List out reviewers, if exist, who mention about price being unfair",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no reivew about price being unfair",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 222
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 25,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/epson-workforce-wf-3620-wifi-direct-all-in-one-color-inkjet-printer-copier-scanner-amazon-dash-replenishment-ready.html",
+    "geolocation": null,
+    "intent_template": "List out reviewers, if exist, who mention about {{description}}",
+    "instantiation_dict": {
+      "description": "average print quality"
+    },
+    "intent": "List out reviewers, if exist, who mention about average print quality",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Goldfish",
+          "Roxanne Brandon Coffey"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "GoldfishGoldfish, Roxanne Brandon Coffey"
+    },
+    "intent_template_id": 222
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 26,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/epson-workforce-wf-3620-wifi-direct-all-in-one-color-inkjet-printer-copier-scanner-amazon-dash-replenishment-ready.html",
+    "geolocation": null,
+    "intent_template": "List out reviewers, if exist, who mention about {{description}}",
+    "instantiation_dict": {
+      "description": "complain of the customer service"
+    },
+    "intent": "List out reviewers, if exist, who mention about complain of the customer service",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Bob in Vegas",
+          "RemyR"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Bob in Vegas, RemyRRemyR"
+    },
+    "intent_template_id": 222
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 47,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Today is 6/12/2023. Tell me how many fulfilled orders I have {{period}}, and the total amount of money I spent.",
+    "instantiation_dict": {
+      "period": "over the past month"
+    },
+    "intent": "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past month, and the total amount of money I spent.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "0 order",
+          "$0 total spend"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "0 order, $0 total spend"
+    },
+    "intent_template_id": 197
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 48,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Today is 6/12/2023. Tell me how many fulfilled orders I have {{period}}, and the total amount of money I spent.",
+    "instantiation_dict": {
+      "period": "over the past three days"
+    },
+    "intent": "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past three days, and the total amount of money I spent.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "0 order",
+          "$0 total spend"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "0 order, $0 total spend"
+    },
+    "intent_template_id": 197
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 49,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Today is 6/12/2023. Tell me how many fulfilled orders I have {{period}}, and the total amount of money I spent.",
+    "instantiation_dict": {
+      "period": "over the past four month"
+    },
+    "intent": "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past four month, and the total amount of money I spent.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "3 orders",
+          "$845.49 total spend"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "3 orders, $845.49 total spend"
+    },
+    "intent_template_id": 197
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 50,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Today is 6/12/2023. Tell me how many fulfilled orders I have {{period}}, and the total amount of money I spent.",
+    "instantiation_dict": {
+      "period": "over the past year"
+    },
+    "intent": "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past year, and the total amount of money I spent.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "24 orders",
+          "$6560.69 total spend"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "24 orders, $6560.69 total spend"
+    },
+    "intent_template_id": 197
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 51,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Today is 6/12/2023. Tell me how many fulfilled orders I have {{period}}, and the total amount of money I spent.",
+    "instantiation_dict": {
+      "period": "over the past six month"
+    },
+    "intent": "Today is 6/12/2023. Tell me how many fulfilled orders I have over the past six month, and the total amount of money I spent.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "12 orders",
+          "$1603.69 total spend"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "12 orders, $1603.69 total spend"
+    },
+    "intent_template_id": 197
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 96,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me the status of my latest order and when will it arrive",
+    "instantiation_dict": {},
+    "intent": "Tell me the status of my latest order and when will it arrive",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "The last order was canceled. It will never arrive."
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "reference_answer_raw_annotation": "The last order was canceled. It will never arrive.",
+      "string_note": ""
+    },
+    "intent_template_id": 193
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 117,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the date when I made my first purchase on this site?",
+    "instantiation_dict": {},
+    "intent": "What is the date when I made my first purchase on this site?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "3/2/22"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "3/2/22"
+    },
+    "intent_template_id": 161
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 124,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the price range of {{product}} in the One Stop Market?",
+    "instantiation_dict": {
+      "product": "wireless earphone"
+    },
+    "intent": "What is the price range of wireless earphone in the One Stop Market?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "0.14",
+          "745.00"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$0.14 - $745.00"
+    },
+    "intent_template_id": 159
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 125,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the price range of {{product}} in the One Stop Market?",
+    "instantiation_dict": {
+      "product": "teeth grinding mouth guard"
+    },
+    "intent": "What is the price range of teeth grinding mouth guard in the One Stop Market?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "1.46",
+          "85"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$1.46 - $85"
+    },
+    "intent_template_id": 159
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 126,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the price range of {{product}} in the One Stop Market?",
+    "instantiation_dict": {
+      "product": "Canon photo printer"
+    },
+    "intent": "What is the price range of Canon photo printer in the One Stop Market?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "2.56",
+          "649.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$2.56 - $649.99"
+    },
+    "intent_template_id": 159
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 141,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spent on {{category}} shopping during {{time}}",
+    "instantiation_dict": {
+      "category": "food-related",
+      "time": "March 2023"
+    },
+    "intent": "How much I spent on food-related shopping during March 2023",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "47.41"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$47.41"
+    },
+    "intent_template_id": 162
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 142,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spent on {{category}} shopping during {{time}}",
+    "instantiation_dict": {
+      "category": "hair care and hair style",
+      "time": "Jan 2023"
+    },
+    "intent": "How much I spent on hair care and hair style shopping during Jan 2023",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "95.23"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$95.23"
+    },
+    "intent_template_id": 162
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 143,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spent on {{category}} shopping during {{time}}",
+    "instantiation_dict": {
+      "category": "home decoration",
+      "time": "1/29/2023"
+    },
+    "intent": "How much I spent on home decoration shopping during 1/29/2023",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "265.69"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$265.69"
+    },
+    "intent_template_id": 162
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 144,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spent on {{category}} shopping during {{time}}",
+    "instantiation_dict": {
+      "category": "food",
+      "time": "from mid Jan to the end Jan 2023"
+    },
+    "intent": "How much I spent on food shopping during from mid Jan to the end Jan 2023",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "0"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "0"
+    },
+    "intent_template_id": 162
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 145,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spent on {{category}} shopping during {{time}}",
+    "instantiation_dict": {
+      "category": "cooking and food",
+      "time": "March 2022"
+    },
+    "intent": "How much I spent on cooking and food shopping during March 2022",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "52.35"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$52.35"
+    },
+    "intent_template_id": 162
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 146,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the {{option}} configuration of the {{product}} I bought {{time}}",
+    "instantiation_dict": {
+      "option": "size",
+      "product": "picture frame",
+      "time": "Sep 2022"
+    },
+    "intent": "What is the size configuration of the picture frame I bought Sep 2022",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "16x24"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "16x24"
+    },
+    "intent_template_id": 155
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 147,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the {{option}} configuration of the {{product}} I bought {{time}}",
+    "instantiation_dict": {
+      "option": "size",
+      "product": "picture frame",
+      "time": "2022"
+    },
+    "intent": "What is the size configuration of the picture frame I bought 2022",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "16x24"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "16x24"
+    },
+    "intent_template_id": 155
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 148,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the {{option}} configuration of the {{product}} I bought {{time}}",
+    "instantiation_dict": {
+      "option": "color",
+      "product": "picture frame",
+      "time": "Sep 2022"
+    },
+    "intent": "What is the color configuration of the picture frame I bought Sep 2022",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Mist"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Mist"
+    },
+    "intent_template_id": 155
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 149,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the {{option}} configuration of the {{product}} I bought {{time}}",
+    "instantiation_dict": {
+      "option": "color",
+      "product": "artifical plants",
+      "time": "Feb 2023"
+    },
+    "intent": "What is the color configuration of the artifical plants I bought Feb 2023",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Green-vines"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Green-vines"
+    },
+    "intent_template_id": 155
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 150,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the {{option}} configuration of the {{product}} I bought {{time}}",
+    "instantiation_dict": {
+      "option": "price",
+      "product": "fake tree",
+      "time": "Jan 2023"
+    },
+    "intent": "What is the price configuration of the fake tree I bought Jan 2023",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "260.69"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "260.69"
+    },
+    "intent_template_id": 155
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 163,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/ostent-16gb-memory-card-stick-storage-for-sony-ps-vita-psv1000-2000-pch-z081-z161-z321-z641.html",
+    "geolocation": null,
+    "intent_template": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "instantiation_dict": {},
+    "intent": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "I ordered the 16gb but I only got 14 gigs even though I formatted the card",
+          "The memory card is kind of slow on games and downloads",
+          "No original packaging It's used and the previous owners data has not been erased",
+          "The product is a legit sony hardware that have been owned by someone else before",
+          "The media could not be loaded",
+          "I could not format the card so I wasn\u2019t able to use it for my VITA"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "I ordered the 16gb but I only got 14 gigs even though I formatted the card. The memory card is kind of slow on games and downloads. No original packaging It's used and the previous owners data has not been erased. The product is a legit sony hardware that have been owned by someone else before The media could not be loaded.  I could not format the card so I wasn\u2019t able to use it for my VITA"
+    },
+    "intent_template_id": 136
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 164,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/mineralogie-all-natural-lip-gloss-ruby-rose.html",
+    "geolocation": null,
+    "intent_template": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "instantiation_dict": {},
+    "intent": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Dry",
+          "Uneven color"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "DryUneven color"
+    },
+    "intent_template_id": 136
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 165,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/sandgrens-swedish-handmade-wooden-clog-sandal-copenhagen.html",
+    "geolocation": null,
+    "intent_template": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "instantiation_dict": {},
+    "intent": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "The 39 was too small. I am afraid the 40 will be too big",
+          "I was very sad when the shoe rubbed up against my baby toe",
+          "I had to return them because I knew in time it would tear up my feet",
+          "The problem is that the strap is made of some really stiff leather and is painful to my heel",
+          "The front is also uncomfortably tight",
+          "The Dansko's were similar (not as bad) and loosened up over time"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "The 39 was too small. I am afraid the 40 will be too big. I was very sad when the shoe rubbed up against my baby toe. I had to return them because I knew in time it would tear up my feet. The problem is that the strap is made of some really stiff leather and is painful to my heel. The front is also uncomfortably tight. The Dansko's were similar (not as bad) and loosened up over time."
+    },
+    "intent_template_id": 136
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 166,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/sensodyne-repair-protect-whitening-toothpaste-with-fluoride-3-4-oz-pack-of-3.html",
+    "geolocation": null,
+    "intent_template": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "instantiation_dict": {},
+    "intent": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "there is no existing criticism",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 136
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 167,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/photosmart-plus-b209-clr-inkjetfb-p-s-c-usb-wrls-1.html",
+    "geolocation": null,
+    "intent_template": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "instantiation_dict": {},
+    "intent": "What are the main criticisms of this product? Please extract the relevant sentences.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "The wireless connection works on a whim (about 40% of the time I've owned it)",
+          "It seems to constantly run out of ink",
+          "Cartridge prices are less than some printers I've had",
+          "This printer seems to have more reasons NOT to work (none that are findable or correctable) Ex: error boxes saying that it's out of paper when it automatically switches to photo printing for some reason",
+          "Scanner is as slow as my first scanner I ever owned in the mid-90's",
+          "For the $176 I paid, there isn't even a fax component on it. I guess the \"PLUS\" part of it's name is in reference to the migraines it causes when you can't figure out the new reason why it's not working for the 10th time in the past 2 months."
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "The wireless connection works on a whim (about 40% of the time I've owned it). It seems to constantly run out of ink. Cartridge prices are less than some printers I've had, but now I understand why. This printer seems to have more reasons NOT to work (none that are findable or correctable) Ex: error boxes saying that it's out of paper when it automatically switches to photo printing for some reason. Scanner is as slow as my first scanner I ever owned in the mid-90's. For the $176 I paid, there isn't even a fax component on it. I guess the \"PLUS\" part of it's name is in reference to the migraines it causes when you can't figure out the new reason why it's not working for the 10th time in the past 2 months."
+    },
+    "intent_template_id": 136
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 188,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me the total cost of my latest {{status}} order?",
+    "instantiation_dict": {
+      "status": "cancelled"
+    },
+    "intent": "Tell me the total cost of my latest cancelled order?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "365.42"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "365.42"
+    },
+    "intent_template_id": 214
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 189,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me the total cost of my latest {{status}} order?",
+    "instantiation_dict": {
+      "status": "pending"
+    },
+    "intent": "Tell me the total cost of my latest pending order?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "754.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "754.99"
+    },
+    "intent_template_id": 214
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 190,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me the total cost of my latest {{status}} order?",
+    "instantiation_dict": {
+      "status": "complete"
+    },
+    "intent": "Tell me the total cost of my latest complete order?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "65.32"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "65.32"
+    },
+    "intent_template_id": 214
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 191,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me the total cost of my latest {{status}} order?",
+    "instantiation_dict": {
+      "status": "processing"
+    },
+    "intent": "Tell me the total cost of my latest processing order?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no order of \"processing\" status",
+      "reference_answer_raw_annotation": "There is no order of \"processing\" status"
+    },
+    "intent_template_id": 214
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 192,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me the total cost of my latest {{status}} order?",
+    "instantiation_dict": {
+      "status": "non-cancelled"
+    },
+    "intent": "Tell me the total cost of my latest non-cancelled order?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "754.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "754.99"
+    },
+    "intent_template_id": 214
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 225,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What do customers say about {{product_type}} from {{manufature}}",
+    "instantiation_dict": {
+      "product_type": "brush",
+      "manufature": "sephora"
+    },
+    "intent": "What do customers say about brush from sephora",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "The sephora brushes don't have reviews",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 135
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 226,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the price range for products from {{brand}}?",
+    "instantiation_dict": {
+      "brand": "Amazon basic"
+    },
+    "intent": "What is the price range for products from Amazon basic?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "5.49",
+          "375.19"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$5.49 - $375.19"
+    },
+    "intent_template_id": 370
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 227,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the price range for products from {{brand}}?",
+    "instantiation_dict": {
+      "brand": "EYZUTAK"
+    },
+    "intent": "What is the price range for products from EYZUTAK?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "9.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$9.99"
+    },
+    "intent_template_id": 370
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 228,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the price range for products from {{brand}}?",
+    "instantiation_dict": {
+      "brand": "sephora"
+    },
+    "intent": "What is the price range for products from sephora?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "18.18",
+          "94.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$18.18 - $94.99"
+    },
+    "intent_template_id": 370
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 229,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the price range for products from {{brand}}?",
+    "instantiation_dict": {
+      "brand": "ugreen"
+    },
+    "intent": "What is the price range for products from ugreen?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "6.99",
+          "38.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$6.99 - $38.99"
+    },
+    "intent_template_id": 370
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 230,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the price range for products from {{brand}}?",
+    "instantiation_dict": {
+      "brand": "Perricone MD"
+    },
+    "intent": "What is the price range for products from Perricone MD?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "35",
+          "149"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "$35 - $149"
+    },
+    "intent_template_id": 370
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 231,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Get the order number of my most recent {{status}} order ",
+    "instantiation_dict": {
+      "status": "cancelled"
+    },
+    "intent": "Get the order number of my most recent cancelled order ",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "170"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "000000170"
+    },
+    "intent_template_id": 213
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 232,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Get the order number of my most recent {{status}} order ",
+    "instantiation_dict": {
+      "status": "pending"
+    },
+    "intent": "Get the order number of my most recent pending order ",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "189"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "000000189"
+    },
+    "intent_template_id": 213
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 233,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Get the order number of my most recent {{status}} order ",
+    "instantiation_dict": {
+      "status": "complete"
+    },
+    "intent": "Get the order number of my most recent complete order ",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "180"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "000000180"
+    },
+    "intent_template_id": 213
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 234,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Get the order number of my most recent {{status}} order ",
+    "instantiation_dict": {
+      "status": "on hold"
+    },
+    "intent": "Get the order number of my most recent on hold order ",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "there is no on hold order",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 213
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 235,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Get the order number of my most recent {{status}} order ",
+    "instantiation_dict": {
+      "status": "under delivery"
+    },
+    "intent": "Get the order number of my most recent under delivery order ",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no under delivery order",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 213
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 279,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Provide me with the complete names of Bluetooth headphones from Sony, and also share the price range for the available models",
+    "instantiation_dict": {},
+    "intent": "Provide me with the complete names of Bluetooth headphones from Sony, and also share the price range for the available models",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "SONY WH1000XM3 Bluetooth Wireless Noise Canceling Headphones Silver WH-1000XM3/S (Renewed)",
+          "Sony WH-CH710N/H Wireless Bluetooth Noise Cancelling Headphones",
+          "Sony WH-1000XM3B Wireless Bluetooth Noise-Canceling Over-Ear Headphones (Black) Basic Headphone Bundle Kit with Stylus",
+          "Sony Wireless Headphones WH-CH510: Wireless Bluetooth On-Ear Headset with Mic for Phone-Call, Black",
+          "Sony WHCH710N Wireless Bluetooth Noise Canceling Over-The-Ear Headphones (Black) with Kratos 18W PD Two-Port Power Adapter and Kratos 6-Feet Nylon Braided USB-C Cable Bundle (3 Items)",
+          "Sony WI-SP500 Wireless in-Ear Sports Headphones, White (WISP500/W)",
+          "Sony WI-SP510 Extra BASS Wireless in-Ear Headset/Headphones with mic for Phone Call Sports IPX5 Bluetooth, Black (WISP510/B)",
+          "Sony MDRAS600BT Active Sports Bluetooth Headset (Black)",
+          "Sony WH-1000XM4 Wireless Noise Canceling Over-Ear Headphones (Black) with Sony WLA-NS7 Wireless TV Adapter Bundle (2 Items)",
+          "Sony WI-C300 Wireless In-Ear Headphones, Red (WIC300/R)",
+          "Sony XB950N1 Extra Bass Wireless Noise Canceling Headphones, Black",
+          "SONY - H900N Hi-Res Noise Cancelling Wireless Headphone Grayish Black Renewed",
+          "18.99",
+          "406"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "These models are avaiable:  SONY WH1000XM3 Bluetooth Wireless Noise Canceling Headphones Silver WH-1000XM3/S (Renewed) Sony WH-CH710N/H Wireless Bluetooth Noise Cancelling Headphones Sony WH-1000XM3B Wireless Bluetooth Noise-Canceling Over-Ear Headphones (Black) Basic Headphone Bundle Kit with Stylus Sony Wireless Headphones WH-CH510: Wireless Bluetooth On-Ear Headset with Mic for Phone-Call, Black Sony WHCH710N Wireless Bluetooth Noise Canceling Over-The-Ear Headphones (Black) with Kratos 18W PD Two-Port Power Adapter and Kratos 6-Feet Nylon Braided USB-C Cable Bundle (3 Items) Sony WI-SP500 Wireless in-Ear Sports Headphones, White (WISP500/W) Sony WI-SP510 Extra BASS Wireless in-Ear Headset/Headphones with mic for Phone Call Sports IPX5 Bluetooth, Black (WISP510/B) Sony MDRAS600BT Active Sports Bluetooth Headset (Black) Sony WH-1000XM4 Wireless Noise Canceling Over-Ear Headphones (Black) with Sony WLA-NS7 Wireless TV Adapter Bundle (2 Items) Sony WI-C300 Wireless In-Ear Headphones, Red (WIC300/R) Sony XB950N1 Extra Bass Wireless Noise Canceling Headphones, Black SONY - H900N Hi-Res Noise Cancelling Wireless Headphone Grayish Black Renewed The price ranges from $18.99 to $406  "
+    },
+    "intent_template_id": 204
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 280,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Provide me with the full names of chargers from Anker, and also share the price range for the available models",
+    "instantiation_dict": {},
+    "intent": "Provide me with the full names of chargers from Anker, and also share the price range for the available models",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Anker USB C Charger 30W, 711 Charger, Compact Fast Charger (Not Foldable) for MacBook Air/iPhone 13/13 Mini/13 Pro/13 Pro Max/12, Galaxy S21, Note 20, iPad Pro, Pixel, and More",
+          "Anker USB C Charger 40W, 521 Charger (Nano Pro), PIQ 3.0 Durable Compact Fast Charger (Not Foldable) for iPhone 13/13 Mini/13 Pro/13 Pro Max/12, Galaxy, Pixel 4/3, iPad/iPad Mini (Cable Not Included)",
+          "Anker PowerCore Speed 20000, 20000mAh Qualcomm Quick Charge 3.0 & PowerIQ Portable Charger, with Quick Charge Recharging, Power Bank for Samsung, iPhone, iPad and More, Black (A1278)",
+          "5Ft Micro-USB Charger Cord Cable Fit for Anker-PowerCore 5000 10000 20100 13000 26800 Mini 3350 Fusion II 15000 Redux 20000 Slim 10000 Astro E1 AC Replacement Power Adapter Supply",
+          "Anker 10W Max Wireless Charger, 313 Wireless Charger (Pad), Qi-Certified Wireless Charging 7.5W for iPhone 12/12 Pro/12 mini/12 Pro Max, 10W for Galaxy S10 S9 S8, S9 Plus, Note 9 (No AC Adapter)",
+          "Anker Wireless Charger, 313 Wireless Charger (Stand), Qi-Certified for iPhone 12, 12 Pro Max, SE, 11, 11 Pro, 11 Pro Max, XR, XS Max, 10W Fast-Charging Galaxy S20, S10 (No AC Adapter)",
+          "USB Charger, Anker Elite Dual Port 24W Wall Charger, PowerPort 2 with PowerIQ and Foldable Plug, for iPhone 11/Xs/XS Max/XR/X/8/7/6/Plus, iPad Pro/Air 2/Mini 3/Mini 4, Samsung S4/S5, and More",
+          "iPhone 12 Charger [GaN Tech], Anker 30W Compact USB-C Wall Charger with Power Delivery, PowerPort Atom for iPhone 12 / Mini/Pro/Pro Max / 11 / X/XS/XR, iPad Pro, MacBook 12'', Pixel, Galaxy",
+          "USB C Charger, Anker 30W 2 Port Fast Charger with 18W USB C Power Adapter, Foldable PowerPort PD 2 Charger for iPad Pro, iPhone 11/11 Pro / 11 Pro Max/XS/Max/XR/X, Pixel, Galaxy, and More",
+          "Anker 40W 5-Port USB Wall Charger, PowerPort 5 for iPhone XS / XS Max / XR / X / 8 / 7 / 6 / Plus, iPad Pro / Air 2 / mini, Galaxy S9 / S8 / Edge / Plus, Note 8 / 7, LG, Nexus, HTC and More, Black (AK-A2124111)",
+          "Anker Quick Charge 3.0 39W Dual USB Wall Charger, PowerPort Speed 2 for Galaxy S10/S9/S8/Edge/Plus, Note 8/7 and PowerIQ for iPhone Xs/XS Max/XR/X/8/Plus, iPad Pro/Air 2/Mini, LG, Nexus, HTC and More",
+          "USB C Charger, Anker 20W PIQ 3.0 Fast Charger with Foldable Plug, PowerPort III Charger for iPhone 13/13 Mini/13 Pro/13 Pro Max/12/11, iPad/iPad Mini, MagSafe, and More (Cable Not Included)",
+          "8.99",
+          "59.99"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "These models are availiable: Anker USB C Charger 30W, 711 Charger, Compact Fast Charger (Not Foldable) for MacBook Air/iPhone 13/13 Mini/13 Pro/13 Pro Max/12, Galaxy S21, Note 20, iPad Pro, Pixel, and More Anker USB C Charger 40W, 521 Charger (Nano Pro), PIQ 3.0 Durable Compact Fast Charger (Not Foldable) for iPhone 13/13 Mini/13 Pro/13 Pro Max/12, Galaxy, Pixel 4/3, iPad/iPad Mini (Cable Not Included) Anker PowerCore Speed 20000, 20000mAh Qualcomm Quick Charge 3.0 & PowerIQ Portable Charger, with Quick Charge Recharging, Power Bank for Samsung, iPhone, iPad and More, Black (A1278) 5Ft Micro-USB Charger Cord Cable Fit for Anker-PowerCore 5000 10000 20100 13000 26800 Mini 3350 Fusion II 15000 Redux 20000 Slim 10000 Astro E1 AC Replacement Power Adapter Supply Anker 10W Max Wireless Charger, 313 Wireless Charger (Pad), Qi-Certified Wireless Charging 7.5W for iPhone 12/12 Pro/12 mini/12 Pro Max, 10W for Galaxy S10 S9 S8, S9 Plus, Note 9 (No AC Adapter) Anker Wireless Charger, 313 Wireless Charger (Stand), Qi-Certified for iPhone 12, 12 Pro Max, SE, 11, 11 Pro, 11 Pro Max, XR, XS Max, 10W Fast-Charging Galaxy S20, S10 (No AC Adapter) USB Charger, Anker Elite Dual Port 24W Wall Charger, PowerPort 2 with PowerIQ and Foldable Plug, for iPhone 11/Xs/XS Max/XR/X/8/7/6/Plus, iPad Pro/Air 2/Mini 3/Mini 4, Samsung S4/S5, and More iPhone 12 Charger [GaN Tech], Anker 30W Compact USB-C Wall Charger with Power Delivery, PowerPort Atom for iPhone 12 / Mini/Pro/Pro Max / 11 / X/XS/XR, iPad Pro, MacBook 12'', Pixel, Galaxy USB C Charger, Anker 30W 2 Port Fast Charger with 18W USB C Power Adapter, Foldable PowerPort PD 2 Charger for iPad Pro, iPhone 11/11 Pro / 11 Pro Max/XS/Max/XR/X, Pixel, Galaxy, and More Anker 40W 5-Port USB Wall Charger, PowerPort 5 for iPhone XS / XS Max / XR / X / 8 / 7 / 6 / Plus, iPad Pro / Air 2 / mini, Galaxy S9 / S8 / Edge / Plus, Note 8 / 7, LG, Nexus, HTC and More, Black (AK-A2124111) Anker Quick Charge 3.0 39W Dual USB Wall Charger, PowerPort Speed 2 for Galaxy S10/S9/S8/Edge/Plus, Note 8/7 and PowerIQ for iPhone Xs/XS Max/XR/X/8/Plus, iPad Pro/Air 2/Mini, LG, Nexus, HTC and More USB C Charger, Anker 20W PIQ 3.0 Fast Charger with Foldable Plug, PowerPort III Charger for iPhone 13/13 Mini/13 Pro/13 Pro Max/12/11, iPad/iPad Mini, MagSafe, and More (Cable Not Included) Magnetic Wireless Charger, Anker Wireless Charger with 5ft Built-in USB-C Cable, PowerWave Magnetic Pad, 7.5W Charging for iPhone 13 / 13 Pro / 13 Pro Max / 13 mini / 12 / 12 Pro (No AC Adapter) USB C Super Fast Charger, Anker 25W PD Wall Charger Fast Charging for Samsung Galaxy S21/S21+/S21 Ultra/S20/Z Flip/Note20/20 Ultra/Note10/10+/S9/S8/S10e, iPad Pro 12.9, and More (Cable not Included) The price ranges from $8.99 to $59.99"
+    },
+    "intent_template_id": 204
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 281,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Please provide me with the complete product names of Oral B brush heads designed for children, along with their corresponding price range per brush",
+    "instantiation_dict": {},
+    "intent": "Please provide me with the complete product names of Oral B brush heads designed for children, along with their corresponding price range per brush",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Oral-B Kids Extra Soft Replacement Brush Heads featuring STAR WARS, 2 count",
+          "Kids By Oral-b Stages Power Star Wars Replacement Heads 4 Pack",
+          "3.745",
+          "6.495"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "These models are availiable: Oral-B Kids Extra Soft Replacement Brush Heads featuring STAR WARS, 2 count Kids By Oral-b Stages Power Star Wars Replacement Heads 4 Pack The price ranges from $3.745 to $6.495 "
+    },
+    "intent_template_id": 204
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 282,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "List the full product names of slide slippers from Nike and tell me the price range of the available products",
+    "instantiation_dict": {},
+    "intent": "List the full product names of slide slippers from Nike and tell me the price range of the available products",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Nike Men's Air Max Camden Slide Sandal",
+          "Nike Men's Benassi JDI Fanny Pack Slides",
+          "Nike Victori One Mens Comfort Slide Cn9675-003 (Midnight Navy/Midnight Navy/White, Numeric_10)",
+          "Nike Offcourt Slide Mens Bq4639-002 Size 12",
+          "Nike Jordan Men's Break Slide Red AR6374-602",
+          "Nike Victori One Slide Mens Style : Dd9559-300",
+          "Nike Men's Benassi Solarsoft Slide Athletic Sandal (Black/White, numeric_14)",
+          "Nike Men's Benassi Solarsoft Slide Athletic Sandal (Midnight Navy/Blue, numeric_8)",
+          "Nike womens Benassi Just Do It",
+          "27.6",
+          "90.65"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "These models are availiable: Nike Men's Air Max Camden Slide Sandal Nike Men's Benassi JDI Fanny Pack Slides Nike Victori One Mens Comfort Slide Cn9675-003 (Midnight Navy/Midnight Navy/White, Numeric_10) Nike Offcourt Slide Mens Bq4639-002 Size 12 Nike Jordan Men's Break Slide Red AR6374-602 Nike Victori One Slide Mens Style : Dd9559-300 Nike Men's Benassi Solarsoft Slide Athletic Sandal (Black/White, numeric_14) Nike Men's Benassi Solarsoft Slide Athletic Sandal (Midnight Navy/Blue, numeric_8) Nike womens Benassi Just Do It   The price ranges from $27.6 to $90.65"
+    },
+    "intent_template_id": 204
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 301,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Show the most recent {{status}} order",
+    "instantiation_dict": {
+      "status": "processing"
+    },
+    "intent": "Show the most recent processing order",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "there is no order in processing"
+    },
+    "intent_template_id": 180
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 302,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Show the most recent {{status}} order",
+    "instantiation_dict": {
+      "status": "out of delivery"
+    },
+    "intent": "Show the most recent out of delivery order",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "there is no order in processing"
+    },
+    "intent_template_id": 180
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 313,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Which number to call for the customer service?",
+    "instantiation_dict": {},
+    "intent": "Which number to call for the customer service?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no phone number in the website",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 134
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 319,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much refund I should expect from my order canlled in {{time}}, including shipping fee",
+    "instantiation_dict": {
+      "time": "April 2022"
+    },
+    "intent": "How much refund I should expect from my order canlled in April 2022, including shipping fee",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "0"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "0"
+    },
+    "intent_template_id": 160
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 320,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much refund I should expect from my order canlled in {{time}}, including shipping fee",
+    "instantiation_dict": {
+      "time": "Feb 2023"
+    },
+    "intent": "How much refund I should expect from my order canlled in Feb 2023, including shipping fee",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "406.53"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "406.53"
+    },
+    "intent_template_id": 160
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 321,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much refund I should expect from my order canlled in {{time}}, including shipping fee",
+    "instantiation_dict": {
+      "time": "2022"
+    },
+    "intent": "How much refund I should expect from my order canlled in 2022, including shipping fee",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "3053.97"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "3053.97"
+    },
+    "intent_template_id": 160
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 322,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much refund I should expect from my order canlled in {{time}} if I cannot get the shipping fee refunded?",
+    "instantiation_dict": {
+      "time": "May 2023"
+    },
+    "intent": "How much refund I should expect from my order canlled in May 2023 if I cannot get the shipping fee refunded?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "350.42"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "350.42"
+    },
+    "intent_template_id": 160
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 323,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much refund I should expect from my order canlled in {{time}}? I only kept the AC-DC Adapter and the shop told me that I cannot get the shipping fee back",
+    "instantiation_dict": {
+      "time": "2022/03"
+    },
+    "intent": "How much refund I should expect from my order canlled in 2022/03? I only kept the AC-DC Adapter and the shop told me that I cannot get the shipping fee back",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "264.49"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "264.49"
+    },
+    "intent_template_id": 160
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 329,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spend {{time}} on shopping at One Stop Market?",
+    "instantiation_dict": {
+      "time": "on 4/19/2023"
+    },
+    "intent": "How much I spend on 4/19/2023 on shopping at One Stop Market?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "0"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "0"
+    },
+    "intent_template_id": 147
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 330,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spend {{time}} on shopping at One Stop Market?",
+    "instantiation_dict": {
+      "time": "in March 2023"
+    },
+    "intent": "How much I spend in March 2023 on shopping at One Stop Market?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "81.31"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "81.31"
+    },
+    "intent_template_id": 147
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 331,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spend {{time}} on shopping at One Stop Market?",
+    "instantiation_dict": {
+      "time": "in July 2022"
+    },
+    "intent": "How much I spend in July 2022 on shopping at One Stop Market?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "40.16"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "40.16"
+    },
+    "intent_template_id": 147
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 332,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much I spend {{time}} on shopping at One Stop Market?",
+    "instantiation_dict": {
+      "time": "each month from Jan to the end of March 2023"
+    },
+    "intent": "How much I spend each month from Jan to the end of March 2023 on shopping at One Stop Market?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "Jan: 572.8",
+          "Feb: 762.18",
+          "Mar: 83.31"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Jan: 572.8\nFeb: 762.18\nMar: 83.31"
+    },
+    "intent_template_id": 147
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 333,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "How much did I spend on shopping at One Stop Market {{time}}? They gave me a 20% discount on the total amount for orders exceeding $200 in cash",
+    "instantiation_dict": {
+      "time": "on November 2022"
+    },
+    "intent": "How much did I spend on shopping at One Stop Market on November 2022? They gave me a 20% discount on the total amount for orders exceeding $200 in cash",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "359.546"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "359.546"
+    },
+    "intent_template_id": 147
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 334,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me when I last ordered my {{description}}?",
+    "instantiation_dict": {
+      "description": "muffin cornbread mix"
+    },
+    "intent": "Tell me when I last ordered my muffin cornbread mix?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "March 11th 2023"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "March 11th 2023"
+    },
+    "intent_template_id": 169
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 335,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me when I last ordered my {{description}}?",
+    "instantiation_dict": {
+      "description": "body butter"
+    },
+    "intent": "Tell me when I last ordered my body butter?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "January 16th 2023"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "January 16th 2023"
+    },
+    "intent_template_id": 169
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 336,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me when I last ordered my {{description}}?",
+    "instantiation_dict": {
+      "description": "conditioner"
+    },
+    "intent": "Tell me when I last ordered my conditioner?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "January 16th 2023"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "January 16th 2023"
+    },
+    "intent_template_id": 169
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 337,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me when I last ordered my {{description}}?",
+    "instantiation_dict": {
+      "description": "bread olive"
+    },
+    "intent": "Tell me when I last ordered my bread olive?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "December 12th 2022"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "December 12th 2022"
+    },
+    "intent_template_id": 169
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 338,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Tell me when I last ordered my {{description}}?",
+    "instantiation_dict": {
+      "description": "toothpaste"
+    },
+    "intent": "Tell me when I last ordered my toothpaste?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "December 4th 2022"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "December 4th 2022"
+    },
+    "intent_template_id": 169
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 358,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Show me the {{info}} for order number {{order_number}}.",
+    "instantiation_dict": {
+      "info": "shipping method",
+      "order_number": 187
+    },
+    "intent": "Show me the shipping method for order number 187.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Flat Rate - Fixed"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Flat Rate - Fixed"
+    },
+    "intent_template_id": 206
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 359,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Show me the {{info}} for order number {{order_number}}.",
+    "instantiation_dict": {
+      "info": "order date",
+      "order_number": "148"
+    },
+    "intent": "Show me the order date for order number 148.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "1/29/2023"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "1/29/2023"
+    },
+    "intent_template_id": 206
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 360,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Show me the {{info}} for order number {{order_number}}.",
+    "instantiation_dict": {
+      "info": "product names",
+      "order_number": "148"
+    },
+    "intent": "Show me the product names for order number 148.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Bornbridge Artificial Spiral Topiary Tree - Indoor / Outdoor Topiary Trees - Artificial Outdoor Plants (2 Pack, 4' Cypress)",
+          "Russound 5B45W 4\" Indoor Outdoor Speakers White"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Bornbridge Artificial Spiral Topiary Tree - Indoor / Outdoor Topiary Trees - Artificial Outdoor Plants (2 Pack, 4' Cypress), Russound 5B45W 4\" Indoor Outdoor Speakers White"
+    },
+    "intent_template_id": 206
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 361,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Show me the {{info}} for order number {{order_number}}.",
+    "instantiation_dict": {
+      "info": "order statuses",
+      "order_number": "170 and 189"
+    },
+    "intent": "Show me the order statuses for order number 170 and 189.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "170: cancelled",
+          "189: pending"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "170: cancelled, 189: pending"
+    },
+    "intent_template_id": 206
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 362,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Show me the {{info}} for order number {{order_number}}.",
+    "instantiation_dict": {
+      "info": "billing address",
+      "order_number": "00178"
+    },
+    "intent": "Show me the billing address for order number 00178.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "101 S San Mateo Dr",
+          "San Mateo",
+          "California",
+          "94010",
+          "United States"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Emma Lopez, 101 S San Mateo Dr, San Mateo, California, 94010, United States"
+    },
+    "intent_template_id": 206
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 368,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "find discounted items.",
+    "instantiation_dict": {},
+    "intent": "find discounted items.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no function to show only discount items",
+      "reference_answer_raw_annotation": "There is no function to show only discount items."
+    },
+    "intent_template_id": 188
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 376,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Summarize customer reviews for {{product}}.",
+    "instantiation_dict": {
+      "product": "Amazon Echo Dot 3rd generation"
+    },
+    "intent": "Summarize customer reviews for Amazon Echo Dot 3rd generation.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no review for this product",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 182
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 384,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "List the customer names who complain about the quality of EYZUTAK phone cases",
+    "instantiation_dict": {},
+    "intent": "List the customer names who complain about the quality of EYZUTAK phone cases",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Lisa Lee",
+          "Evelyn Kurver",
+          "Amanda",
+          "N Randall"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Lisa Lee, Evelyn Kurver, Amanda, N Randall"
+    },
+    "intent_template_id": 666
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 385,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "List the customer names who thinks EYZUTAK phone cases are of good looking",
+    "instantiation_dict": {},
+    "intent": "List the customer names who thinks EYZUTAK phone cases are of good looking",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Lisa Lee",
+          "MH",
+          "Misba009",
+          "Amanda",
+          "N Randall",
+          "Amazon Customer",
+          "Cally",
+          "Bethany Robertson"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Lisa Lee, MH, Misba009, Amanda, N Randall, Amazon Customer, Cally, Bethany Robertson"
+    },
+    "intent_template_id": 666
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 386,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "What is the rating of {{product}}",
+    "instantiation_dict": {
+      "product": "Ugreen lightning to 3.5mm cable"
+    },
+    "intent": "What is the rating of Ugreen lightning to 3.5mm cable. Please round to the nearest whole number",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "65 |OR| 3"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Around 3.1 stars"
+    },
+    "intent_template_id": 1355
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 387,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Who gave {{stars}} for phone cases from EYZUTAK",
+    "instantiation_dict": {
+      "stars": "4 or 5 stars"
+    },
+    "intent": "Who gave 4 or 5 stars for phone cases from EYZUTAK",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "MH",
+          "Misba009",
+          "Amanda",
+          "Amazon Customer",
+          "Cally",
+          "Bethany Robertson"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "MH, Misba009, Amanda, Amazon Customer, Cally, Bethany Robertson, Bethany Robertson"
+    },
+    "intent_template_id": 1356
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 388,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Who gave {{stars}} for phone cases from EYZUTAK",
+    "instantiation_dict": {
+      "stars": "1 or 2 stars"
+    },
+    "intent": "Who gave 1 or 2 stars for phone cases from EYZUTAK",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Evelyn Kurver",
+          "N Randall"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Evelyn Kurver,  N Randall"
+    },
+    "intent_template_id": 1356
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 431,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/tall-pink-taper-candles-4-piece-orange-colored-tapered-candles-gradient-candles-10-6-inches-tall-tie-dye-candle-set-large-dripless-long-burning-candlesticks-two-color-taper-candles-candlesticks.html |AND| http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/spaas-white-taper-candles-4-pack-10-inch-tall-candles-scent-free-premium-wax-candle-sticks-8-hour-long-burning-white-candlesticks-for-home-decoration-wedding-holiday-and-parties.html |AND| http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/white-starfish-wall-candle-sconces-set-of-2-beach-decor-ocean-themed-wall-mount-candleholders-nautical-style-beach-bathroom-decor-coastal-farmhouse-seashell-candle-holders.html",
+    "geolocation": null,
+    "intent_template": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "instantiation_dict": {},
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "SPAAS White Taper Candles - 4 Pack |OR| 10 Inch Tall Candles, Scent-Free Premium Wax Candle Sticks |OR| 8 Hour Long Burning White Candlesticks for Home Decoration, Wedding, Holiday and Parties"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 145
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 432,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/ciclon-energy-drink-regular-24-cans-8-3oz.html |AND| http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/v8-energy-healthy-energy-drink-steady-energy-from-black-and-green-tea-pomegranate-blueberry-8-ounce-can-pack-of-24.html",
+    "geolocation": null,
+    "intent_template": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "instantiation_dict": {},
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "V8 +Energy, Healthy Energy Drink, Steady Energy from Black and Green Tea, Pomegranate Blueberry, 8 Ounce Can ,Pack of 24"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 145
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 433,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/tazrigo-5pcs-white-dental-resin-brush-pens-dental-shaping-silicone-tooth-tool.html |AND| http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/stylus-pens-for-touch-screens-2-pcs-universal-stylus-2-in-1-2022-updated-touch-screen-pens-for-all-touch-screens-cell-phones-tablets-laptops-with-6-replacement-tips-4-discstips-2-fiber-tips.html",
+    "geolocation": null,
+    "intent_template": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "instantiation_dict": {},
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "Tazrigo 5pcs White Dental Resin Brush Pens Dental Shaping Silicone Tooth Tool"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 145
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 434,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/3-pairs-ruffle-socks-lace-ankle-socks-for-girls-frilly-socks-women-decorative.html |AND| http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/viviki-women-glitter-socks-ultrathin-transparent-tulle-lace-socks-no-show-ankle-crew-socks-3-pack.html",
+    "geolocation": null,
+    "intent_template": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "instantiation_dict": {},
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "VIVIKI Women Glitter Socks Ultrathin Transparent Tulle Lace Socks - No Show Ankle Crew Socks 3 Pack"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 145
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 435,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/35-ft-hdmi-cable-gearit-pro-series-hdmi-cable-35-feet-high-speed-ethernet-4k-resolution-3d-video-and-arc-audio-return-channel-hdmi-cable-white.html |AND| http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/dp-to-hdmi-cable-6ft-2-pack-fosmon-gold-plated-displayport-to-hdmi-cable-1080p-full-hd-for-pcs-to-hdtv-monitor-projector-with-hdmi-port.html",
+    "geolocation": null,
+    "intent_template": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "instantiation_dict": {},
+    "intent": "Add the product with the lowest per unit price from my open tabs to the shopping cart",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/checkout/cart",
+          "locator": "",
+          "required_contents": {
+            "must_include": [
+              "DP to HDMI Cable 6FT (2 Pack), Fosmon Gold Plated Displayport to HDMI Cable 1080p Full HD for PCs to HDTV, Monitor, Projector with HDMI Port"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 145
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 436,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I previously ordered some {{product}} {{time}} and later cancelled. Can you reorder it for me?",
+    "instantiation_dict": {
+      "product": "a mattress foundation",
+      "time": "around Feb or March 2023"
+    },
+    "intent": "I previously ordered some a mattress foundation around Feb or March 2023 and later cancelled. Can you reorder it for me?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B07DFJ5XKH"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 156
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 437,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I previously ordered some {{product}} {{time}} and later cancelled. Can you reorder it for me?",
+    "instantiation_dict": {
+      "product": "a table lamp",
+      "time": "in May 2023"
+    },
+    "intent": "I previously ordered some a table lamp in May 2023 and later cancelled. Can you reorder it for me?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B072XS3F6W"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 156
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 438,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I previously ordered some {{product}} {{time}} and later cancelled. Can you reorder it for me?",
+    "instantiation_dict": {
+      "product": "a TV stand",
+      "time": "sometime around sep 2022"
+    },
+    "intent": "I previously ordered some a TV stand sometime around sep 2022 and later cancelled. Can you reorder it for me?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B08PVHRRB7"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 156
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 439,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I previously ordered some {{product}} {{time}} and later cancelled. Can you reorder it for me?",
+    "instantiation_dict": {
+      "product": "a cat t-shirt",
+      "time": "during 2022"
+    },
+    "intent": "I previously ordered some a cat t-shirt during 2022 and later cancelled. Can you reorder it for me?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B0844BWS76"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 156
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 440,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I previously ordered some {{product}} {{time}} and later cancelled. Can you reorder it for me?",
+    "instantiation_dict": {
+      "product": "a make up removal kit",
+      "time": "during summer 2022"
+    },
+    "intent": "I previously ordered some a make up removal kit during summer 2022 and later cancelled. Can you reorder it for me?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B0738JQG6Q"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 156
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 465,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add {{product}} to my wish list",
+    "instantiation_dict": {
+      "product": "Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count"
+    },
+    "intent": "Add Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count to my wish list",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "Tide PODS Spring Meadow Scent HE Turbo Laundry Detergent Pacs, 81 Count"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 186
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 466,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add {{product}} to my wish list",
+    "instantiation_dict": {
+      "product": "2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts"
+    },
+    "intent": "Add 2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts to my wish list",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "2 Hawaiian Bamboo Orchid Roots #zc50 - by Discount Hawaiian Gifts"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 186
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 467,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add {{product}} to my wish list",
+    "instantiation_dict": {
+      "product": "HONGJ Hawaiian Beach Outfits Set for Mens, Summer Tropical Tree Printed Relaxed-fit Hawaii Shirts Shorts 2 Piece Suits"
+    },
+    "intent": "Add HONGJ Hawaiian Beach Outfits Set for Mens, Summer Tropical Tree Printed Relaxed-fit Hawaii Shirts Shorts 2 Piece Suits to my wish list",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "HONGJ Hawaiian Beach Outfits Set for Mens, Summer Tropical Tree Printed Relaxed-fit Hawaii Shirts Shorts 2 Piece Suits"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 186
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 468,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add {{product}} to my wish list",
+    "instantiation_dict": {
+      "product": "DkRgVNY Lace Spcling Lingerie Womens Sexy Hollow Out Underwear Bodysuit One Piece Snap Crotch Clubwear Teddy Bodysuit"
+    },
+    "intent": "Add DkRgVNY Lace Spcling Lingerie Womens Sexy Hollow Out Underwear Bodysuit One Piece Snap Crotch Clubwear Teddy Bodysuit to my wish list",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "DkRgVNY Lace Spcling Lingerie Womens Sexy Hollow Out Underwear Bodysuit One Piece Snap Crotch Clubwear Teddy Bodysuit"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 186
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 469,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add {{product}} to my wish list",
+    "instantiation_dict": {
+      "product": "Light Blue Simple Summer New Low Heels Slippers for Women Fashion Chunky Heels Pointed Toe Wine Glasses Sandals Comfortable Walking Shoes Ladies All-Match Sexy Party Shoes"
+    },
+    "intent": "Add Light Blue Simple Summer New Low Heels Slippers for Women Fashion Chunky Heels Pointed Toe Wine Glasses Sandals Comfortable Walking Shoes Ladies All-Match Sexy Party Shoes to my wish list",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "Light Blue Simple Summer New Low Heels Slippers for Women Fashion Chunky Heels Pointed Toe Wine Glasses Sandals Comfortable Walking Shoes Ladies All-Match Sexy Party Shoes"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 186
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 506,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Buy the highest rated product from the {{product_category}} category within a budget {{dollar_value}}.",
+    "instantiation_dict": {
+      "product_category": "meat substitute",
+      "dollar_value": "between 100 and 200"
+    },
+    "intent": "Buy the highest rated product from the meat substitute category within a budget between 100 and 200.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B01CTR3DLE"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 172
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 507,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Buy the highest rated product from the {{product_category}} category within a budget {{dollar_value}}.",
+    "instantiation_dict": {
+      "product_category": "Ceiling light",
+      "dollar_value": "above 1000"
+    },
+    "intent": "Buy the highest rated product from the Ceiling light category within a budget above 1000.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B07BVL3P1V"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 172
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 508,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Buy the highest rated product from the {{product_category}} category within a budget {{dollar_value}}.",
+    "instantiation_dict": {
+      "product_category": "NS switch pouch",
+      "dollar_value": "under 60"
+    },
+    "intent": "Buy the highest rated product from the NS switch pouch category within a budget under 60.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B07116LGP6"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 172
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 509,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Buy the best rating product from \"{{category}}\" category with at least 5 reviews and the product is least expensive",
+    "instantiation_dict": {
+      "category": "Men's shoe"
+    },
+    "intent": "Buy the best rating product from \"Men's shoe\" category with at least 5 reviews and the product is least expensive",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B01J4MM3KO"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 216
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 510,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Buy the best rating product from \"{{category}}\" category with at least 5 reviews and the product is least expensive",
+    "instantiation_dict": {
+      "category": "Home Audio Speaker"
+    },
+    "intent": "Buy the best rating product from \"Home Audio Speaker\" category with at least 5 reviews and the product is least expensive",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "func:shopping_get_latest_order_url()",
+          "locator": "document.querySelector(\".order-details-items.ordered\").outerText",
+          "required_contents": {
+            "must_include": [
+              "B002R5ABIW"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 216
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 511,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add a {{product}} to my wish list.",
+    "instantiation_dict": {
+      "product": "laundry detergent"
+    },
+    "intent": "Add a laundry detergent to my wish list.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "laundry",
+              "detergent"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 189
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 512,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add a {{product}} to my wish list.",
+    "instantiation_dict": {
+      "product": "toothpaste"
+    },
+    "intent": "Add a toothpaste to my wish list.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "toothpaste"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 189
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 513,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add a {{product}} to my wish list.",
+    "instantiation_dict": {
+      "product": "chair"
+    },
+    "intent": "Add a chair to my wish list.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "chair"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 189
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 514,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add a {{product}} to my wish list.",
+    "instantiation_dict": {
+      "product": "white desk"
+    },
+    "intent": "Add a white desk to my wish list.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "white",
+              "desk"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 189
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 515,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Add a {{product}} to my wish list.",
+    "instantiation_dict": {
+      "product": "white computer desk"
+    },
+    "intent": "Add a white computer desk to my wish list.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "white",
+              "computer",
+              "desk"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 189
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 516,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/elmwood-inn-fine-teas-orange-vanilla-caffeine-free-fruit-infusion-16-ounce-pouch.html",
+    "geolocation": null,
+    "intent_template": "Add this product to my wishlist",
+    "instantiation_dict": {},
+    "intent": "Add this product to my wishlist",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "Elmwood Inn Fine Teas, Orange Vanilla Caffeine-free Fruit Infusion, 16-Ounce Pouch"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 196
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 517,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/skinit-decal-gaming-skin-compatible-with-xbox-one-s-console-and-controller-bundle-officially-licensed-nfl-baltimore-ravens-design.html",
+    "geolocation": null,
+    "intent_template": "Add this product to my wishlist",
+    "instantiation_dict": {},
+    "intent": "Add this product to my wishlist",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "Skinit Decal Gaming Skin Compatible with Xbox One S Console and Controller Bundle - Officially Licensed NFL Baltimore Ravens Design"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 196
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 518,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/sceptre-e195bd-srr-19-inch-720p-led-tv-true-black-2017.html",
+    "geolocation": null,
+    "intent_template": "Add this product to my wishlist",
+    "instantiation_dict": {},
+    "intent": "Add this product to my wishlist",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "Sceptre E195BD-SRR 19-Inch 720P LED TV, True Black (2017)"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 196
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 519,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/iphone-13-pro-max-case-neon-turtle-iphone-13-pro-max-cases-tempered-glass-back-soft-silicone-tpu-shock-protective-case-for-apple-iphone-13-pro-max.html",
+    "geolocation": null,
+    "intent_template": "Add this product to my wishlist",
+    "instantiation_dict": {},
+    "intent": "Add this product to my wishlist",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "iPhone 13 Pro Max Case, Neon Turtle iPhone 13 Pro Max Cases, Tempered Glass Back+Soft Silicone TPU Shock Protective Case for Apple iPhone 13 Pro Max"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 196
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 520,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/magnetic-metal-stainless-steel-d-pads-kits-directional-pad-replacement-parts-for-xbox-one-elite-controller-elite-series-2-xbox-one-xbox-one-s-x-controller.html",
+    "geolocation": null,
+    "intent_template": "Add this product to my wishlist",
+    "instantiation_dict": {},
+    "intent": "Add this product to my wishlist",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/wishlist/",
+          "locator": "document.querySelector('.products-grid.wishlist').outerText",
+          "required_contents": {
+            "must_include": [
+              "Magnetic Metal Stainless Steel D-pads Kits Directional Pad Replacement Parts for Xbox One Elite Controller, Elite Series 2, Xbox One, Xbox One S/X Controller"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 196
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 521,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Subscribe to the newsletter of OneStopMarket",
+    "instantiation_dict": {},
+    "intent": "Subscribe to the newsletter of OneStopMarket",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/newsletter/manage/",
+          "locator": "document.querySelector('[title=\"General Subscription\"').checked.toString()",
+          "required_contents": {
+            "exact_match": "true"
+          }
+        }
+      ]
+    },
+    "intent_template_id": 199
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 571,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly",
+    "instantiation_dict": {
+      "address": "231 Willow Way, Suite 100, Chicago, IL, 60601"
+    },
+    "intent": "I recently moved, my address is 231 Willow Way, Suite 100, Chicago, IL, 60601, update my information on OneStopShopping accordingly",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-billing > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "231 Willow Way",
+              "Suite 100",
+              "Chicago, Illinois, 60601"
+            ]
+          }
+        },
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-shipping > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "231 Willow Way",
+              "Suite 100",
+              "Chicago, Illinois, 60601"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 165
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 572,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly",
+    "instantiation_dict": {
+      "address": "654 Aspen Road, House #3, Boston, MA, 02110"
+    },
+    "intent": "I recently moved, my address is 654 Aspen Road, House #3, Boston, MA, 02110, update my information on OneStopShopping accordingly",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-billing > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "654 Aspen Road",
+              "House #3",
+              "Boston, Massachusetts, 02110"
+            ]
+          }
+        },
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-shipping > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "654 Aspen Road",
+              "House #3",
+              "Boston, Massachusetts, 02110"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 165
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 573,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly",
+    "instantiation_dict": {
+      "address": "987 Sycamore Circle, Philadelphia, PA, 19102"
+    },
+    "intent": "I recently moved, my address is 987 Sycamore Circle, Philadelphia, PA, 19102, update my information on OneStopShopping accordingly",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-shipping > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "987 Sycamore Circle",
+              "Philadelphia, Pennsylvania, 19102"
+            ]
+          }
+        },
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-billing > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "987 Sycamore Circle",
+              "Philadelphia, Pennsylvania, 19102"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 165
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 574,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly",
+    "instantiation_dict": {
+      "address": "111 Magnolia Path, Atlanta, GA, 30303"
+    },
+    "intent": "I recently moved, my address is 111 Magnolia Path, Atlanta, GA, 30303, update my information on OneStopShopping accordingly",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-shipping > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "111 Magnolia Path",
+              "Atlanta, Georgia, 30303"
+            ]
+          }
+        },
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-billing > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "111 Magnolia Path",
+              "Atlanta, Georgia, 30303"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 165
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 575,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "I recently moved, my address is {{address}}, update my information on OneStopShopping accordingly",
+    "instantiation_dict": {
+      "address": "222 Redwood Rise, Suite 300, Seattle, WA, 98101"
+    },
+    "intent": "I recently moved, my address is 222 Redwood Rise, Suite 300, Seattle, WA, 98101, update my information on OneStopShopping accordingly",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "program_html"
+      ],
+      "reference_answers": null,
+      "reference_url": "",
+      "program_html": [
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-shipping > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "222 Redwood Rise",
+              "Suite 300",
+              "Seattle, Washington, 98101"
+            ]
+          }
+        },
+        {
+          "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770/customer/address",
+          "locator": "document.querySelector(\".box.box-address-billing > .box-content\").outerText",
+          "required_contents": {
+            "must_include": [
+              "222 Redwood Rise",
+              "Suite 300",
+              "Seattle, Washington, 98101"
+            ]
+          }
+        }
+      ]
+    },
+    "intent_template_id": 165
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 792,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Buy the highest rated product from the {{product_category}} category within a budget {{dollar_value}}.",
+    "instantiation_dict": {
+      "product_category": "Beauty & Personal Care",
+      "dollar_value": "under 20"
+    },
+    "intent": "Buy the highest rated product from the Beauty & Personal Care category within a budget under 20.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "The website does not support sorting by rating and there are too many products in this category",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 172
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 793,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Buy the highest rated product from the {{product_category}} category within a budget {{dollar_value}}.",
+    "instantiation_dict": {
+      "product_category": "Men clothing",
+      "dollar_value": "above 50 but under 129.99"
+    },
+    "intent": "Buy the highest rated product from the Men clothing category within a budget above 50 but under 129.99.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "The website does not support sorting by rating and there are too many products in this category",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 172
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 794,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Change the delivery address for my most recent order to {{address}}.",
+    "instantiation_dict": {
+      "address": "4000 Forbes Ave, Pittsburgh, PA"
+    },
+    "intent": "Change the delivery address for my most recent order to 4000 Forbes Ave, Pittsburgh, PA.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "The shipping address cannot be changed after an order is placed in the website.",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 191
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 795,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Change the delivery address for my most recent order to {{address}}.",
+    "instantiation_dict": {
+      "address": "6726 McPherson Blvd, Pittsburgh, PA"
+    },
+    "intent": "Change the delivery address for my most recent order to 6726 McPherson Blvd, Pittsburgh, PA.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "The shipping address cannot be changed after an order is placed in the website.",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 191
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 796,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Change the delivery address for my most recent order to {{address}}.",
+    "instantiation_dict": {
+      "address": "155 5th Street, San Francisco, CA"
+    },
+    "intent": "Change the delivery address for my most recent order to 155 5th Street, San Francisco, CA.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "The shipping address cannot be changed after an order is placed in the website.",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 191
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 797,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Change the delivery address for my most recent order to {{address}}.",
+    "instantiation_dict": {
+      "address": "3 Oxford St, Cambridge, MA"
+    },
+    "intent": "Change the delivery address for my most recent order to 3 Oxford St, Cambridge, MA.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "The shipping address cannot be changed after an order is placed in the website.",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 191
+  },
+  {
+    "sites": [
+      "shopping"
+    ],
+    "task_id": 798,
+    "require_login": true,
+    "storage_state": "./.auth/shopping_state.json",
+    "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:7770",
+    "geolocation": null,
+    "intent_template": "Change the delivery address for my most recent order to {{address}}.",
+    "instantiation_dict": {
+      "address": "77 Massachusetts Ave, Cambridge, MA"
+    },
+    "intent": "Change the delivery address for my most recent order to 77 Massachusetts Ave, Cambridge, MA.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "The shipping address cannot be changed after an order is placed in the website.",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 191
+  }
+]

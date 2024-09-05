@@ -1,0 +1,4831 @@
+[
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 132,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make to {{repo}} on {{date}}?",
+        "instantiation_dict": {
+            "user": "kilian",
+            "repo": "a11yproject",
+            "date": "3/5/2023"
+        },
+        "intent": "How many commits did kilian make to a11yproject on 3/5/2023?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "1"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "1"
+        },
+        "intent_template_id": 322
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 133,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make to {{repo}} on {{date}}?",
+        "instantiation_dict": {
+            "user": "Eric",
+            "repo": "a11yproject",
+            "date": "3/2"
+        },
+        "intent": "How many commits did Eric make to a11yproject on 3/2?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "2"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "2"
+        },
+        "intent_template_id": 322
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 134,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make to {{repo}} on {{date}}?",
+        "instantiation_dict": {
+            "user": "kilian",
+            "repo": "a11yproject",
+            "date": "3/1/2023"
+        },
+        "intent": "How many commits did kilian make to a11yproject on 3/1/2023?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "0"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "0"
+        },
+        "intent_template_id": 322
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 135,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make to {{repo}} on {{date}}?",
+        "instantiation_dict": {
+            "user": "Eric and Kilian",
+            "repo": "a11yproject",
+            "date": "1/3/2023"
+        },
+        "intent": "How many commits did Eric and Kilian make to a11yproject on 1/3/2023?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "1"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "1"
+        },
+        "intent_template_id": 322
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 136,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make to {{repo}} on {{date}}?",
+        "instantiation_dict": {
+            "user": "Steven Woodson",
+            "repo": "a11y-webring.club",
+            "date": "2/6/2023"
+        },
+        "intent": "How many commits did Steven Woodson make to a11y-webring.club on 2/6/2023?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "5"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "5"
+        },
+        "intent_template_id": 322
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 168,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me the full names of the repositories where I made contributions and they got {{description}} stars?",
+        "instantiation_dict": {
+            "description": "more than 100"
+        },
+        "intent": "Tell me the full names of the repositories where I made contributions and they got more than 100 stars?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "fuzzy_match": "N/A"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "No repo found",
+            "reference_answer_raw_annotation": "No repo found"
+        },
+        "intent_template_id": 289
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 169,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me the full names of the repositories where I made contributions and they got {{description}} stars?",
+        "instantiation_dict": {
+            "description": "the most"
+        },
+        "intent": "Tell me the full names of the repositories where I made contributions and they got the most stars?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "a11yproject.com",
+                    "design"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "a11yproject.com, Primer/design"
+        },
+        "intent_template_id": 289
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 170,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me the full names of the repositories where I made contributions and they got {{description}} stars?",
+        "instantiation_dict": {
+            "description": "the least"
+        },
+        "intent": "Tell me the full names of the repositories where I made contributions and they got the least stars?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "cloud-to-butt",
+                    "dotfiles",
+                    "timeit",
+                    "solarized-prism-theme",
+                    "gimmiethat.space",
+                    "remove-board-movement-events-from-the-github-issue-timeline"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "cloud-to-butt, dotfiles, timeit, solarized-prism-theme,  gimmiethat.space, remove-board-movement-events-from-the-github-issue-timeline"
+        },
+        "intent_template_id": 289
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 171,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me the full names of the repositories where I made contributions and they got {{description}} stars?",
+        "instantiation_dict": {
+            "description": "less than 5"
+        },
+        "intent": "Tell me the full names of the repositories where I made contributions and they got less than 5 stars?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "a11y-syntax-highlighting",
+                    "a11y-webring.club",
+                    "accessible-html-content-patterns",
+                    "ericwbailey.website",
+                    "cloud-to-butt",
+                    "dotfiles",
+                    "timeit",
+                    "solarized-prism-theme",
+                    "gimmiethat.space",
+                    "remove-board-movement-events-from-the-github-issue-timeline"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "a11y-syntax-highlighting, a11y-webring.club, accessible-html-content-patterns, ericwbailey.website, cloud-to-butt, dotfiles, timeit, solarized-prism-theme,  gimmiethat.space, remove-board-movement-events-from-the-github-issue-timeline"
+        },
+        "intent_template_id": 289
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 172,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me the full names of the repositories where I made contributions and they got {{description}} stars?",
+        "instantiation_dict": {
+            "description": "no"
+        },
+        "intent": "Tell me the full names of the repositories where I made contributions and they got no stars?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "cloud-to-butt",
+                    "dotfiles",
+                    "timeit",
+                    "solarized-prism-theme",
+                    "gimmiethat.space",
+                    "remove-board-movement-events-from-the-github-issue-timeline"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "cloud-to-butt, dotfiles, timeit, solarized-prism-theme,  gimmiethat.space, remove-board-movement-events-from-the-github-issue-timeline"
+        },
+        "intent_template_id": 289
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 205,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make on {{date}}?",
+        "instantiation_dict": {
+            "user": "kilian",
+            "date": "3/5/2023"
+        },
+        "intent": "How many commits did kilian make on 3/5/2023?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "1"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "1"
+        },
+        "intent_template_id": 320
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 206,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make on {{date}}?",
+        "instantiation_dict": {
+            "user": "Eric",
+            "date": "3/2"
+        },
+        "intent": "How many commits did Eric make on 3/2?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "2"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "2"
+        },
+        "intent_template_id": 320
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 207,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make on {{date}} in total?",
+        "instantiation_dict": {
+            "user": "Eric and Kilian",
+            "date": "1/3/2023"
+        },
+        "intent": "How many commits did Eric and Kilian make on 1/3/2023 in total?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "1"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "1"
+        },
+        "intent_template_id": 320
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 259,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Get me my RSS feed token",
+        "instantiation_dict": {},
+        "intent": "Get me my RSS feed token",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "TMN_bBn9Z48qVbUFZV45"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "TMN_bBn9Z48qVbUFZV45"
+        },
+        "intent_template_id": 312
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 293,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Show me the command to clone {{repo}} with SSH.",
+        "instantiation_dict": {
+            "repo": "Super_Awesome_Robot"
+        },
+        "intent": "Show me the command to clone Super_Awesome_Robot with SSH.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/convexegg/super_awesome_robot.git"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/convexegg/super_awesome_robot.git"
+        },
+        "intent_template_id": 329
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 294,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Show me the command to clone {{repo}} with SSH.",
+        "instantiation_dict": {
+            "repo": "ChatGPT"
+        },
+        "intent": "Show me the command to clone ChatGPT with SSH.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/convexegg/chatgpt.git"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/convexegg/chatgpt.git"
+        },
+        "intent_template_id": 329
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 295,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Show me the command to clone {{repo}} with SSH.",
+        "instantiation_dict": {
+            "repo": "metaseq"
+        },
+        "intent": "Show me the command to clone metaseq with SSH.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/root/metaseq.git"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "git clone ssh://git@metis.lti.cs.cmu.edu:2222/root/metaseq.git"
+        },
+        "intent_template_id": 329
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 296,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Show me the command to clone {{repo}} with SSH.",
+        "instantiation_dict": {
+            "repo": "the best GAN python implementation"
+        },
+        "intent": "Show me the command to clone the best GAN python implementation with SSH.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "ssh://git@metis.lti.cs.cmu.edu:2222/eriklindernoren/PyTorch-GAN.git"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "ssh://git@metis.lti.cs.cmu.edu:2222/eriklindernoren/PyTorch-GAN.git"
+        },
+        "intent_template_id": 329
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 297,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Show me the command to clone {{repo}} with SSH.",
+        "instantiation_dict": {
+            "repo": "the most stared Covid location tracker"
+        },
+        "intent": "Show me the command to clone the most stared Covid location tracker with SSH.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "ssh://git@metis.lti.cs.cmu.edu:2222/yjlou/2019-nCov.git"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "ssh://git@metis.lti.cs.cmu.edu:2222/yjlou/2019-nCov.git"
+        },
+        "intent_template_id": 329
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 303,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make {{period}}?",
+        "instantiation_dict": {
+            "user": "Kilian",
+            "period": "durning 2023"
+        },
+        "intent": "How many commits did Kilian make durning 2023?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "1"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "1"
+        },
+        "intent_template_id": 321
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 304,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make {{period}}?",
+        "instantiation_dict": {
+            "user": "Eric",
+            "period": "between Feb 2023 and May 2023"
+        },
+        "intent": "How many commits did Eric make between Feb 2023 and May 2023?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "14"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "14"
+        },
+        "intent_template_id": 321
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 305,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make {{period}}?",
+        "instantiation_dict": {
+            "user": "Philip",
+            "period": "in 2023/1"
+        },
+        "intent": "How many commits did Philip make in 2023/1?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "0"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "0"
+        },
+        "intent_template_id": 321
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 306,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make {{period}}?",
+        "instantiation_dict": {
+            "user": "Anthony",
+            "period": "between 08/2022-09/2022"
+        },
+        "intent": "How many commits did Anthony make between 08/2022-09/2022?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "0"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "0"
+        },
+        "intent_template_id": 321
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 307,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com",
+        "geolocation": null,
+        "intent_template": "How many commits did {{user}} make {{period}}?",
+        "instantiation_dict": {
+            "user": "Nic",
+            "period": "in April 2021"
+        },
+        "intent": "How many commits did Nic make in April 2021?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "16"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "16"
+        },
+        "intent_template_id": 321
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 308,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me who has made the most contributions, in terms of number of commits, to the {{repo}} project",
+        "instantiation_dict": {
+            "repo": "primer/design"
+        },
+        "intent": "Tell me who has made the most contributions, in terms of number of commits, to the primer/design project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "Shawn Allen"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Shawn Allen"
+        },
+        "intent_template_id": 323
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 309,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me who has made the most contributions, in terms of number of commits, to the {{repo}} project",
+        "instantiation_dict": {
+            "repo": "thoughtbot/administrate"
+        },
+        "intent": "Tell me who has made the most contributions, in terms of number of commits, to the thoughtbot/administrate project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "Grayson Wright"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Grayson Wright"
+        },
+        "intent_template_id": 323
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 310,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me who has made the most contributions, in terms of number of commits, to the {{repo}} project",
+        "instantiation_dict": {
+            "repo": "AndroidSlidingUpPanel"
+        },
+        "intent": "Tell me who has made the most contributions, in terms of number of commits, to the AndroidSlidingUpPanel project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "tokudu"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "tokudu"
+        },
+        "intent_template_id": 323
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 311,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me who has made the most contributions, in terms of number of commits, to the {{repo}} project",
+        "instantiation_dict": {
+            "repo": "Pytorch GAN"
+        },
+        "intent": "Tell me who has made the most contributions, in terms of number of commits, to the Pytorch GAN project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "Erik Linder-Nor\u00e9n"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Erik Linder-Nor\u00e9n"
+        },
+        "intent_template_id": 323
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 312,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Tell me who has made the most contributions, in terms of number of commits, to the {{repo}} project",
+        "instantiation_dict": {
+            "repo": "csvkit"
+        },
+        "intent": "Tell me who has made the most contributions, in terms of number of commits, to the csvkit project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "Christopher Groskopf"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Christopher Groskopf"
+        },
+        "intent_template_id": 323
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 314,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?",
+        "instantiation_dict": {
+            "repo": "primer/design",
+            "attribute": "name"
+        },
+        "intent": "List the name of the top 3 contributors to primer/design repo, ranked by the number of commits?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Shawn Allen",
+                    "Inayaili Le\u00f3n",
+                    "Aurora Pleguezuelo"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Shawn Allen, Inayaili Le\u00f3n, Aurora Pleguezuelo"
+        },
+        "intent_template_id": 324
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 315,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?",
+        "instantiation_dict": {
+            "repo": "Pytorch GAN",
+            "attribute": "email address"
+        },
+        "intent": "List the email address of the top 3 contributors to Pytorch GAN repo, ranked by the number of commits?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "eriklindernoren@live.se",
+                    "eriklindernoren@gmail.com",
+                    "pinnacle.chen@qq.com"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "eriklindernoren@live.se, eriklindernoren@gmail.com, pinnacle.chen@qq.com"
+        },
+        "intent_template_id": 324
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 316,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?",
+        "instantiation_dict": {
+            "repo": "facebook's guide on building react apps",
+            "attribute": "name"
+        },
+        "intent": "List the name of the top 3 contributors to facebook's guide on building react apps repo, ranked by the number of commits?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Ian Sutherland",
+                    "Joe Hadda",
+                    "Dan Abramov"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Ian Sutherland, Joe Hadda, Dan Abramov"
+        },
+        "intent_template_id": 324
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 317,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?",
+        "instantiation_dict": {
+            "repo": "metaseq",
+            "attribute": "name and number of commits"
+        },
+        "intent": "List the name and number of commits of the top 3 contributors to metaseq repo, ranked by the number of commits?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Susan Zhang: 70",
+                    "Stephen Roller: 51",
+                    "Peter Albert: 12"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Susan Zhang: 70, Stephen Roller: 51, Peter Albert: 12"
+        },
+        "intent_template_id": 324
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 318,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "List the {{attribute}} of the top 3 contributors to {{repo}} repo, ranked by the number of commits?",
+        "instantiation_dict": {
+            "repo": "2019-nCov",
+            "attribute": "last names"
+        },
+        "intent": "List the last names of the top 3 contributors to 2019-nCov repo, ranked by the number of commits?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Lo",
+                    "Chen",
+                    "Chu"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Lo, Chen, Chu"
+        },
+        "intent_template_id": 324
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 349,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Who else have access to my repo {{repo}}, show me their usernames",
+        "instantiation_dict": {
+            "repo": "gimmiethat.space"
+        },
+        "intent": "Who else have access to my repo gimmiethat.space, show me their usernames",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "exact_match": "yjlou"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "yjlou"
+        },
+        "intent_template_id": 298
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 350,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Who else have access to my repo {{repo}}, show me their usernames",
+        "instantiation_dict": {
+            "repo": "prism-theme"
+        },
+        "intent": "Who else have access to my repo prism-theme, show me their usernames",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "abisubramanya27"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Abishek S, abisubramanya27"
+        },
+        "intent_template_id": 298
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 389,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
+        "instantiation_dict": {
+            "mr": "octovisuals page",
+            "repo": "primer/design",
+            "content": "Thanks, working on reviews"
+        },
+        "intent": "Post \"Thanks, working on reviews\" for the merge request related to octovisuals page in primer/design project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/primer/design/-/merge_requests/450",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Thanks, working on reviews"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 348
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 390,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
+        "instantiation_dict": {
+            "mr": "semantic HTML post",
+            "repo": "a11yproject/a11yproject.com",
+            "content": "lgtm"
+        },
+        "intent": "Post \"lgtm\" for the merge request related to semantic HTML post in a11yproject/a11yproject.com project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com/-/merge_requests/1531",
+                    "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+                    "required_contents": {
+                        "exact_match": "lgtm"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 348
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 391,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
+        "instantiation_dict": {
+            "mr": "focus edge cases",
+            "repo": "a11yproject/a11yproject.com",
+            "content": "close because non reproducible"
+        },
+        "intent": "Post \"close because non reproducible\" for the merge request related to focus edge cases in a11yproject/a11yproject.com project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com/-/merge_requests/1265",
+                    "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+                    "required_contents": {
+                        "exact_match": "close because non reproducible"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 348
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 392,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
+        "instantiation_dict": {
+            "mr": "color ulitity",
+            "repo": "a11yproject.com",
+            "content": "Good idea"
+        },
+        "intent": "Post \"Good idea\" for the merge request related to color ulitity in a11yproject.com project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com/-/merge_requests/1071",
+                    "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+                    "required_contents": {
+                        "exact_match": "Good idea"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 348
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 393,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Post \"{{content}}\" for the merge request related to {{mr}} in {{repo}} project",
+        "instantiation_dict": {
+            "mr": "fixing the broken links",
+            "repo": "byteblaze/empathy-prompts",
+            "content": "lgtm"
+        },
+        "intent": "Post \"lgtm\" for the merge request related to fixing the broken links in byteblaze/empathy-prompts project",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/empathy-prompts/-/merge_requests/19",
+                    "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+                    "required_contents": {
+                        "exact_match": "lgtm"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 348
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 394,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Fork {{repo}}.",
+        "instantiation_dict": {
+            "repo": "2019-nCov"
+        },
+        "intent": "Fork 2019-nCov.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/2019-nCov",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "2019-nCov"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 352
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 395,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Fork {{repo}}.",
+        "instantiation_dict": {
+            "repo": "the Pytorch GAN repo with most stars"
+        },
+        "intent": "Fork the Pytorch GAN repo with most stars.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/PyTorch-GAN",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Pytorch-GAN"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 352
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 396,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Fork {{repo}}.",
+        "instantiation_dict": {
+            "repo": "ChatGPT"
+        },
+        "intent": "Fork ChatGPT.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/ChatGPT",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "ChatGPT"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 352
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 397,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Fork {{repo}}.",
+        "instantiation_dict": {
+            "repo": "MetaSeq"
+        },
+        "intent": "Fork MetaSeq.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/metaseq",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "metaseq"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 352
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 398,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Fork {{repo}}.",
+        "instantiation_dict": {
+            "repo": "all source repos from Akilesh Kannan"
+        },
+        "intent": "Fork all source repos from Akilesh Kannan",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/SimCache",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "SimCache"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/dots",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "dots"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/CacheEval",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "CacheEval"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/nvidia-patch",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "404"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/viewgrades-scraper",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "404"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 352
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 411,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Make the LICENSE of {{repo}} to MIT license.",
+        "instantiation_dict": {
+            "repo": "byteblaze/cloud-to-butt"
+        },
+        "intent": "Make the LICENSE of byteblaze/cloud-to-butt to MIT license.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/cloud-to-butt/-/blob/master/LICENSE.txt",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 355
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 412,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Make the LICENSE of {{repo}} to Apache License",
+        "instantiation_dict": {
+            "repo": "byteblaze/accessible-html-content-patterns"
+        },
+        "intent": "Make the LICENSE of byteblaze/accessible-html-content-patterns to Apache License",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/accessible-html-content-patterns/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Apache License",
+                            "http://www.apache.org/licenses/LICENSE-2.0"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 355
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 413,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Make the LICENSE of {{repo}} to one that mandates all copies and derivative works to be under the same license",
+        "instantiation_dict": {
+            "repo": "byteblaze/a11y-syntax-highlighting"
+        },
+        "intent": "Make the LICENSE of byteblaze/a11y-syntax-highlighting to one that mandates all copies and derivative works to be under the same license",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/a11y-syntax-highlighting/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "GENERAL PUBLIC LICENSE"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 355
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 414,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Make the LICENSE of {{repo}} to MIT license.",
+        "instantiation_dict": {
+            "repo": "byteblaze/dotfiles"
+        },
+        "intent": "Make the LICENSE of byteblaze/dotfiles to MIT license.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/dotfiles/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 355
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 415,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Go to the merge request on {{topic}} I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+        "instantiation_dict": {
+            "topic": "verification functions"
+        },
+        "intent": "Go to the merge request on verification functions I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/a11y-webring.club/-/merge_requests/40",
+                    "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+                    "required_contents": {
+                        "exact_match": "@davepgreene"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 360
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 416,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Go to the merge request on {{topic}} I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+        "instantiation_dict": {
+            "topic": "wcag"
+        },
+        "intent": "Go to the merge request on wcag I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com/-/merge_requests/1270",
+                    "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+                    "required_contents": {
+                        "exact_match": "Thank you"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 360
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 417,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Go to the merge request on {{topic}} I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+        "instantiation_dict": {
+            "topic": "404 link"
+        },
+        "intent": "Go to the merge request on 404 link I have to review, find if the author of the merge request responded at the end, and reply \"Thank you\" if he did. Otherwise remind him with a simple @.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com/-/merge_requests/1485",
+                    "locator": "document.querySelector('[id=\"notes-list\"').lastElementChild.querySelector('.timeline-discussion-body').outerText",
+                    "required_contents": {
+                        "exact_match": "@Roshanjossey"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 360
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 418,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set my gitlab status as {{status}}.",
+        "instantiation_dict": {
+            "status": "Busy"
+        },
+        "intent": "Set my gitlab status as Busy.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.cover-status').lastChild.textContent",
+                    "required_contents": {
+                        "exact_match": "Busy"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 361
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 419,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set my gitlab status as {{status}}.",
+        "instantiation_dict": {
+            "status": "Enjoying life"
+        },
+        "intent": "Set my gitlab status as Enjoying life.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.cover-status').lastChild.textContent",
+                    "required_contents": {
+                        "exact_match": "Enjoying life"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 361
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 420,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set my gitlab status as {{status}}.",
+        "instantiation_dict": {
+            "status": "Playing Badminton"
+        },
+        "intent": "Set my gitlab status as Playing Badminton.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.cover-status').lastChild.textContent",
+                    "required_contents": {
+                        "exact_match": "Playing Badminton"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 361
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 421,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set my gitlab status as {{status}}.",
+        "instantiation_dict": {
+            "status": "Resting due to leg injury"
+        },
+        "intent": "Set my gitlab status as Resting due to leg injury.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.cover-status').lastChild.textContent",
+                    "required_contents": {
+                        "exact_match": "Resting due to leg injury"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 361
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 422,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set my gitlab status as {{status}}.",
+        "instantiation_dict": {
+            "status": "Out of Office"
+        },
+        "intent": "Set my gitlab status as Out of Office.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.cover-status').lastChild.textContent",
+                    "required_contents": {
+                        "exact_match": "Out of Office"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 361
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 441,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space",
+        "geolocation": null,
+        "intent_template": "Update the project site's title to \"{{title}}\"",
+        "instantiation_dict": {
+            "title": "GIVE ME SPACE"
+        },
+        "intent": "Update the project site's title to \"GIVE ME SPACE\"",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space/-/raw/main/index.html",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "<title>GIVE ME SPACE</title>"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 308
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 442,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space",
+        "geolocation": null,
+        "intent_template": "Update the project site's title to \"{{title}}\"",
+        "instantiation_dict": {
+            "title": "Welcome to my site"
+        },
+        "intent": "Update the project site's title to \"Welcome to my site\"",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space/-/raw/main/index.html",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "<title>Welcome to my site</title>"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 308
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 443,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space",
+        "geolocation": null,
+        "intent_template": "Update the project site's title to \"{{title}}\"",
+        "instantiation_dict": {
+            "title": "Not an interesting site"
+        },
+        "intent": "Update the project site's title to \"Not an interesting site\"",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space/-/raw/main/index.html",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "<title>Not an interesting site</title>"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 308
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 444,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space",
+        "geolocation": null,
+        "intent_template": "Update the project site's title to \"{{title}}\"",
+        "instantiation_dict": {
+            "title": "Title Wanted"
+        },
+        "intent": "Update the project site's title to \"Title Wanted\"",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space/-/raw/main/index.html",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "<title>Title Wanted</title>"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 308
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 445,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space",
+        "geolocation": null,
+        "intent_template": "Update the project site's title to \"{{title}}\"",
+        "instantiation_dict": {
+            "title": "Hello"
+        },
+        "intent": "Update the project site's title to \"Hello\"",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space/-/raw/main/index.html",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "<title>Hello</title>"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 308
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 446,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Assign the issue regarding {{issue}} in {{repo}} to {{account}}.",
+        "instantiation_dict": {
+            "repo": "a11yproject",
+            "issue": 404,
+            "account": "Roshanjossey"
+        },
+        "intent": "Assign the issue regarding 404 in a11yproject to Roshanjossey.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/dashboard/issues?scope=all&state=opened&assignee_username=Roshanjossey",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "404s, bad host, timeouts, bad urls for URLs linked from website"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 999
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 447,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Assign the issue regarding {{issue}} in {{repo}} to {{account}}.",
+        "instantiation_dict": {
+            "repo": "a11y-webring.club",
+            "issue": "linking to an accessibility statement",
+            "account": "Rohan"
+        },
+        "intent": "Assign the issue regarding linking to an accessibility statement in a11y-webring.club to Rohan.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/dashboard/issues?scope=all&state=opened&assignee_username=Seirdy",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "linking to an accessibility statement"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 999
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 448,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "set the homepage URL on my GitLab profile to {{url}}",
+        "instantiation_dict": {
+            "url": "https://egg.tart.com"
+        },
+        "intent": "set the homepage URL on my GitLab profile to https://egg.tart.com",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+                    "required_contents": {
+                        "exact_match": "egg.tart.com"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 331
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 449,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "set the homepage URL on my GitLab profile to {{url}}",
+        "instantiation_dict": {
+            "url": "https://helloworld.xyz"
+        },
+        "intent": "set the homepage URL on my GitLab profile to https://helloworld.xyz",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+                    "required_contents": {
+                        "exact_match": "helloworld.xyz"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 331
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 450,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "set the homepage URL on my GitLab profile to {{url}}",
+        "instantiation_dict": {
+            "url": "a11yproject.contributor.me"
+        },
+        "intent": "set the homepage URL on my GitLab profile to a11yproject.contributor.me",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+                    "required_contents": {
+                        "exact_match": "a11yproject.contributor.me"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 331
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 451,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "set the homepage URL on my GitLab profile to {{url}}",
+        "instantiation_dict": {
+            "url": "www.byteblaze.com"
+        },
+        "intent": "set the homepage URL on my GitLab profile to www.byteblaze.com",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+                    "required_contents": {
+                        "exact_match": "www.byteblaze.com"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 331
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 452,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "set the homepage URL on my GitLab profile to {{url}}",
+        "instantiation_dict": {
+            "url": "byteblaze.github.io"
+        },
+        "intent": "set the homepage URL on my GitLab profile to byteblaze.github.io",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze",
+                    "locator": "document.querySelector('.profile-header [itemprop=\"url\"]').outerText",
+                    "required_contents": {
+                        "exact_match": "byteblaze.github.io"
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 331
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 475,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set up a new, empty repository with the name {{project_name}}?",
+        "instantiation_dict": {
+            "project_name": "chatgpt_plugin"
+        },
+        "intent": "Set up a new, empty repository with the name chatgpt_plugin?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/chatgpt_plugin",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "chatgpt_plugin"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 292
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 476,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set up a new, empty repository with the name {{project_name}}?",
+        "instantiation_dict": {
+            "project_name": "awesome_llm_reading"
+        },
+        "intent": "Set up a new, empty repository with the name awesome_llm_reading?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/awesome_llm_reading",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "awesome_llm_reading"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 292
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 477,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set up a new, empty repository with the name {{project_name}}?",
+        "instantiation_dict": {
+            "project_name": "awesome_program_aided_reasoning"
+        },
+        "intent": "Set up a new, empty repository with the name awesome_program_aided_reasoning?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/awesome_program_aided_reasoning",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "awesome_program_aided_reasoning"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 292
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 478,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set up a new, empty repository with the name {{project_name}}?",
+        "instantiation_dict": {
+            "project_name": "webagent"
+        },
+        "intent": "Set up a new, empty repository with the name webagent?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/webagent",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "webagent"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 292
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 479,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Set up a new, empty repository with the name {{project_name}}?",
+        "instantiation_dict": {
+            "project_name": "awesome_webagent"
+        },
+        "intent": "Set up a new, empty repository with the name awesome_webagent?",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/awesome_webagent",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "awesome_webagent"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 292
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 480,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Invite {{collaborator_account_list}} as collaborator to {{repo}}",
+        "instantiation_dict": {
+            "collaborator_account_list": "yjlou",
+            "repo": "solarized-prism-theme"
+        },
+        "intent": "Invite yjlou as collaborator to solarized-prism-theme",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/solarized-prism-theme/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "yjlou"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 293
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 481,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "{{name}} wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "instantiation_dict": {
+            "name": "Abishek"
+        },
+        "intent": "Abishek wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/dotfiles/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'abisubramanya27')",
+                    "required_contents": {
+                        "must_include": [
+                            "Guest"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 294
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 482,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "{{name}} wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "instantiation_dict": {
+            "name": "yjlou"
+        },
+        "intent": "yjlou wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/dotfiles/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'yjlou')",
+                    "required_contents": {
+                        "must_include": [
+                            "Guest"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 294
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 483,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "{{name}} wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "instantiation_dict": {
+            "name": "Koushik"
+        },
+        "intent": "Koushik wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/dotfiles/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'koush')",
+                    "required_contents": {
+                        "must_include": [
+                            "Guest"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 294
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 484,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "{{name}} wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "instantiation_dict": {
+            "name": "Jakub Klinkovsk\u00fd"
+        },
+        "intent": "Jakub Klinkovsk\u00fd wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/dotfiles/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'lahwaacz')",
+                    "required_contents": {
+                        "must_include": [
+                            "Guest"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 294
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 485,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "{{name}} wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "instantiation_dict": {
+            "name": "Vinta"
+        },
+        "intent": "Vinta wants to check my dotfile configurations. Please invite him to the repo as a guest.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/dotfiles/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'vinta')",
+                    "required_contents": {
+                        "must_include": [
+                            "Guest"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 294
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 522,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Fork {{repo}}.",
+        "instantiation_dict": {
+            "repo": "all repos from facebook"
+        },
+        "intent": "Fork all repos from facebook.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/dashboard/projects",
+                    "locator": "document.querySelector('[data-qa-selector=\"projects_list\"').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "create-react-app",
+                            "buck"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 352
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 523,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Star the top {{number}} most stared repos in Gitlab",
+        "instantiation_dict": {
+            "number": "five"
+        },
+        "intent": "Star the top five most stared repos in Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "AndroidSlidingUpPanel",
+                            "create-react-app",
+                            "ffmpeg-python",
+                            "PHP_XLSXWriter",
+                            "AndroidAsync"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 354
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 524,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Star the top {{number}} most stared repos in Gitlab",
+        "instantiation_dict": {
+            "number": "eight"
+        },
+        "intent": "Star the top eight most stared repos in Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "AndroidSlidingUpPanel",
+                            "create-react-app",
+                            "ffmpeg-python",
+                            "PHP_XLSXWriter",
+                            "AndroidAsync",
+                            "Pytorch-GAN",
+                            "administrate",
+                            "keycloak"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 354
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 525,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Star the top {{number}} most stared repos in Gitlab",
+        "instantiation_dict": {
+            "number": "four"
+        },
+        "intent": "Star the top four most stared repos in Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "AndroidSlidingUpPanel",
+                            "create-react-app",
+                            "ffmpeg-python",
+                            "PHP_XLSXWriter"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 354
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 526,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Star the top {{number}} most stared repos in Gitlab",
+        "instantiation_dict": {
+            "number": "three"
+        },
+        "intent": "Star the top three most stared repos in Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "AndroidSlidingUpPanel",
+                            "create-react-app",
+                            "ffmpeg-python"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 354
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 527,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Star the top {{number}} most stared repos in Gitlab",
+        "instantiation_dict": {
+            "number": "one"
+        },
+        "intent": "Star the top one most stared repos in Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/starred",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "AndroidSlidingUpPanel"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 354
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 533,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Follow {{account_list}} on Gitlab",
+        "instantiation_dict": {
+            "account_list": [
+                "convexegg",
+                "yjlou"
+            ]
+        },
+        "intent": "Follow ['convexegg', 'yjlou'] on Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/following",
+                    "locator": "document.querySelector('.user-profile').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "@convexegg",
+                            "@yjlou"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 330
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 534,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Follow {{account_list}} on Gitlab",
+        "instantiation_dict": {
+            "account_list": [
+                "Jakub Klinkovsk\u00fd",
+                "Koushik",
+                "Vinta Chen"
+            ]
+        },
+        "intent": "Follow ['Jakub Klinkovsk\u00fd', 'Koushik', 'Vinta Chen'] on Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/following",
+                    "locator": "document.querySelector('.user-profile').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "@lahwaacz",
+                            "@koush",
+                            "@vinta"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 330
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 535,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Follow {{account_list}} on Gitlab",
+        "instantiation_dict": {
+            "account_list": [
+                "Jakub K",
+                "ghost",
+                "Beno\u00eet Blanchon"
+            ]
+        },
+        "intent": "Follow ['Jakub K', 'ghost', 'Beno\u00eet Blanchon'] on Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/following",
+                    "locator": "document.querySelector('.user-profile').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "@lahwaacz",
+                            "@ghost",
+                            "@bblanchon"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 330
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 536,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Follow {{account_list}} on Gitlab",
+        "instantiation_dict": {
+            "account_list": [
+                "ghost",
+                "R1kk3r",
+                "Abishek"
+            ]
+        },
+        "intent": "Follow ['ghost', 'R1kk3r', 'Abishek'] on Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/following",
+                    "locator": "document.querySelector('.user-profile').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "@lahwaacz",
+                            "@R1kk3r",
+                            "@abisubramanya27"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 330
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 537,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Follow {{account_list}} on Gitlab",
+        "instantiation_dict": {
+            "account_list": [
+                "Jakub Klinkovsk",
+                "convexegg",
+                "Vinta Chen",
+                "yjlou",
+                "Abishek S"
+            ]
+        },
+        "intent": "Follow ['Jakub Klinkovsk', 'convexegg', 'Vinta Chen', 'yjlou', 'Abishek S'] on Gitlab",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/users/byteblaze/following",
+                    "locator": "document.querySelector('.user-profile').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "@lahwaacz",
+                            "@convexegg",
+                            "@vinta",
+                            "@yjlou",
+                            "@abisubramanya27"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 330
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 567,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Invite {{collaborator_account_list}} as collaborator to {{repo}} repo",
+        "instantiation_dict": {
+            "collaborator_account_list": "Jakub Klinkovsk\u00fd and Beno\u00eet Blanchon",
+            "repo": "gimmiethat.space"
+        },
+        "intent": "Invite Jakub Klinkovsk\u00fd and Beno\u00eet Blanchon as collaborator to gimmiethat.space repo",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@lahwaacz",
+                            "@bblanchon"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 293
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 568,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Invite {{collaborator_account_list}} as collaborator to {{repo}} repo",
+        "instantiation_dict": {
+            "collaborator_account_list": "Abishek and Vinta",
+            "repo": "a11yproject.com"
+        },
+        "intent": "Invite Abishek and Vinta as collaborator to a11yproject.com repo",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/a11yproject/a11yproject.com/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@abisubramanya27",
+                            "@vinta"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 293
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 569,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Invite {{collaborator_account_list}} as collaborator to {{repo}} repo",
+        "instantiation_dict": {
+            "collaborator_account_list": "Beno\u00eet and Abishek",
+            "repo": "my HTML5 markup extention"
+        },
+        "intent": "Invite Beno\u00eet and Abishek as collaborator to my HTML5 markup extention repo",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/accessible-html-content-patterns/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@bblanchon",
+                            "@abisubramanya27"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 293
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 570,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Invite {{collaborator_account_list}} as collaborator to {{repo}} repo",
+        "instantiation_dict": {
+            "collaborator_account_list": "Jakub K, Alex Dills, Alex Hutnik and Beno\u00eet Blanchon",
+            "repo": "my time tracking tool project"
+        },
+        "intent": "Invite Jakub K, Alex Dills, Alex Hutnik and Beno\u00eet Blanchon as collaborator to my time tracking tool project repo",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/timeit/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@lahwaacz",
+                            "@V13Axel",
+                            "@alexhutnik",
+                            "@bblanchon"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 293
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 576,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Add the following users to repo {{repo}} as {{role}}: {{user_list}}",
+        "instantiation_dict": {
+            "repo": "a11y-webring.club",
+            "role": "developer",
+            "user_list": [
+                "abisubramanya27",
+                "lahwaacz"
+            ]
+        },
+        "intent": "Add the following users to repo a11y-webring.club as developer: ['abisubramanya27', 'lahwaacz']",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/a11y-webring.club/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'abisubramanya27')",
+                    "required_contents": {
+                        "must_include": [
+                            "Developer"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/a11y-webring.club/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'lahwaacz')",
+                    "required_contents": {
+                        "must_include": [
+                            "Developer"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 351
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 577,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Add the following users to my {{repo}} as {{role}}: {{user_list}}",
+        "instantiation_dict": {
+            "repo": "GitHub timeline item management extension",
+            "role": "maintainer",
+            "user_list": [
+                "abisubramanya27",
+                "lahwaacz"
+            ]
+        },
+        "intent": "Add the following users to my GitHub timeline item management extension as maintainer: ['abisubramanya27', 'lahwaacz']",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/remove-board-movement-events-from-the-github-issue-timeline/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'abisubramanya27')",
+                    "required_contents": {
+                        "must_include": [
+                            "Maintainer"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/remove-board-movement-events-from-the-github-issue-timeline/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'lahwaacz')",
+                    "required_contents": {
+                        "must_include": [
+                            "Maintainer"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 351
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 578,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Add the following users to repo {{repo}} as {{role}}: {{user_list}}",
+        "instantiation_dict": {
+            "repo": "millennials-to-snake-people",
+            "role": "reporter",
+            "user_list": [
+                "yjlou",
+                "a11yproject"
+            ]
+        },
+        "intent": "Add the following users to repo millennials-to-snake-people as reporter: ['yjlou', 'a11yproject']",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/millennials-to-snake-people/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'yjlou')",
+                    "required_contents": {
+                        "must_include": [
+                            "Reporter"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/millennials-to-snake-people/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'a11yproject')",
+                    "required_contents": {
+                        "must_include": [
+                            "Reporter"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 351
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 579,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Add the following users to my {{repo}} as {{role}}: {{user_list}}",
+        "instantiation_dict": {
+            "repo": "time tracking tool",
+            "role": "guest",
+            "user_list": [
+                "yjlou"
+            ]
+        },
+        "intent": "Add the following users to my time tracking tool as guest: ['yjlou']",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/timeit/-/project_members",
+                    "locator": "func:gitlab_get_project_memeber_role(__page__, 'yjlou')",
+                    "required_contents": {
+                        "must_include": [
+                            "Guest"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 351
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 736,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Make the LICENSE of {{repo}} to MIT license.",
+        "instantiation_dict": {
+            "repo": "gimmiethat.space and dotfiles"
+        },
+        "intent": "Make the LICENSE of gimmiethat.space and dotfiles to MIT license.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/gimmiethat.space/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/dotfiles/-/blob/main/LICENSE",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "MIT license",
+                            "The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software."
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 355
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 742,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a new {{scope}} project \"planner\" and add {{account_list}} as members",
+        "instantiation_dict": {
+            "scope": "private",
+            "account_list": "Abishek, Vinta"
+        },
+        "intent": "Create a new private project \"planner\" and add Abishek, Vinta as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/planner",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/planner/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@abisubramanya27",
+                            "@vinta"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 743,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a new {{scope}} project \"web_arena\" and add {{account_list}} as members",
+        "instantiation_dict": {
+            "scope": "public",
+            "account_list": "Abishek, Vinta"
+        },
+        "intent": "Create a new public project \"web_arena\" and add Abishek, Vinta as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_arena",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "public"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_arena/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@abisubramanya27",
+                            "@vinta"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 744,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a new {{scope}} project \"AutoAGI\" and add {{account_list}} as members",
+        "instantiation_dict": {
+            "scope": "public",
+            "account_list": "primer"
+        },
+        "intent": "Create a new public project \"AutoAGI\" and add primer as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/AutoAGI",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "public"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/AutoAGI/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@primer"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 745,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a new {{scope}} project \"awesome-llms\" and add {{account_list}} as members",
+        "instantiation_dict": {
+            "scope": "public",
+            "account_list": "primer, convexegg, abishek"
+        },
+        "intent": "Create a new public project \"awesome-llms\" and add primer, convexegg, abishek as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/awesome-llms",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "public"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/awesome-llms/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@primer",
+                            "@convexegg",
+                            "@abisubramanya27"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 746,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a new {{scope}} project \"llm_bulk_inference\" and add {{account_list}} as members",
+        "instantiation_dict": {
+            "scope": "private",
+            "account_list": "primer, convexegg, abishek"
+        },
+        "intent": "Create a new private project \"llm_bulk_inference\" and add primer, convexegg, abishek as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/llm_bulk_inference",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/llm_bulk_inference/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@primer",
+                            "@convexegg",
+                            "@abisubramanya27"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 747,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Start a private project {{project_name}} with {{template}} template and add {{account_list}} as members",
+        "instantiation_dict": {
+            "project_name": "awesome_web_agents",
+            "template": "blank",
+            "account_list": "Abishek, Vinta"
+        },
+        "intent": "Start a private project awesome_web_agents with blank template and add Abishek, Vinta as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/awesome_web_agents",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/awesome_web_agents/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/awesome_web_agents/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@abisubramanya27",
+                            "@vinta"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 2100
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 748,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Start a private project {{project_name}} with {{template}} template and add {{account_list}} as members",
+        "instantiation_dict": {
+            "project_name": "web_agent_android_xl",
+            "template": "Android",
+            "account_list": "primer, convexegg, abishek"
+        },
+        "intent": "Start a private project web_agent_android_xl with Android template and add primer, convexegg, abishek as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_android_xl",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_android_xl/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initialized from 'Android' project template"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_android_xl/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@primer",
+                            "@convexegg",
+                            "@abisubramanya27"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 2100
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 749,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Start a private project {{project_name}} with {{template}} template and add {{account_list}} as members",
+        "instantiation_dict": {
+            "project_name": "project_site",
+            "template": "NodeJS",
+            "account_list": "primer, convexegg, vinta"
+        },
+        "intent": "Start a private project project_site with NodeJS template and add primer, convexegg, vinta as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/project_site",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/project_site/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initialized from 'NodeJS Express' project template"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/project_site/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@primer",
+                            "@convexegg",
+                            "@vinta"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 2100
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 750,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Start a private project {{project_name}} with {{template}} template and add {{account_list}} as members",
+        "instantiation_dict": {
+            "project_name": "agi_index",
+            "template": "HTML",
+            "account_list": "Vinta Chen"
+        },
+        "intent": "Start a private project agi_index with HTML template and add Vinta Chen as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/agi_index",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/agi_index",
+                    "locator": "document.querySelector('.home-panel-description-markdown').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Example plain HTML site using GitLab Pages: https://pages.gitlab.io/plain-html |OR| A plain HTML site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features."
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/agi_index/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Vinta Chen"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 2100
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 751,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Start a private project {{project_name}} with {{template}} template and add {{account_list}} as members",
+        "instantiation_dict": {
+            "project_name": "AGISite",
+            "template": "JEKYLL",
+            "account_list": "Rohan and Vinta"
+        },
+        "intent": "Start a private project AGISite with JEKYLL template and add Rohan and Vinta as members",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/AGISite",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/AGISite",
+                    "locator": "document.querySelector('.home-panel-description-markdown').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Example Jekyll site using GitLab Pages: https://pages.gitlab.io/jekyll |OR| A Jekyll site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features."
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/AGISite/-/project_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@Seirdy",
+                            "@vinta"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 2100
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 752,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a private {{template}} repository called \"{{project_name}}\" using the right template to speed up development.",
+        "instantiation_dict": {
+            "project_name": "web_agent",
+            "template": "blank"
+        },
+        "intent": "Create a private blank repository called \"web_agent\" using the right template to speed up development.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initial commit"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 753,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a private {{template}} repository called \"{{project_name}}\" using the right template to speed up development.",
+        "instantiation_dict": {
+            "project_name": "web_agent_android_xs",
+            "template": "Android"
+        },
+        "intent": "Create a private Android repository called \"web_agent_android_xs\" using the right template to speed up development.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_android_xs",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_android_xs/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initialized from 'Android' project template"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 754,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a private {{template}} repository called \"{{project_name}}\" using the right template to speed up development.",
+        "instantiation_dict": {
+            "project_name": "web_agent_nodejs",
+            "template": "NodeJS"
+        },
+        "intent": "Create a private NodeJS repository called \"web_agent_nodejs\" using the right template to speed up development.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_nodejs",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_nodejs/-/commits",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Initialized from 'NodeJS Express' project template"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 755,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a private {{template}} repository called \"{{project_name}}\" using the right template to speed up development.",
+        "instantiation_dict": {
+            "project_name": "web_agent_index",
+            "template": "HTML"
+        },
+        "intent": "Create a private HTML repository called \"web_agent_index\" using the right template to speed up development.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_index",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/web_agent_index",
+                    "locator": "document.querySelector('.home-panel-description-markdown').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Example plain HTML site using GitLab Pages: https://pages.gitlab.io/plain-html |OR| A plain HTML site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features."
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 756,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create a private {{template}} repository called \"{{project_name}}\" using the right template to speed up development.",
+        "instantiation_dict": {
+            "project_name": "11711_gitlab",
+            "template": "JEKYLL"
+        },
+        "intent": "Create a private JEKYLL repository called \"11711_gitlab\" using the right template to speed up development.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/11711_gitlab",
+                    "locator": "document.querySelector('.visibility-icon').getAttribute('title')",
+                    "required_contents": {
+                        "must_include": [
+                            "Private"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/byteblaze/11711_gitlab",
+                    "locator": "document.querySelector('.home-panel-description-markdown').outerText",
+                    "required_contents": {
+                        "must_include": [
+                            "Example Jekyll site using GitLab Pages: https://pages.gitlab.io/jekyll |OR| A Jekyll site that uses Netlify for CI/CD instead of GitLab, but still with all the other great GitLab features."
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 332
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 783,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Add the following users to repo {{repo}} as {{role}}: {{user_list}}",
+        "instantiation_dict": {
+            "repo": "kkroening/ffmpeg-python",
+            "role": "maintainer",
+            "user_list": [
+                "yjlou",
+                "a11yproject"
+            ]
+        },
+        "intent": "Add the following users to repo kkroening/ffmpeg-python as maintainer: ['yjlou', 'a11yproject']",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "fuzzy_match": "N/A"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "not the owner of the repo so cannot add maintainer",
+            "reference_answer_raw_annotation": "N/A"
+        },
+        "intent_template_id": 351
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 784,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/CellularPrivacy/Android-IMSI-Catcher-Detector",
+        "geolocation": null,
+        "intent_template": "Tell me the {{attribute}} of the contributor who has the most commits to branch {{branch_name}}",
+        "instantiation_dict": {
+            "branch_name": "main",
+            "attribute": "email address"
+        },
+        "intent": "Tell me the email address of the contributor who has the most commits to branch main",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "secupwn@users.noreply.github.com"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "secupwn@users.noreply.github.com"
+        },
+        "intent_template_id": 316
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 785,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/CellularPrivacy/Android-IMSI-Catcher-Detector",
+        "geolocation": null,
+        "intent_template": "Tell me the {{attribute}} of the contributor who has the most commits to branch {{branch_name}}",
+        "instantiation_dict": {
+            "branch_name": "gh-page",
+            "attribute": "email address"
+        },
+        "intent": "Tell me the email address of the contributor who has the most commits to branch gh-page",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "secupwn@users.noreply.github.com"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "secupwn@users.noreply.github.com"
+        },
+        "intent_template_id": 316
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 786,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/vinta/awesome-python",
+        "geolocation": null,
+        "intent_template": "Tell me the {{attribute}} of the contributor who has the most commits to branch {{branch_name}}",
+        "instantiation_dict": {
+            "branch_name": "main",
+            "attribute": "number of commits"
+        },
+        "intent": "Tell me the number of commits of the contributor who has the most commits to branch main",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "412"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "412"
+        },
+        "intent_template_id": 316
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 787,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/dehenne/awesome-visibility/-/graphs/master",
+        "geolocation": null,
+        "intent_template": "Tell me the {{attribute}} of the contributor who has the most commits to branch {{branch_name}}",
+        "instantiation_dict": {
+            "branch_name": "main",
+            "attribute": "number of followers"
+        },
+        "intent": "Tell me the number of followers of the contributor who has the most commits to branch main",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "0"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "0"
+        },
+        "intent_template_id": 316
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 788,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/amwhalen/archive-my-tweets/-/tree/github/fork/chtitux/addRssFeed",
+        "geolocation": null,
+        "intent_template": "Tell me the {{attribute}} of the contributor who has the most commits to branch {{branch_name}}",
+        "instantiation_dict": {
+            "branch_name": "php52",
+            "attribute": "full name, gitlab account name, location and email address"
+        },
+        "intent": "Tell me the full name, gitlab account name, location and email address of the contributor who has the most commits to branch php52",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "must_include": [
+                    "Andrew M. Whalen",
+                    "amwhalen",
+                    "Massachusetts",
+                    "github@amwhalen.com"
+                ]
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "",
+            "reference_answer_raw_annotation": "Andrew M. Whalen, amwhalen, Massachusetts, github@amwhalen.com"
+        },
+        "intent_template_id": 316
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 789,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Create an issue {{issue}} in {{repo}}.",
+        "instantiation_dict": {
+            "repo": "huggingface dataset",
+            "issue": "asking about do they have any plan on supporting Webagent in the next quater"
+        },
+        "intent": "Create an issue asking about do they have any plan on supporting Webagent in the next quater in huggingface dataset.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "string_match"
+            ],
+            "reference_answers": {
+                "fuzzy_match": "N/A"
+            },
+            "reference_url": "",
+            "program_html": [],
+            "string_note": "huggingface repo does not exist",
+            "reference_answer_raw_annotation": "N/A"
+        },
+        "intent_template_id": 328
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 799,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "create a new group \"{{name}}\" with members {{members}}",
+        "instantiation_dict": {
+            "name": "n-lab",
+            "members": "patou, egpast, westurner, jontutcher"
+        },
+        "intent": "create a new group \"n-lab\" with members patou, egpast, westurner, jontutcher",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/groups/n-lab/-/group_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@patou",
+                            "@egpast",
+                            "@westurner",
+                            "@jontutcher"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 600
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 800,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "create a new group \"{{name}}\" with members {{members}}",
+        "instantiation_dict": {
+            "name": "x-lab",
+            "members": "JonasVautherin, dilipchandima, dawiss1337, bmyun, DCMJY"
+        },
+        "intent": "create a new group \"x-lab\" with members JonasVautherin, dilipchandima, dawiss1337, bmyun, DCMJY",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/groups/x-lab/-/group_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@JonasVautherin",
+                            "@dilipchandima",
+                            "@dawiss1337",
+                            "@bmyun",
+                            "@DCMJY"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 600
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 801,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "create a new group \"{{name}}\" with members {{members}}",
+        "instantiation_dict": {
+            "name": "crew",
+            "members": "ASWATFZLLC, patrickhlauke, westurner, linkmatrix"
+        },
+        "intent": "create a new group \"crew\" with members ASWATFZLLC, patrickhlauke, westurner, linkmatrix",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/groups/crew/-/group_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@ASWATFZLLC",
+                            "@patrickhlauke",
+                            "@westurner",
+                            "@linkmatrix"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 600
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 802,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "create a new group \"{{name}}\" with members {{members}}",
+        "instantiation_dict": {
+            "name": "coding_friends",
+            "members": "qhduan, Agnes-U"
+        },
+        "intent": "create a new group \"coding_friends\" with members qhduan, Agnes-U",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/groups/coding_friends/-/group_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@qhduan",
+                            "@Agnes-U"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 600
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 803,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "create a new group \"{{name}}\" with members {{members}}",
+        "instantiation_dict": {
+            "name": "webagent",
+            "members": "pandey2000, sayakpaul, sayakpaul"
+        },
+        "intent": "create a new group \"webagent\" with members pandey2000, sayakpaul, sayakpaul",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/groups/webagent/-/group_members",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "@pandey2000",
+                            "@sayakpaul"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 600
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 804,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Assign the issue regarding {{issue}} to {{account}}.",
+        "instantiation_dict": {
+            "issue": "flash alerts",
+            "account": "myself and primer"
+        },
+        "intent": "Assign the issue regarding flash alerts to myself and primer.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/dashboard/issues?scope=all&state=opened&assignee_username=byteblaze",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Add documentation on using Flash alerts in dialog components",
+                            "Clarify usage of flash alert"
+                        ]
+                    }
+                },
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/dashboard/issues?scope=all&state=opened&assignee_username=primer",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Add documentation on using Flash alerts in dialog components",
+                            "Clarify usage of flash alert"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 999
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 810,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Assign the issue regarding {{issue}} in {{repo}} repo to {{account}}.",
+        "instantiation_dict": {
+            "repo": "primer design guide",
+            "issue": "flash alert",
+            "account": "myself"
+        },
+        "intent": "Assign the issue regarding flash alert in primer design guide repo to myself.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/dashboard/issues?scope=all&state=opened&assignee_username=byteblaze",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "Add documentation on using Flash alerts in dialog components",
+                            "Clarify usage of flash alert"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 999
+    },
+    {
+        "sites": [
+            "gitlab"
+        ],
+        "task_id": 811,
+        "require_login": true,
+        "storage_state": "./.auth/gitlab_state.json",
+        "start_url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023",
+        "geolocation": null,
+        "intent_template": "Assign the issue regarding {{issue}} in {{repo}} to {{account}}.",
+        "instantiation_dict": {
+            "repo": "a11yproject",
+            "issue": 404,
+            "account": "myself"
+        },
+        "intent": "Assign the issue regarding 404 in a11yproject to myself.",
+        "require_reset": false,
+        "eval": {
+            "eval_types": [
+                "program_html"
+            ],
+            "reference_answers": null,
+            "reference_url": "",
+            "program_html": [
+                {
+                    "url": "http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/dashboard/issues?scope=all&state=opened&assignee_username=byteblaze",
+                    "locator": "",
+                    "required_contents": {
+                        "must_include": [
+                            "404s, bad host, timeouts, bad urls for URLs linked from website"
+                        ]
+                    }
+                }
+            ]
+        },
+        "intent_template_id": 999
+    }
+]

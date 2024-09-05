@@ -1,0 +1,2881 @@
+[
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 7,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the full address of all {{airport_type}} that are within a driving distance of {{radius}} to {{start}}",
+    "instantiation_dict": {
+      "airport_type": "international airports",
+      "start": "Carnegie Mellon University",
+      "radius": "50 km"
+    },
+    "intent": "Tell me the full address of all international airports that are within a driving distance of 50 km to Carnegie Mellon University",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "Pittsburgh International Airport, Southern Beltway, Findlay Township, Allegheny County, 15231, United States"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Pittsburgh International Airport People Movers, Airport Boulevard, Findlay Township, Allegheny County, Pennsylvania, 15231, United States"
+    },
+    "intent_template_id": 79
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 8,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the full address of all {{airport_type}} that are within a driving distance of {{radius}} to {{start}}",
+    "instantiation_dict": {
+      "airport_type": "international airports",
+      "start": "Carnegie Mellon University",
+      "radius": "5 km"
+    },
+    "intent": "Tell me the full address of all international airports that are within a driving distance of 5 km to Carnegie Mellon University",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "There is no airport within 5 km of Carnegie Mellon University"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "There is no airport within 5 km of Carnegie Mellon University"
+    },
+    "intent_template_id": 79
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 9,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the full address of all {{airport_type}} that are within a driving distance of {{radius}} to {{start}}",
+    "instantiation_dict": {
+      "airport_type": "international airports",
+      "start": "Carnegie Art Museum",
+      "radius": "30 km"
+    },
+    "intent": "Tell me the full address of all international airports that are within a driving distance of 30 km to Carnegie Art Museum",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Pittsburgh International Airport, Southern Beltway, Findlay Township, Allegheny County, 15231, United States"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Pittsburgh International Airport People Movers, Airport Boulevard, Findlay Township, Allegheny County, Pennsylvania, 15231, United States"
+    },
+    "intent_template_id": 79
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 10,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the full address of all {{airport_type}} that are within a driving distance of {{radius}} to {{start}}",
+    "instantiation_dict": {
+      "airport_type": "US international airports",
+      "start": "Niagara Falls",
+      "radius": "60 km"
+    },
+    "intent": "Tell me the full address of all US international airports that are within a driving distance of 60 km to Niagara Falls",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Niagara Falls International Airport, 2035, Niagara Falls Boulevard, City of Niagara Falls, Town of Wheatfield, Niagara County, New York, 14304, United States",
+          "Buffalo-Niagara International Airport, Holtz Drive, Town of Cheektowaga, Erie County, New York, 14225, United States"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Niagara Falls International Airport, 2035, Niagara Falls Boulevard, City of Niagara Falls, Town of Wheatfield, Niagara County, New York, 14304, United States Buffalo-Niagara International Airport, South Youngs Road, Town of Cheektowaga, Erie County, New York, 14221, United States"
+    },
+    "intent_template_id": 79
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 16,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Compare the time for walking and driving route from {{start}} to {{end}}",
+    "instantiation_dict": {
+      "start": "5000 Fifth Avenue, Pittsburgh",
+      "end": "UPMC family health center"
+    },
+    "intent": "Compare the time for walking and driving route from 5000 Fifth Avenue, Pittsburgh to UPMC family health center",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "driving: 2min",
+          "walking: 16min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Driving: 2min. Walking: 16min."
+    },
+    "intent_template_id": 73
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 17,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Compare the time for walking and driving route from {{start}} to {{end}}",
+    "instantiation_dict": {
+      "start": "AMC Waterfront",
+      "end": "Carnegie Mellon University"
+    },
+    "intent": "Compare the time for walking and driving route from AMC Waterfront to Carnegie Mellon University",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "driving: 13min",
+          "walking: 1h 35min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "driving: 13min, walking: 1h 35min."
+    },
+    "intent_template_id": 73
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 18,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Compare the time for walking and driving route from {{start}} to {{end}}",
+    "instantiation_dict": {
+      "start": "AMC Waterfront",
+      "end": "Univ of Pittsburgh"
+    },
+    "intent": "Compare the time for walking and driving route from AMC Waterfront to Univ of Pittsburgh",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "driving: 15min",
+          "walking: 1h 47min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "driving: 15min, walking: 1h 47min."
+    },
+    "intent_template_id": 73
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 19,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Compare the time for walking and driving route from {{start}} to {{end}}",
+    "instantiation_dict": {
+      "start": "Carnegie Science Center",
+      "end": "Carnegie Mellon University"
+    },
+    "intent": "Compare the time for walking and driving route from Carnegie Science Center to Carnegie Mellon University",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "driving: 12min",
+          "walking: 1h 44min."
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "driving: 12min, walking: 1h 44min."
+    },
+    "intent_template_id": 73
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 20,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Compare the difference in time for walking and driving route from {{start}} to {{end}}",
+    "instantiation_dict": {
+      "start": "Randyland",
+      "end": "Carnegie Mellon University"
+    },
+    "intent": "Compare the difference in time for walking and driving route from Randyland to Carnegie Mellon University",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "driving: 13min",
+          "walking: 1h 45min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "driving: 13min, walking: 1h 45min."
+    },
+    "intent_template_id": 73
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 32,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I will arrive {{place}} soon. Provide the name of a {{target1}} in the vicinity, if available. Then, tell me the {{information}} to {{target2}} from the hotel.",
+    "instantiation_dict": {
+      "place": "Pittsburgh Airport",
+      "information": "the walking distance",
+      "target1": "Hilton hotel",
+      "target2": "the nearest supermarket own by a local company"
+    },
+    "intent": "I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available. Then, tell me the the walking distance to the nearest supermarket own by a local company from the hotel.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "DoubleTree by Hilton Hotel Pittsburgh Airport",
+          "2.0km"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "DoubleTree by Hilton Hotel Pittsburgh Airport Distance: 2.0km"
+    },
+    "intent_template_id": 78
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 33,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I will arrive {{place}} soon. Provide the name of a {{target1}} in the vicinity, if available. Then, tell me the {{information}} to {{target2}} from the hotel.",
+    "instantiation_dict": {
+      "place": "Pittsburgh Airport",
+      "target1": "Hilton hotel",
+      "information": "the shortest walking distance",
+      "target2": "a supermarket"
+    },
+    "intent": "I will arrive Pittsburgh Airport soon. Provide the name of a Hilton hotel in the vicinity, if available. Then, tell me the the shortest walking distance to a supermarket from the hotel.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "DoubleTree by Hilton Hotel Pittsburgh Airport",
+          "1.4km"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "DoubleTree by Hilton Hotel Pittsburgh Airport Distance: 1.4km"
+    },
+    "intent_template_id": 78
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 34,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I will arrive {{place}} soon. Provide the name of a {{target1}} in the vicinity, if available. Then, tell me the {{information}} to {{target2}} from the hotel.",
+    "instantiation_dict": {
+      "place": "Pittsburgh Airport",
+      "target1": "Hyatt hotel",
+      "information": "the shortest walking time",
+      "target2": "a supermarket"
+    },
+    "intent": "I will arrive Pittsburgh Airport soon. Provide the name of a Hyatt hotel in the vicinity, if available. Then, tell me the the shortest walking time to a supermarket from the hotel.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Hyatt Regency Pittsburgh International Airport"
+        ],
+        "fuzzy_match": [
+          "Time: 3h 30min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Hyatt Regency Pittsburgh International Airport\n3:30"
+    },
+    "intent_template_id": 78
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 35,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I will arrive {{place}} soon. Provide the name of a {{target1}} in the vicinity, if available. Then, tell me the {{information}} to {{target2}} from the hotel.",
+    "instantiation_dict": {
+      "place": "Pittsburgh Airport",
+      "target1": "Hyatt hotel",
+      "information": "the minimal driving time",
+      "target2": "a supermarket"
+    },
+    "intent": "I will arrive Pittsburgh Airport soon. Provide the name of a Hyatt hotel in the vicinity, if available. Then, tell me the the minimal driving time to a supermarket from the hotel.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Hyatt Regency Pittsburgh International Airport"
+        ],
+        "fuzzy_match": [
+          "Time: 15min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Hyatt Regency Pittsburgh International Airport Time: 15min"
+    },
+    "intent_template_id": 78
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 36,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Check if the {{place}} in pittsburgh can be reached in one hour by car from {{location}}",
+    "instantiation_dict": {
+      "place": "social security administration",
+      "location": "Carnegie Mellon University"
+    },
+    "intent": "Check if the social security administration in pittsburgh can be reached in one hour by car from Carnegie Mellon University",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Yes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Yes"
+    },
+    "intent_template_id": 77
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 37,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Check if the {{place}} in pittsburgh can be reached in one hour by car from {{location}}",
+    "instantiation_dict": {
+      "place": "police station",
+      "location": "gates building at CMU"
+    },
+    "intent": "Check if the police station in pittsburgh can be reached in one hour by car from gates building at CMU",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Yes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Yes"
+    },
+    "intent_template_id": 77
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 38,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Check if the {{place}} in pittsburgh can be reached in one hour by car from {{location}}",
+    "instantiation_dict": {
+      "place": "duquesne university",
+      "location": "pittsburgh airport"
+    },
+    "intent": "Check if the duquesne university in pittsburgh can be reached in one hour by car from pittsburgh airport",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Yes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Yes"
+    },
+    "intent_template_id": 77
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 39,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Check if the {{place}} in pittsburgh can be reached in one hour by car from {{location}}",
+    "instantiation_dict": {
+      "place": "walmart",
+      "location": "5600 fifth avenue"
+    },
+    "intent": "Check if the walmart in pittsburgh can be reached in one hour by car from 5600 fifth avenue",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Yes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Yes"
+    },
+    "intent_template_id": 77
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 40,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Check if the {{place}} in pittsburgh can be reached in one hour by car from {{location}}",
+    "instantiation_dict": {
+      "place": "amc theatre",
+      "location": "hobart street"
+    },
+    "intent": "Check if the amc theatre in pittsburgh can be reached in one hour by car from hobart street",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Yes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Yes"
+    },
+    "intent_template_id": 77
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 52,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "How long does it take to walk from {{start}} to {{end}}?",
+    "instantiation_dict": {
+      "start": "Carnegie Mellon University",
+      "end": "starbucks on Craig Street"
+    },
+    "intent": "How long does it take to walk from Carnegie Mellon University to starbucks on Craig Street?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "7 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "7 min"
+    },
+    "intent_template_id": 68
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 53,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "How long does it take to walk from {{start}} to {{end}}?",
+    "instantiation_dict": {
+      "start": "Univ of Pittsburgh",
+      "end": "starbucks on Craig Street"
+    },
+    "intent": "How long does it take to walk from Univ of Pittsburgh to starbucks on Craig Street?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "18 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "18 min"
+    },
+    "intent_template_id": 68
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 54,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "How long does it take to walk from {{start}} to {{end}}?",
+    "instantiation_dict": {
+      "start": "Carnegie Mellon University",
+      "end": "Univ of Pittsburgh"
+    },
+    "intent": "How long does it take to walk from Carnegie Mellon University to Univ of Pittsburgh?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "25 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "25 min"
+    },
+    "intent_template_id": 68
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 55,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "How long does it take to walk from {{start}} to {{end}}?",
+    "instantiation_dict": {
+      "start": "the starbuck near CMU",
+      "end": "Chatham university"
+    },
+    "intent": "How long does it take to walk from the starbuck near CMU to Chatham university?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "30 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "30 min"
+    },
+    "intent_template_id": 68
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 56,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "How long does it take to walk from {{start}} to {{end}}?",
+    "instantiation_dict": {
+      "start": "Carnegie Museum of Art",
+      "end": "a library at CMU"
+    },
+    "intent": "How long does it take to walk from Carnegie Museum of Art to a library at CMU?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "11 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "11 min"
+    },
+    "intent_template_id": 68
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 57,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the closest {{place1}}(s) to {{place2}}",
+    "instantiation_dict": {
+      "place1": "restaurant",
+      "place2": "university center at Carnegie Mellon University"
+    },
+    "intent": "Tell me the closest restaurant(s) to university center at Carnegie Mellon University",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "El Gallo de Oro",
+          "Back Bar Grill",
+          "Grano",
+          "Beefsteak",
+          "Nourish",
+          "Schatz Dining Room",
+          "Au Bon Pain"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "El Gallo de Oro, Back Bar Grill, Grano, Beefsteak, Nourish, Schatz Dining Room, Au Bon Pain"
+    },
+    "intent_template_id": 69
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 58,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the closest {{place1}}(s) to {{place2}}",
+    "instantiation_dict": {
+      "place1": "cafe",
+      "place2": "CMU Hunt library"
+    },
+    "intent": "Tell me the closest cafe(s) to CMU Hunt library",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "De Fer Coffee & Tea"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "De Fer Coffee & Tea"
+    },
+    "intent_template_id": 69
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 59,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the closest {{place1}}(s) to {{place2}}",
+    "instantiation_dict": {
+      "place1": "restaurant",
+      "place2": "CMU Hunt library"
+    },
+    "intent": "Tell me the closest restaurant(s) to CMU Hunt library",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "The exchange"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "The exchange"
+    },
+    "intent_template_id": 69
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 60,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the closest {{place1}}(s) to {{place2}}",
+    "instantiation_dict": {
+      "place1": "restaurant",
+      "place2": "CMU Posner Hall"
+    },
+    "intent": "Tell me the closest restaurant(s) to CMU Posner Hall",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "The exchange"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "The exchange"
+    },
+    "intent_template_id": 69
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 61,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the closest {{place1}}(s) to {{place2}}",
+    "instantiation_dict": {
+      "place1": "restaurant",
+      "place2": "CMU Sorrells Library"
+    },
+    "intent": "Tell me the closest restaurant(s) to CMU Sorrells Library",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "La Prima Espresso"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "La Prima Espresso"
+    },
+    "intent_template_id": 69
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 70,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the zip code of {{place}}?",
+    "instantiation_dict": {
+      "place": "Carnegie Mellon University"
+    },
+    "intent": "What is the zip code of Carnegie Mellon University?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "15213"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "15213"
+    },
+    "intent_template_id": 70
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 71,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the zip code of {{place}}?",
+    "instantiation_dict": {
+      "place": "Chatham University"
+    },
+    "intent": "What is the zip code of Chatham University?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "15232"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "15232"
+    },
+    "intent_template_id": 70
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 72,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the zip code of {{place}}?",
+    "instantiation_dict": {
+      "place": "Yale University"
+    },
+    "intent": "What is the zip code of Yale University?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "06516"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "06516"
+    },
+    "intent_template_id": 70
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 73,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the zip code of {{place}}?",
+    "instantiation_dict": {
+      "place": "Columbia University"
+    },
+    "intent": "What is the zip code of Columbia University?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "10027"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "10027"
+    },
+    "intent_template_id": 70
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 74,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Given the following locations, {{place_list}}, what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+    "instantiation_dict": {
+      "place_list": [
+        "Carnegie Mellon University",
+        "apple store shadyside",
+        "starbucks on craig street"
+      ]
+    },
+    "intent": "Given the following locations, ['Carnegie Mellon University', 'apple store shadyside', 'starbucks on craig street'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "The order is Carnegie Mellon University, starbucks on forbes ave, apple store shadyside"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Carnegie Mellon University, starbucks on forbes ave, apple store shadyside"
+    },
+    "intent_template_id": 65
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 75,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Given the following locations, {{place_list}}, what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+    "instantiation_dict": {
+      "place_list": [
+        "Massachusetts Institute of Technology",
+        "Harvard University",
+        "Boston Logan International Airport"
+      ]
+    },
+    "intent": "Given the following locations, ['Massachusetts Institute of Technology', 'Harvard University', 'Boston Logan International Airport'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "The order is Massachusetts Institute of Technology, Harvard University, Boston Logan International Airport"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Massachusetts Institute of Technology, Harvard University, Boston Logan International Airport"
+    },
+    "intent_template_id": 65
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 76,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Given the following locations, {{place_list}}, what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+    "instantiation_dict": {
+      "place_list": [
+        "Princeton University",
+        "Yale University",
+        "Harvard University"
+      ]
+    },
+    "intent": "Given the following locations, ['Princeton University', 'Yale University', 'Harvard University'], what would be the optimal route to travel through them all in order to minimize total travel time? Please note the journey begins at the first place listed.",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "The order is Princeton University, Yale University, Harvard University"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Princeton University, Yale University, Harvard University"
+    },
+    "intent_template_id": 65
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 80,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the duration required to first walk from {{place_A}} to {{place_B}}, and then drive to {{place_C}}?",
+    "instantiation_dict": {
+      "place_A": "Carnegie Mellon University",
+      "place_B": "Starbucks on Craig Street",
+      "place_C": "Pittsburgh International Airport"
+    },
+    "intent": "What is the duration required to first walk from Carnegie Mellon University to Starbucks on Craig Street, and then drive to Pittsburgh International Airport?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "38 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "38 min"
+    },
+    "intent_template_id": 72
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 81,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the duration required to first walk from {{place_A}} to {{place_B}}, and then drive to {{place_C}}?",
+    "instantiation_dict": {
+      "place_A": "Univ of Pittsburgh",
+      "place_B": "starbucks on Craig Street",
+      "place_C": "Pittsburgh International Airport"
+    },
+    "intent": "What is the duration required to first walk from Univ of Pittsburgh to starbucks on Craig Street, and then drive to Pittsburgh International Airport?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "49 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "49 min"
+    },
+    "intent_template_id": 72
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 82,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the duration required to first walk from {{place_A}} to {{place_B}}, and then drive to {{place_C}}?",
+    "instantiation_dict": {
+      "place_A": "Massachusetts Institute of Technology",
+      "place_B": "Harvard University",
+      "place_C": "Boston Logan International Airport"
+    },
+    "intent": "What is the duration required to first walk from Massachusetts Institute of Technology to Harvard University, and then drive to Boston Logan International Airport?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "63 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "63 min"
+    },
+    "intent_template_id": 72
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 83,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the duration required to first walk from {{place_A}} to {{place_B}}, and then drive to {{place_C}}?",
+    "instantiation_dict": {
+      "place_A": "Carnegie Mellon University",
+      "place_B": "apple store shadyside",
+      "place_C": "starbucks on craig street"
+    },
+    "intent": "What is the duration required to first walk from Carnegie Mellon University to apple store shadyside, and then drive to starbucks on craig street?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "22 min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "22 min"
+    },
+    "intent_template_id": 72
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 84,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "From my stay at {{hotel}}, what's the estimated driving time to reach {{place}}?",
+    "instantiation_dict": {
+      "hotel": "DoubleTree by Hilton New York Downtown",
+      "place": "Keens Steakhouse"
+    },
+    "intent": "From my stay at DoubleTree by Hilton New York Downtown, what's the estimated driving time to reach Keens Steakhouse?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "14 minutes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "14 minutes"
+    },
+    "intent_template_id": 64
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 85,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "From my stay at {{hotel}}, what's the estimated driving time to reach {{place}}?",
+    "instantiation_dict": {
+      "hotel": "La Quinta Inn near the airport",
+      "place": "Carnegie Mellon University"
+    },
+    "intent": "From my stay at La Quinta Inn near the airport, what's the estimated driving time to reach Carnegie Mellon University?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "30 minutes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "30 minutes"
+    },
+    "intent_template_id": 64
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 86,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "From my stay at {{hotel}}, what's the estimated driving time to reach {{place}}?",
+    "instantiation_dict": {
+      "hotel": "La Quinta Inn near the airport",
+      "place": "Upitt"
+    },
+    "intent": "From my stay at La Quinta Inn near the airport, what's the estimated driving time to reach Upitt?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "29 minutes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "29 minutes"
+    },
+    "intent_template_id": 64
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 87,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "From my stay at {{hotel}}, what's the estimated driving time to reach {{place}}?",
+    "instantiation_dict": {
+      "hotel": "red roof inn",
+      "place": "Pittsburgh science museum"
+    },
+    "intent": "From my stay at red roof inn, what's the estimated driving time to reach Pittsburgh science museum?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "20 minutes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "20 minutes"
+    },
+    "intent_template_id": 64
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 88,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "From my stay at {{hotel}}, what's the estimated driving time to reach {{place}}?",
+    "instantiation_dict": {
+      "hotel": "Homewood Suites Southpointe",
+      "place": "PPG Paints Arena"
+    },
+    "intent": "From my stay at Homewood Suites Southpointe, what's the estimated driving time to reach PPG Paints Arena?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "34 minutes"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "34 minutes"
+    },
+    "intent_template_id": 64
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 89,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Which US states border {{state}}?",
+    "instantiation_dict": {
+      "state": "Connecticut"
+    },
+    "intent": "Which US states border Connecticut?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Rhode Island",
+          "Massachusetts",
+          "New York"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Rhode Island, Massachusetts, New York"
+    },
+    "intent_template_id": 67
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 90,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Which US states border {{state}}?",
+    "instantiation_dict": {
+      "state": "Pennsylvania"
+    },
+    "intent": "Which US states border Pennsylvania?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Ohio",
+          "Maryland",
+          "New York",
+          "New Jersey",
+          "Delaware",
+          "West Virginia"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Ohio, Maryland, New York, New Jersey, Delaware, West Virginia"
+    },
+    "intent_template_id": 67
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 91,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Which US states border {{state}}?",
+    "instantiation_dict": {
+      "state": "Massachusetts"
+    },
+    "intent": "Which US states border Massachusetts?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Rhode Island",
+          "Connecticut",
+          "New York",
+          "New Hampshire",
+          "Vermont"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Rhode Island, Connecticut, New York, New Hampshire, Vermont"
+    },
+    "intent_template_id": 67
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 92,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Which US states border {{state}}?",
+    "instantiation_dict": {
+      "state": "Vermont"
+    },
+    "intent": "Which US states border Vermont?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "New York",
+          "New Hampshire",
+          "Massachusetts"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "New York, New Hampshire, Massachusetts"
+    },
+    "intent_template_id": 67
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 93,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Which US states border {{state}}?",
+    "instantiation_dict": {
+      "state": "New Hampshire"
+    },
+    "intent": "Which US states border New Hampshire?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Massachusetts",
+          "Vermont",
+          "Maine"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Massachusetts, Vermont, Maine"
+    },
+    "intent_template_id": 67
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 98,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Where is the nearest {{places}} to {{start}}, and what is the walking distance to it?",
+    "instantiation_dict": {
+      "places": "tea cafe",
+      "start": "University of Pittsburgh"
+    },
+    "intent": "Where is the nearest tea cafe to University of Pittsburgh, and what is the walking distance to it?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Fuku Tea",
+          "3716",
+          "Forbes Avenue",
+          "Central Oakland",
+          "Pittsburgh",
+          "653m"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Fuku Tea, 3716, Forbes Avenue, Oakland, Central Oakland, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States\n653m"
+    },
+    "intent_template_id": 66
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 99,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Where is the nearest {{places}} to {{start}}, and what is the walking distance to it?",
+    "instantiation_dict": {
+      "places": "Five Guys",
+      "start": "5700 Penn Ave"
+    },
+    "intent": "Where is the nearest Five Guys to 5700 Penn Ave, and what is the walking distance to it?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Five Guys",
+          "117",
+          "South Bouquet Street",
+          "North Oakland",
+          "Pittsburgh",
+          "4.0km"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Five Guys, 117, South Bouquet Street, Oakland, North Oakland, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States\n4.0km"
+    },
+    "intent_template_id": 66
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 100,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Where is the nearest {{places}} to {{start}}, and what is the walking distance to it?",
+    "instantiation_dict": {
+      "places": "Starbucks",
+      "start": "Carnegie Mellon"
+    },
+    "intent": "Where is the nearest Starbucks to Carnegie Mellon, and what is the walking distance to it?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Starbucks",
+          "417",
+          "South Craig Street",
+          "Bellefield",
+          "Pittsburgh",
+          "557m"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Starbucks, 417, South Craig Street, Bellefield, Pittsburgh, Allegheny County, Pennsylvania, 15213, United States\n557m"
+    },
+    "intent_template_id": 66
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 101,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Where is the nearest {{places}} to {{start}}, and what is the walking distance to it?",
+    "instantiation_dict": {
+      "places": "In-N-Out",
+      "start": "Upitts"
+    },
+    "intent": "Where is the nearest In-N-Out to Upitts, and what is the walking distance to it?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no In-N-Out near University of Pittsburgh",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 66
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 137,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the estimated driving time between {{city1}} and {{city2}}?",
+    "instantiation_dict": {
+      "city1": "the city where the Liberty Bell is located",
+      "city2": "the home city of Pirates"
+    },
+    "intent": "What is the estimated driving time between the city where the Liberty Bell is located and the home city of Pirates?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "5h 47min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "5h 47min"
+    },
+    "intent_template_id": 51
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 138,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the estimated driving time between {{city1}} and {{city2}}?",
+    "instantiation_dict": {
+      "city1": "the big apple",
+      "city2": "the city with the most authentic Philly cheesesteaks"
+    },
+    "intent": "What is the estimated driving time between the big apple and the city with the most authentic Philly cheesesteaks?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "1h 58min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "1h 58min"
+    },
+    "intent_template_id": 51
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 139,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the estimated driving time between {{city1}} and {{city2}}?",
+    "instantiation_dict": {
+      "city1": "the hometown of Joe Biden",
+      "city2": "Bridgeport"
+    },
+    "intent": "What is the estimated driving time between the hometown of Joe Biden and Bridgeport?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "3h 20min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "3h 20min"
+    },
+    "intent_template_id": 51
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 140,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the estimated driving time between {{city1}} and {{city2}}?",
+    "instantiation_dict": {
+      "city1": "the city of Niagara Falls",
+      "city2": "the city of Yale University"
+    },
+    "intent": "What is the estimated driving time between the city of Niagara Falls and the city of Yale University?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "8h 33min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "8h 33min"
+    },
+    "intent_template_id": 51
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 151,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the minimum travel time by car from {{location1}} to {{location2}}?",
+    "instantiation_dict": {
+      "location1": "CMU",
+      "location2": "University of Pittsburgh"
+    },
+    "intent": "What is the minimum travel time by car from CMU to University of Pittsburgh?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "4min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "4min"
+    },
+    "intent_template_id": 36
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 152,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the minimum travel time by car from {{location1}} to {{location2}}?",
+    "instantiation_dict": {
+      "location1": "Schenley park",
+      "location2": "Upitt"
+    },
+    "intent": "What is the minimum travel time by car from Schenley park to Upitt?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "4min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "4min"
+    },
+    "intent_template_id": 36
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 153,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the minimum travel time by car from {{location1}} to {{location2}}?",
+    "instantiation_dict": {
+      "location1": "REI",
+      "location2": "CMU"
+    },
+    "intent": "What is the minimum travel time by car from REI to CMU?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "7min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "7min"
+    },
+    "intent_template_id": 36
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 154,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the minimum travel time by car from {{location1}} to {{location2}}?",
+    "instantiation_dict": {
+      "location1": "CMU gates building",
+      "location2": "Schenley park"
+    },
+    "intent": "What is the minimum travel time by car from CMU gates building to Schenley park?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "4min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "4min"
+    },
+    "intent_template_id": 36
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 155,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the minimum travel time by car from {{location1}} to {{location2}}?",
+    "instantiation_dict": {
+      "location1": "Animal Rescue League of Pittsburgh",
+      "location2": "Schenley park"
+    },
+    "intent": "What is the minimum travel time by car from Animal Rescue League of Pittsburgh to Schenley park?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "9min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "9min"
+    },
+    "intent_template_id": 36
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 218,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Show me the walking distance from nearby hotels to {{location}} that take at most {{n}} minutes?",
+    "instantiation_dict": {
+      "location": "CMU, Pittsburgh",
+      "n": "5"
+    },
+    "intent": "Show me the walking distance from nearby hotels to CMU, Pittsburgh that take at most 5 minutes?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no hotel near CMU that is within 5 minutes walking distance",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 41
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 219,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Show me the walking distance from nearby hotels to {{location}} that take at most {{n}} minutes?",
+    "instantiation_dict": {
+      "location": "Pittsburgh airport",
+      "n": "3"
+    },
+    "intent": "Show me the walking distance from nearby hotels to Pittsburgh airport that take at most 3 minutes?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no hotel near CMU that is within 5 minutes walking distance",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 41
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 220,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Show me the walking distance from nearby hotels to {{location}} that take at most {{n}} minutes?",
+    "instantiation_dict": {
+      "location": "Gardner Steel Conference Center,",
+      "n": 5
+    },
+    "intent": "Show me the walking distance from nearby hotels to Gardner Steel Conference Center, that take at most 5 minutes?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "Wyndham Pittsburgh University Cente: 375m",
+          "The Oaklander Hotel: 338m"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Wyndham Pittsburgh University Cente: 375 m\nThe Oaklander Hotel: 338 m"
+    },
+    "intent_template_id": 41
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 221,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I am at CMU Pittsburgh, how long it takes to the nearest {{location}} with different transportation methods?",
+    "instantiation_dict": {
+      "location": "USPS postal office"
+    },
+    "intent": "I am at CMU Pittsburgh, how long it takes to the nearest USPS postal office with different transportation methods?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "Walk: 1 minute",
+          "Drive: less than 1 minute",
+          "Bike: less than 1 minute"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Walk: 1 minute to walk and\nDrive: less than 1 minute\nBike: less than 1 minute"
+    },
+    "intent_template_id": 35
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 222,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I am at CMU Pittsburgh, how long it takes to drive to the nearest {{location}}",
+    "instantiation_dict": {
+      "location": "cold stone ice cream"
+    },
+    "intent": "I am at CMU Pittsburgh, how long it takes to drive to the nearest cold stone ice cream",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "3min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "3min"
+    },
+    "intent_template_id": 35
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 223,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I am at CMU Pittsburgh, how long it takes to drive to the nearest {{location}}",
+    "instantiation_dict": {
+      "location": "Mcdonald's"
+    },
+    "intent": "I am at CMU Pittsburgh, how long it takes to drive to the nearest Mcdonald's",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "4min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "4min"
+    },
+    "intent_template_id": 35
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 224,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I am at CMU Pittsburgh, how long it takes to drive to the nearest {{location}}",
+    "instantiation_dict": {
+      "location": "wendys"
+    },
+    "intent": "I am at CMU Pittsburgh, how long it takes to drive to the nearest wendys",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "3min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "3min"
+    },
+    "intent_template_id": 35
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 236,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Where is the nearest {{location}} from {{location2}} {{condition}}",
+    "instantiation_dict": {
+      "location": "pharmacy",
+      "location2": "Carnegie Mellon",
+      "condition": "I can walk within 20mins"
+    },
+    "intent": "Where is the nearest pharmacy from Carnegie Mellon I can walk within 20mins",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Schiller's Pharmacy",
+          "811",
+          "South Aiken Avenue",
+          "Shadyside",
+          "Pittsburgh"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Schiller's Pharmacy, 811, South Aiken Avenue, Shadyside, Pittsburgh, Allegheny County, 15232, United States"
+    },
+    "intent_template_id": 39
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 237,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Where is the nearest {{location}} from {{location2}} {{condition}}",
+    "instantiation_dict": {
+      "location": "gas station",
+      "location2": "CMU",
+      "condition": ""
+    },
+    "intent": "Where is the nearest gas station from CMU ",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Sunoco",
+          "North Craig Street",
+          "North Oakland",
+          "Pittsburgh"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Sunoco, North Craig Street, North Oakland, Pittsburgh, Allegheny County, 15213, United States"
+    },
+    "intent_template_id": 39
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 248,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the coordinates of {{location}} in DD format",
+    "instantiation_dict": {
+      "location": "Carnegie Mellon Caf\u00e9"
+    },
+    "intent": "Tell me the coordinates of Carnegie Mellon Caf\u00e9 in DD format",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "40.442",
+          "-79.939"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "40.4424191, -79.9397388"
+    },
+    "intent_template_id": 46
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 249,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the coordinates of {{location}} in DD format",
+    "instantiation_dict": {
+      "location": "Western Pennsylvania Hospital Heliport"
+    },
+    "intent": "Tell me the coordinates of Western Pennsylvania Hospital Heliport in DD format",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "40.460",
+          "-79.946"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "40.46076, -79.94666"
+    },
+    "intent_template_id": 46
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 250,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the coordinates of {{location}} in DD format",
+    "instantiation_dict": {
+      "location": "Apple Store near Pitt"
+    },
+    "intent": "Tell me the coordinates of Apple Store near Pitt in DD format",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "40.451",
+          "-79.933"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "40.4511693, -79.9334241"
+    },
+    "intent_template_id": 46
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 251,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the coordinates of {{location}} in DD format",
+    "instantiation_dict": {
+      "location": "bus stop on the Carnegie art museum side of the street near CMU"
+    },
+    "intent": "Tell me the coordinates of bus stop on the Carnegie art museum side of the street near CMU in DD format",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "40.444",
+          "-79.948"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "40.4443, -79.94889"
+    },
+    "intent_template_id": 46
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 252,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Tell me the coordinates of {{location}} in DD format",
+    "instantiation_dict": {
+      "location": "Tokyo Japanese Food Store in Pittsburgh"
+    },
+    "intent": "Tell me the coordinates of Tokyo Japanese Food Store in Pittsburgh in DD format",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "40.457",
+          "-79.929"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "40.45761, -79.92934"
+    },
+    "intent_template_id": 46
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 253,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the {{information}} of {{location}}",
+    "instantiation_dict": {
+      "location": "Carnegie Mellon Caf\u00e9",
+      "information": "phone number"
+    },
+    "intent": "What is the phone number of Carnegie Mellon Caf\u00e9",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no such information in the map",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 501
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 254,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the {{information}} of {{location}}",
+    "instantiation_dict": {
+      "location": "Western Pennsylvania Hospital",
+      "information": "phone number"
+    },
+    "intent": "What is the phone number of Western Pennsylvania Hospital",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "4125785000"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "4125785000"
+    },
+    "intent_template_id": 501
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 255,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Who is the {{information}} of {{location}}",
+    "instantiation_dict": {
+      "location": "PIT airport",
+      "information": "operator"
+    },
+    "intent": "Who is the operator of PIT airport",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "Allegheny County Airport Authority"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Allegheny County Airport Authority"
+    },
+    "intent_template_id": 501
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 256,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the {{information}} of {{location}}",
+    "instantiation_dict": {
+      "location": "Carnegie art museum in pittsburgh",
+      "information": "website"
+    },
+    "intent": "What is the website of Carnegie art museum in pittsburgh",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "http://web.cmoa.org/"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "http://web.cmoa.org/"
+    },
+    "intent_template_id": 501
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 257,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "What is the {{information}} of {{location}}",
+    "instantiation_dict": {
+      "location": "Tokyo Japanese Food Store in Pittsburgh",
+      "information": "hours of operation"
+    },
+    "intent": "What is the hours of operation of Tokyo Japanese Food Store in Pittsburgh",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "We-Su 10:00-17:00"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "We-Su 10:00-17:00"
+    },
+    "intent_template_id": 501
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 287,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "How much time does it take from Pittsburgh to Philadelphia by car?",
+    "instantiation_dict": {},
+    "intent": "How much time does it take from Pittsburgh to Philadelphia by car?",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": [
+          "5h 47min"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "5h 47min"
+    },
+    "intent_template_id": 47
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 363,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Measure distance between {{location/address_1}} and {{location/address_2}} by walking",
+    "instantiation_dict": {
+      "location/address_1": "Carnegie Mellon University",
+      "location/address_2": "Carnegie Music Hall"
+    },
+    "intent": "Measure distance between Carnegie Mellon University and Carnegie Music Hall by walking",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "748m"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "748m"
+    },
+    "intent_template_id": 58
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 364,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Measure distance between {{location/address_1}} and {{location/address_2}} by walking",
+    "instantiation_dict": {
+      "location/address_1": "Carnegie Mellon University",
+      "location/address_2": "UPMC Shadyside"
+    },
+    "intent": "Measure distance between Carnegie Mellon University and UPMC Shadyside by walking",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "1.7km"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "1.7km"
+    },
+    "intent_template_id": 58
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 365,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Measure distance between {{location/address_1}} and {{location/address_2}} by walking",
+    "instantiation_dict": {
+      "location/address_1": "Carnegie Music Hall",
+      "location/address_2": "UPMC Shadyside"
+    },
+    "intent": "Measure distance between Carnegie Music Hall and UPMC Shadyside by walking",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "2.2km"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "2.2km"
+    },
+    "intent_template_id": 58
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 366,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Measure distance between {{location/address_1}} and {{location/address_2}} by walking",
+    "instantiation_dict": {
+      "location/address_1": "CVS (closet one)",
+      "location/address_2": "UPMC Shadyside"
+    },
+    "intent": "Measure distance between CVS (closet one) and UPMC Shadyside by walking",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "1.2km"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "1.2km"
+    },
+    "intent_template_id": 58
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 367,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "Measure distance between {{location/address_1}} and {{location/address_2}} by walking",
+    "instantiation_dict": {
+      "location/address_1": "Carnegie Mellon University",
+      "location/address_2": "CVS (closet one)"
+    },
+    "intent": "Measure distance between Carnegie Mellon University and CVS (closet one) by walking",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "exact_match": "1.4km"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "1.4km"
+    },
+    "intent_template_id": 58
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 382,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I am arriving at Carnegie Mellon University. Find the nearby US Citizenship and Immigration Services and the walking distance to the nearest Social Security Administration from US Citizenship and Immigration Services",
+    "instantiation_dict": {},
+    "intent": "I am arriving at Carnegie Mellon University. Find the nearby US Citizenship and Immigration Services and the walking distance to the nearest Social Security Administration from US Citizenship and Immigration Services",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "fuzzy_match": "N/A"
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "There is no USCIS nearby",
+      "reference_answer_raw_annotation": "N/A"
+    },
+    "intent_template_id": 781
+  },
+  {
+    "sites": [
+      "map"
+    ],
+    "task_id": 383,
+    "require_login": true,
+    "storage_state": null,
+    "start_url": "http://ec2-3-131-244-37.us-east-2.compute.amazonaws.com:3000",
+    "geolocation": null,
+    "intent_template": "I am arriving at Pittsburgh Airport. Show me the name of a Hyatt hotel if there is any nearby. Tell me the names of supermarkets that are within 15mins driving from the hotel",
+    "instantiation_dict": {},
+    "intent": "I am arriving at Pittsburgh Airport. Show me the name of a Hyatt hotel if there is any nearby. Tell me the names of supermarkets that are within 15mins driving from the hotel",
+    "require_reset": false,
+    "eval": {
+      "eval_types": [
+        "string_match"
+      ],
+      "reference_answers": {
+        "must_include": [
+          "Hyatt Regency Pittsburgh International Airport",
+          "Giant Eagle",
+          "ALDI"
+        ]
+      },
+      "reference_url": "",
+      "program_html": [],
+      "string_note": "",
+      "reference_answer_raw_annotation": "Hyatt Regency Pittsburgh International Airport Giant Eagle, ALDI"
+    },
+    "intent_template_id": 782
+  }
+]
