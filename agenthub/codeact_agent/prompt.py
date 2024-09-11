@@ -172,12 +172,7 @@ exit()
 </execute_bash>
 """
 
-API_PREFIX = f"""
-To perform web browsing on {site_name}, you should navigate to `{browsing_url}` -- you should use this instead of the normal {site_name} URL.
 
-Below is the list of all APIs you can use and their descriptions:
-{api_file}
-"""
 
 
 SYSTEM_SUFFIX = """Responses should be concise.
