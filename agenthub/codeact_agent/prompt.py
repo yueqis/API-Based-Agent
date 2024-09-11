@@ -23,11 +23,144 @@ For example, to run a Python script that might run indefinitely without returnin
 Also, if a command execution result saying like: Command: "npm start" timed out. Sending SIGINT to the process, you should also retry with running the command in the background.
 """
 
-BROWSING_PREFIX = """\nThe assistant can browse the Internet with <execute_browse> and </execute_browse>. You could include one or more actions within <execute_browse>, and you must enclose the action(s) using ```. For example, <execute_browse> ```action_1\naction_2\naction_3\n``` </execute_browse>.
-Action Space - 16 different types of actions are available.\n\nnoop(wait_ms: float = 1000)\n    Examples:\n        ```noop()```\n\n        ```noop(500)```\n\nsend_msg_to_user(text: str)\n    Examples:\n        ```send_msg_to_user(\'Based on the results of my search, the city was built in 1751.\')```\n\nscroll(delta_x: float, delta_y: float)\n    Examples:\n        ```scroll(0, 200)```\n\n        ```scroll(-50.2, -100.5)```\n\n```fill(bid: str, value: str)```\n    Examples:\n        ```fill(\'237\', \'example value\')```\n\n        ```fill(\'45\', \'multi-line\\nexample\')```\n\n        ```fill(\'a12\', \'example with "quotes"\')```\n\nselect_option(bid: str, options: str | list[str])\n    Examples:\n        ```select_option(\'48\', \'blue\')```\n\n        ```select_option(\'48\', [\'red\', \'green\', \'blue\'])```\n\nclick(bid: str, button: Literal[\'left\', \'middle\', \'right\'] = \'left\', modifiers: list[typing.Literal[\'Alt\', \'Control\', \'Meta\', \'Shift\']] = [])\n    Examples:\n        ```click(\'51\')```\n\n        ```click(\'b22\', button=\'right\')```\n\n        ```click(\'48\', button=\'middle\', modifiers=[\'Shift\'])```\n\ndblclick(bid: str, button: Literal[\'left\', \'middle\', \'right\'] = \'left\', modifiers: list[typing.Literal[\'Alt\', \'Control\', \'Meta\', \'Shift\']] = [])\n    Examples:\n        ```dblclick(\'12\')```\n\n        ```dblclick(\'ca42\', button=\'right\')```\n\n        ```dblclick(\'178\', button=\'middle\', modifiers=[\'Shift\'])```\n\nhover(bid: str)\n    Examples:\n        ```hover(\'b8\')```\n\npress(bid: str, key_comb: str)\n    Examples:\n        ```press(\'88\', \'Backspace\')```\n\n        ```press(\'a26\', \'Control+a\')```\n\n        ```press(\'a61\', \'Meta+Shift+t\')```\n\nfocus(bid: str)\n    Examples:\n        ```focus(\'b455\')```\n\nclear(bid: str)\n    Examples:\n        ```clear(\'996\')```\n\ndrag_and_drop(from_bid: str, to_bid: str)\n    Examples:\n        ```drag_and_drop(\'56\', \'498\')```\n\nupload_file(bid: str, file: str | list[str])\n    Examples:\n        ```upload_file(\'572\', \'my_receipt.pdf\')```\n\n        ```upload_file(\'63\', [\'/home/bob/Documents/image.jpg\', \'/home/bob/Documents/file.zip\'])```\n\ngo_back()\n    Examples:\n        ```go_back()```\n\ngo_forward()\n    Examples:\n        ```go_forward()```\n\ngoto(url: str)\n    Examples:\n        ```goto(\'http://www.example.com\')```\n\nMultiple actions can be provided at once. ***IMPORTANT: Note that if you are providing multiple actions, then you should enclose all of the actions in one pair of ```. For example:\n```fill(\'a12\', \'example with "quotes"\')\nclick(\'51\')\nclick(\'48\', button=\'middle\', modifiers=[\'Shift\'])```\nMultiple actions are meant to be executed sequentially without any feedback from the page.***\nDon\'t execute multiple actions at once if you need feedback from the page.\n\n'
-For example, if you would like to use the click action, you could do: <execute_browse> In order to accomplish my goal of finding the name of the usa's president using google search, I need to click on the button with bid 12\n```click("12")```\n </execute_browse>.
-For each step, you should review the current state of the page and all other information to find the best possible next action to accomplish your goal. Your answer will be interpreted and executed by a program, make sure to follow the formatting instructions.
+BROWSING_PREFIX = """
+The assistant can browse the Internet by putting special browsing commands within <execute_browse> and </execute_browse> (in Python syntax).
+For example to get a dropdown button with bid 12, and click on the submit button with bid 51:
+
+```
+Select the option 'blue' from the dropdown, and click on the submit button.
+<execute_browse>
+select_option('12', 'blue')
+click('51')
+</execute_browse>
+```
+
+The below actions are available:
+
+```
+def goto(url: str):
+    '''Navigate to the specified URL.
+    
+    Examples:
+        goto('http://www.example.com')
+    '''
+    
+def go_back():
+    '''Navigate back to the previous page.
+
+    Examples:
+        go_back()
+    '''
+
+def go_forward():
+    '''Navigate forward to the next page.
+
+    Examples:
+        go_forward()
+    '''
+
+def scroll(delta_x: float, delta_y: float):
+    '''Scroll the page by the specified amount.
+
+    Examples:
+        scroll(0, 200)
+
+        scroll(-50.2, -100.5)
+    '''
+
+def fill(bid: str, value: str):
+    '''Fill the input field with the specified value.
+
+    Examples:
+        fill('237', 'example value')
+
+        fill('45', 'multi-line\
+example')
+
+        fill('a12', 'example with "quotes"')
+    '''
+
+def select_option(bid: str, options: str | list[str]):
+    '''Select an option from a dropdown menu.
+
+    Examples:
+        select_option('48', 'blue')
+
+        select_option('48', ['red', 'green', 'blue'])
+    '''
+
+def click(bid: str, button: Literal['left', 'middle', 'right'] = 'left', modifiers: list[typing.Literal['Alt', 'Control', 'Meta', 'Shift']] = []):
+    '''Click on an element with the specified button and modifiers.
+
+    Examples:
+        click('51')
+
+        click('b22', button='right')
+
+        click('48', button='middle', modifiers=['Shift'])
+    '''
+
+def dblclick(bid: str, button: Literal['left', 'middle', 'right'] = 'left', modifiers: list[typing.Literal['Alt', 'Control', 'Meta', 'Shift']] = []):
+    '''Double-click on an element with the specified button and modifiers.
+
+    Examples:
+        dblclick('12')
+
+        dblclick('ca42', button='right')
+
+        dblclick('178', button='middle', modifiers=['Shift'])
+    '''
+
+def hover(bid: str):
+    '''Hover over an element.
+
+    Examples:
+        hover('b8')
+    '''
+
+def press(bid: str, key_comb: str):
+    '''Press a key combination on an element.
+
+    Examples:
+        press('88', 'Backspace')
+
+        press('a26', 'Control+a')
+
+        press('a61', 'Meta+Shift+t')
+    '''
+
+def focus(bid: str):
+    '''Focus on an element.
+
+    Examples:
+        focus('b455')
+    '''
+
+def clear(bid: str):
+    '''Clear the input field.
+
+    Examples:
+        clear('996')
+    '''
+
+def drag_and_drop(from_bid: str, to_bid: str):
+    '''Drag and drop an element to another element.
+
+    Examples:
+        drag_and_drop('56', '498')
+    '''
+
+def upload_file(bid: str, file: str | list[str]):
+    '''Upload a file to the specified element.
+
+    Examples:
+        upload_file('572', 'my_receipt.pdf')
+
+        upload_file('63', ['/home/bob/Documents/image.jpg', '/home/bob/Documents/file.zip'])
+    '''
+```
 """
+
 PIP_INSTALL_PREFIX = """The assistant can install Python packages using the %pip magic command in an IPython environment by using the following syntax: <execute_ipython> %pip install [package needed] </execute_ipython> and should always import packages and define variables before starting to use them."""
 
 SYSTEM_PREFIX = MINIMAL_SYSTEM_PREFIX + BROWSING_PREFIX + PIP_INSTALL_PREFIX

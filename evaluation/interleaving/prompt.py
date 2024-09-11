@@ -1,35 +1,41 @@
-def get_gitlab_initial_prompt(task, gitlab_token='', gitlab_api_file=''):
+def get_initial_prompt(site_name, browsing_url, task, api_token='', web_username='', web_password='', extra_user_info=''):
     # obtain the intent
     intent = task['intent']
     task_start_url = task['start_url']
     if task_start_url != 'http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023':
         new_url = task_start_url.split('http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/')[1]
         intent += f'\nThis task is related to the project: `{new_url}`; if you are using web browsing, then the project URL is: `{task_start_url}`'
-    user_prompt_1 = f'Think step by step to perform the task related to Gitlab usage: {intent}.\n'
-    user_prompt_1 += 'Your Gitlab endpoint is `http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023`. You should use `http://ec2-18-219-239-190.us-east-2.compute.amazonaws.com:8023/` instead of `https://gitlab.com/`.\n'
-    user_prompt_1 += 'You could complete the task through two ways: browsing and API calling.\n'
-    user_prompt_1 += 'For browsing, use the following login credentials: username - byteblaze, password - hello1234\n'
-    user_prompt_1 += "To complete the task, for each step you could either perform 'Web Browsing' or 'API Calling'.\n"
-    user_prompt_1 += 'For Web Browsing, you should do <execute_browse> YOUR_COMMAND </execute_browse>. You should explain which steps you would like to perform using web browsing thoroughly. '
-    user_prompt_1 += 'Web Browsing is generally useful when there are no useful APIs available for the task or when an URL is required for the task.\n'
-    user_prompt_1 += 'If you decide to use web browsing, then you need to make sure that the URL you are going to satisfy the constraints of the task. For example, if the task asks you to provide the best product, then you would likely need to update the URL you are browsing such that it sorts the products and put the best product at the top.'
-    user_prompt_1 += 'When appropriate, you should try to provide an ending url webpage, where you should use web browsing to browse to a result page when finishing the task, such that we could validate whether you are doing the task correctly. '
-    user_prompt_1 += "To call APIs, you must generate and execute *python*'s code to use API calls through the requests library. The requests library is already installed for you. "
-    user_prompt_1 += 'To perform the task, you should try to parse and understand the response of the API calls, without generating code to process the response. I.e., you do not need to use python to process the response from API calling; instead you should parse the API response manually and ensure the relevant information is correctly extracted and utilized. '
-    user_prompt_1 += f'You should use my gitlab access token {gitlab_token}. My gitlab username is byteblaze, my name is Byte Blaze, and my user id is 2330.\n'
-    user_prompt_1 += 'Make good use of HTTP headers when making API calls, and be careful of the input parameters to each api call.\n'
-    user_prompt_1 += 'These are all the information you have for now, and you should not assume any additional information or ask for any user input.\n'
-    user_prompt_1 += "IMPORTANT: The information provided might be incomplete or ambiguous. For example, if the I want to search for a repo 'xyz', then 'xyz' could be the name of the repo, it could be the path of the repo, or it could also be the first three characters of the repo's full name. "
-    user_prompt_1 += 'Thus, your code should *cover all potential cases* that the user might be indicating and be careful about nuances.\n'
-    user_prompt_1 += 'Additionally, the response json obtained through the API calls will only include the first `per-page`-many instances, so make sure that you looked at all instances but not only the first `per-page`-many instances.\n'
-    user_prompt_1 += 'I will provide with you a list of API calls that you can use.\n'
-    user_prompt_1 += 'You should first do `from utils import get_api_documentation_gitlab` using python to be able to use this function. '
-    user_prompt_1 += "This function is defined by get_api_documentation_gitlab(api: str) -> str, which has args api (str): The API whose documentations to retrieve. For example, 'get /api/v4/projects/{id}/repository/commits'. "
-    user_prompt_1 += 'This function returns the readme documentation of an API that provides you with details instructions on how to use the API.\n'
-    user_prompt_1 += 'If you think an API is relevant to the task, you should call get_api_documentation_gitlab(api) to get more details on how to use this API. You should execute get_api_documentation_gitlab yourself without waiting for the user to execute it.\n'
-    user_prompt_1 += 'When you think you finished the task, respond with `Finish[answer]` where you include your answer in `[]` if the user asks for an answer; otherwise respond with Finish[]. If you would like to provide an URL, you should respond with `URL[{url}]` if \n'
-    user_prompt_1 += 'Below is the list of all APIs you can use and their descriptions:\n'
-    user_prompt_1 += f'{gitlab_api_file}\n'
+
+    extra_user_info += f"My display name is Byte Blaze, and my user id is 2330."
+    credentials = (
+        f"For API calling, use this access token: {api_token}\n"
+        f"For browsing, use the following login credentials: username - {web_username}, password - {web_password}"
+        f"{extra_user_info}"
+    ) 
+
+    user_prompt_1 = f"""You are an AI assistant that should perform a task on the {site_name} web site.
+
+You have the ability to call site-specific APIs, or browse the web site directly. In general, you should try to use APIs to perform the task; however, you can use web browsing when there is no useful API available for the task, or when the task requires navigating to a specific URL.
+
+To call APIs, you must generate and execute Python code to use API calls through the requests library. The requests library is already installed for you. Here are some hints about effective API usage:
+* It is better to actually view the API response and ensure the relevant information is correctly extracted and utilized before attempting any programmatic parsing.
+* Make use of HTTP headers when making API calls, and be careful of the input parameters to each API call.
+* Be careful about pagination of the API response, the response might only contain the first few instances, so make sure you look at all instances.
+
+To perform web browsing on {site_name}, you should navigate to `{browsing_url}` -- you should use this instead of the normal {site_name} URL.
+To browse the web, first explain which steps you would like to perform using web browsing, and then use <execute_browse> YOUR_COMMAND </execute_browse>. If the task requires showing a web page to the user, be sure to travel to the page so that we can validate whether you have done the task correctly.
+
+IMPORTANT: The information provided might be incomplete or ambiguous. For example, if the I want to search for a repo 'xyz', then 'xyz' could be the name of the repo, it could be the path of the repo, or it could also be the first three characters of the repo's full name. Thus, your solution should attempt to *cover all potential cases* that the user might be indicating and be careful about nuances.
+
+I will provide with you a list of API calls that you can use.
+You should first do `from utils import get_api_documentation_gitlab` using python to be able to use this function. '
+This function is defined by get_api_documentation_gitlab(api: str) -> str, which has args api (str): The API whose documentations to retrieve. For example, 'get /api/v4/projects/{id}/repository/commits'.
+This function returns the readme documentation of an API that provides you with details instructions on how to use the API.
+If you think an API is relevant to the task, you should call get_api_documentation_gitlab(api) to get more details on how to use this API. You should execute get_api_documentation_gitlab yourself without waiting for the user to execute it.
+When you think you finished the task, respond with `Finish[answer]` where you include your answer in `[]` if the user asks for an answer; otherwise respond with Finish[]. If you would like to provide an URL, you should respond with `URL[{url}]` if 
+Below is the list of all APIs you can use and their descriptions:
+{gitlab_api_file}
+"""
     return user_prompt_1
 #print(get_initial_prompt("How many commits did kilian make to a11yproject on 3/5/2023?"))
 
