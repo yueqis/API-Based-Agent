@@ -31,7 +31,7 @@ get_api_documentation('GET /api/v4/projects/{id}/repository/commits')
 </execute_ipython>
 
 You can browse the Internet by putting special browsing commands within <execute_browse> and </execute_browse> (in Python syntax).
-For example to get a dropdown button with bid 12, and click on the submit button with bid 51:
+For example to select the option 'blue' from the dropdown menu with bid 12, and click on the submit button with bid 51:
 <execute_browse>
 select_option('12', 'blue')
 click('51')
