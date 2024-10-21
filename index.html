@@ -1,0 +1,550 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>Beyond Browsing: API-Based Web Agents</title>
+        <link rel="icon" type="image/x-icon" href="/static/img/icons/web.png">
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- Open Graph -->
+        <meta property="og:url" content="https://github.com/yueqis/API-Based-Agent" />
+        <meta property="og:image" content="https://pangea.github.io/static/img/preview.png" />
+        <meta property="og:title" content="Beyond Browsing: API-Based Web Agents" />
+        <meta property="og:description" content="Beyond Browsing: API-Based Web Agents" />
+        
+        <!-- Twitter -->
+        <meta name="twitter:url" content="https://github.com/yueqis/API-Based-Agent" />
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:image" content="https://github.com/yueqis/API-Based-Agent/static/img/preview.png" />
+        <meta name="twitter:title" content="Beyond Browsing: API-Based Web Agents" />
+        <meta name="twitter:description" content="This project explores a novel approach to web agents by enabling them to use APIs in addition to traditional web-browsing techniques. By leveraging API calls, agents can perform tasks more efficiently and accurately, especially on websites with comprehensive API support." />
+       
+        <script src="./static/js/distill_template.v2.js"></script>
+        <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+        <script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+        <script src="https://d3js.org/d3.v5.min.js"></script>
+        <script src="https://d3js.org/d3-collection.v1.min.js"></script>
+        <script src="https://rawgit.com/nstrayer/slid3r/master/dist/slid3r.js"></script>
+
+        <script defer="" src="./static/js/hider.js"></script>
+        <script src="./static/js/image_interact.js"></script>
+        <script src="./static/js/switch_videos.js"></script>
+
+        <link rel="stylesheet" href="./static/css/style.css">
+        <link rel="stylesheet" href="./static/css/fontawesome.all.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
+        
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.css" integrity="sha384-yFRtMMDnQtDRO8rLpMIKrtPCD5jdktao2TV19YiZYWMDkUR5GQZR/NOVTdquEx1j" crossorigin="anonymous">
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/katex.min.js" integrity="sha384-9Nhn55MVVN0/4OFx7EE5kpFBPsEMZxKTCnA+4fqDmg12eCTqGi6+BB2LjY8brQxJ" crossorigin="anonymous"></script>
+        <script defer src="https://cdn.jsdelivr.net/npm/katex@0.10.2/dist/contrib/auto-render.min.js" integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI" crossorigin="anonymous"
+            onload="renderMathInElement(document.body);"></script>
+        <script defer src="./static/js/fontawesome.all.min.js"></script>
+
+
+        <!-- medium zoom https://github.com/francoischalifour/medium-zoom -->
+        <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script>  <!-- jquery -->
+        <script defer src="./static/js/medium-zoom.min.js"></script>
+        <script defer src="./static/js/zoom.js"></script>
+    </head>
+    <body>
+        <div class="header-wrapper">
+            <div class="header-container" id="header-container">
+                <div class="header-content">
+                    <h1 style="margin-top: 0px"><i>Beyond Browsing:</i></h1>
+                    <h2><i>API-Based Web Agents</i></h2>
+
+                        <p>
+                            This project explores a novel approach to web agents by enabling them to use <strong>APIs</strong> in addition to traditional web-browsing techniques. 
+                            By leveraging API calls, agents can perform tasks more efficiently and accurately, especially on websites with comprehensive API support.
+                        </p>
+                    
+                        <div class="icon-container">
+                            <div class="icon-item">
+                                <img src="./static/img/icons/api.png" alt="api Icon">
+                                <div><strong>API-Based Agent</strong>: The API-based agent leverages application programming interfaces (APIs) to interact directly with web services, bypassing traditional web-browsing actions like simulated clicks.</div>
+                            </div>
+                            <div class="icon-item">
+                                <img src="./static/img/icons/hybrid.png" alt="hybrid Icon">
+                                <div><strong>Hybrid Agent</strong>: a agent that combines the power of API-Based Agent and traditional Web-Based Agent, capable of interleaving API calls and Web Browsing.</div>
+                            </div>
+                            <div class="icon-item">
+                                <img src="./static/img/icons/task.png" alt="Benchmarking Icon">
+                                <div><strong>Real-World Web Task Evaluation and Analysis</strong>: On WebArena, a real-world web task benchmark, our hybrid agent achieve sota performance among task-agnostic models.</div>
+                            </div>
+                        </div>
+
+                    <div class="button-container">
+                        <!-- replace arxiv -->
+                        <a href="https://arxiv.org/abs/" class="button paper-link" target="_blank">
+                            <span class="icon is-small">
+                                <i class="ai ai-arxiv"></i>
+                            </span>
+                            arXiv
+                        </a>
+                        <!-- replace pdf -->
+                        <a href="https://arxiv.org/pdf/" class="button paper-link" target="_blank">
+                            <span class="icon is-small">
+                                <i class="fas fa-file-pdf"></i>
+                            </span>
+                            <span>pdf</span>
+                        </a>
+                        <!-- replace image -->
+                        <a href="https://github.com/yueqis/API-Based-Agent" class="button" target="_blank">
+                            <span class="icon is-small">
+                                <i class="fab fa-github"></i>
+                            </span>
+                            <span>Code</span>
+                        </a>
+                        <!-- <br> -->                      
+                    </div>
+                </div>
+                <div class="header-image">
+                    <img draggable="false" src="static/img/icons/agent.png" alt="Teaser Image" class="teaser-image">
+                </div>
+            </div>
+        </div>
+    <d-article>
+        <div class="byline">
+            <div class="byline-container">
+                <p>
+                    <a href="https://yueqis.github.io/" class="author-link" target="_blank">Yueqi Song</a> &emsp;
+                    <a href="https://frankxfz.me/" class="author-link" target="_blank">Frank Xu</a> &emsp;
+                    <a href="https://shuyanzhou.github.io/" class="author-link" target="_blank">Shuyan Zhou</a> &emsp;
+                    <a href="https://www.phontron.com/" class="author-link" target="_blank">Graham Neubig</a>
+                    <p></p>
+                    <a href="https://www.cs.cmu.edu/" class="affiliation-link" id="affiliation" target="_blank">Carnegie Mellon University</a>
+                </p>
+            </div>
+        </div>
+        
+        <p class="text abstract">
+
+            Web browsers are a portal to the internet, where much of human activity is undertaken. 
+            Thus, there has been significant research work in AI agents that interact with the internet through web browsing.
+            However, there is also another interface designed specifically for machine interaction with online content: application programming interfaces (APIs).
+            In this paper we ask -- <strong>what if we were to take tasks traditionally tackled by browsing agents, and give AI agents access to APIs?</strong>
+            To do so, we propose two varieties of agents: (1) an API-calling agent that attempts to perform online tasks through APIs only, similar to traditional coding agents, and (2) a hybrid agent that can interact with online data through both web browsing and APIs.
+            In experiments on WebArena <d-cite key="zhou2023webarena"></d-cite>, a widely-used and realistic benchmark for web navigation tasks, we find that API-based agents outperform web browsing agents, as depicted in <a href="#fig:main">Figure 1</a>.
+            Hybrid agents outperform both others nearly uniformly across tasks, resulting in a more than 20.0% absolute improvement over web browsing alone, achieving a success rate of 35.8%.
+            These results strongly suggest that when APIs are available, they present an attractive alternative to relying on web browsing alone.
+        </p>
+
+        <figure id="fig:main">
+            <img data-zoomable="" draggable="false" src="static/img/main.png" alt="main">
+            <figcaption>
+                <strong>Figure 1:</strong> A comparison of three types of agents. 
+                The Browsing Agent performs tasks through web browsing only, utilizing the accessibility tree to interact with web pages, achieving an average performance of 14.8% on WebArena. 
+                The API-Based Agent performs tasks by making API calls and generating code without relying on web browsing, achieving an average accuracy of 29.2%. 
+                The Hybrid Agent combines both methods, dynamically switching between web browsing and API calling, depending on the task. 
+                This allows the execution of either API calls or web browsing actions, or both in combination, improving performance by more than 5 percentage points compared to the API-Based Agent.
+            </figcaption>
+        </figure>
+
+        <p class="text abstract">
+            This project is structured around three key aspects:
+            <ol class="text">
+                <li><strong><a href="#api">&sect;API-Based Agent</a></strong>: The API-based agent is designed to interact directly with web services using structured API calls, bypassing traditional web-browsing methods like simulated clicks and form inputs. By leveraging predefined endpoints, the agent can efficiently retrieve and manipulate data, reducing the number of steps required to complete tasks. This approach not only improves task accuracy but also enhances efficiency, especially on websites with comprehensive API support.</li>
+                <li><strong><a href="#hybrid">&sect;Hybrid Agent</a></strong>: The hybrid agent combines the strengths of API-based interactions and traditional web browsing by dynamically switching between the two methods based on the task requirements. This flexibility allows the agent to leverage API calls when they are available and efficient, while seamlessly resorting to web browsing actions for tasks that lack adequate API support. As a result, the hybrid agent is capable of handling a wider range of tasks with improved accuracy and efficiency compared to API-Based and traditional web agents. </li>
+                <li><strong><a href="#benchmarking">&sect;Real-World Task Evaluation and Analysis</a></strong>: Are compare the agent on the WebArena benchmark. We are the first to perform a comparison of API-based agents, browsing-only agents, and hybrid agents. The results demonstrated that API-based agents outperformed browsing-only agents on websites with comprehensive API support, while the hybrid agent achieved the highest overall accuracy by dynamically switching between APIs and web browsing. Our analysis shows that the hybrid approach not only improves task efficiency but also provides greater flexibility and robustness in handling diverse and complex web interactions.</li>
+            </ol>
+        </p>
+
+        <div class="icon-row">
+            <a href="#browsing" class="icon-link">
+                <img src="static/img/icons/web.png" alt="browsing Logo" class="icon">
+                Browsing Tasks
+            </a>
+            <a href="#api" class="icon-link">
+                <img src="static/img/icons/api.png" alt="api Logo" class="icon">
+                API-Based Agent
+            </a>
+            <a href="#hybrid" class="icon-link">
+                <img src="static/img/icons/hybrid.png" alt="hybrid Logo" class="icon">
+                Hybrid Agent
+            </a>
+            <a href="#experiment" class="icon-link">
+                <img src="static/img/icons/task.png" alt="task Logo" class="icon">
+                Experiments
+            </a>
+            <a href="#result" class="icon-link">
+                <img src="static/img/icons/result.png" alt="result Logo" class="icon">
+                Results and Analysis
+            </a>
+        </div>
+
+        <p class="click-hint" style="width: 85%;">
+            <img src="static/img/icons/click.gif" style="width: 1.5rem">
+            <strong>Click to jump to each section.</strong>
+        </p>
+        
+        <hr>
+
+        <div id='browsing' class="browsing-block">
+            <h1 class="text">Background: Web Browsing</h1>
+            <h3 class="text">The Web Browsing Task</h3>
+            <p class="text">
+                we focus on WebArena tasks, which simulate real-world scenarios to evaluate an agent's ability to complete diverse web-based activities.
+                Tasks in WebArena include interacting with platforms like Gitlab (to manage projects and repositories), Reddit (to browse and post content), e-commerce websites (for shopping), and mapping services (for trip planning).
+            </p>
+
+            <figure id="fig:example">
+                <img data-zoomable="" draggable="false" src="static/img/example.png" alt="example" style="width: 80%" class="center">
+                <figcaption>
+                    <strong>Figure 2:</strong> The API-based agent can often solve problems in many fewer function calls than traditional browsing agents. 
+                    In this task, web browsing failed to solve the intent "find the number of commits the user `SaptakS` made to the repo `a11yproject`" after 15 steps, while our API-based agent successfully completed the task with only three lines of code.
+                </figcaption>
+            </figure>      
+
+
+            <h3 class="text">Web Browsing Agent</h3>
+            <p class="text">
+                A baseline web browsing agent leverages the accessibility tree of web pages, which organizes interactive elements like buttons, input fields, and links in a hierarchical structure. 
+                This structure makes it easier for agents to navigate the web by simulating human-like browsing behaviors such as clicking, filling out forms, and moving between pages. 
+                The agent maintains a comprehensive history of all its previous actions, allowing it to inform its future decisions based on past interactions. 
+                However, due to the complexity of some web elements and their dynamic nature, the browsing agent struggles with tasks requiring numerous or intricate interactions. 
+                For example, in the task in <a href="#fig:example">Figure 2</a>, the agent needs to determine the number of commits made by a specific user to a project. 
+                A traditional browsing-based approach involves logging in, navigating to the correct project, and attempting to scroll through and find the user's commits, and thus the task becomes too complex and fails after the agent's 15-step limit.
+            </p>
+  
+        </div>
+
+        <div id="api" class="api-block">
+            <h1 class="text">From Web Browsing to API Calling</h1>
+            <p class="text">
+                In contrast to web browsing, API calling offer a direct interface for machines to communicate with web services, reducing operational complexity.
+            </p>
+
+            <figure id="fig:api">
+                <img data-zoomable="" draggable="false" src="static/img/api.png" alt="example" style="width: 80%" class="center">
+                <figcaption>
+                    <strong>Figure 3:</strong> The API-based agent can often solve problems in many fewer function calls than traditional browsing agents. 
+                    In this task, web browsing failed to solve the intent "find the number of commits the user `SaptakS` made to the repo `a11yproject`" after 15 steps, while our API-based agent successfully completed the task with only three lines of code.
+                </figcaption>
+            </figure> 
+
+            <h3 class="text">APIs and API Documentation</h3>
+
+            <p class="text">
+                Websites with API support offer pre-defined endpoints for efficient task execution using standardized protocols like REST. 
+                These APIs enable interactions via <code>HTTP</code> requests (e.g., <code>GET</code>, <code>POST</code>, <code>PUT</code>) and return structured data such as JSON objects. 
+                API documentation is typically provided in formats like README, OpenAPI YAML, or plain text, offering guidance on using the APIs. 
+                For instance, <a href="#fig:api">Figure 3</a> shows the official README documentation of a Gitlab API <code>GET /api/{id}/commits</code>. It documents the functionality, input arguments, and output types of the API. 
+                For example, one could use the Python <code>requests</code> library, by calling <code>requests.get("gitlab.com/api/a11yproject/commits")</code>, to retrieve all commits of the repository <code>a11yproject</code>. 
+                This would return a JSON list containing all the commits to this repo, as shown in <a href="#fig:api">Figure 3</a>.
+            </p>
+
+            <h3 class="text">Transitioning from Web Browsing to API Calling</h3>
+            <p class="text">
+                Approaches utilizing APIs is avoid complexity in web browsing, and can minimize the steps involved in complex workflows.
+                For example, as discussed in <a href="#fig:example">Figure 2</a>, to accomplish the task of finding the number of commits by <code>SaptakS</code> in <code>a11yproject</code>, a basic method for implementing API calling, such as CodeAct <d-cite key="wang2024executable"></d-cite>, could directly call the repository's commit history via a simple API request <code>GET /api/a11yproject/commits</code> and then filter the results to find the commits made by <code>SaptakS</code>. 
+                The task could completed in just three lines of Python code, showcasing the clear efficiency and precision that methods based on API calling could offer compared to web browsing. 
+            </p>
+            <h3 class="text">Obtaining APIs for Agent Use</h3>
+            <p class="text">
+                The process of acquiring APIs typically involves looking up official API documentation on a website.
+                To maintain a structured and readable format of API documentations, we could utilize either OpenAPI YAML-style and README-style documentations. 
+                Some websites might offer official YAML oor README documentations of APIs, and in such cases, in the prompt we provide API documentations sourced directly from the public API documentation provided for the website. 
+                In other cases, where no official YAML or README documentations are provided, we could leverage LLMs like <a href="https://openai.com/index/hello-gpt-4o/" target="_blank">GPT-4o</a> to generate these YAML or README files. 
+                By prompting GPT-4o with the relevant implementation details of the APIs (for example, the implementation of the APIs), we could generate comprehensive documentation, including input parameters, expected outputs, and example API calls, as depicted in <a href="#fig:api">Figure 3</a>.
+            </p>
+            <p class="text">
+                <strong>One-Stage Documentation for Small API Sets:</strong>
+                For websites with a smaller number of API endpoints, we directly incorporate the full documentation into the prompt provided to the agent. 
+                Specifically, we use a threshold of 100 APIs, but this could be adjusted depending on the supported language model context size.
+            </p>
+            <p class="text">
+                <strong>Two-Stage Documentation Retrieval for Large API Sets:</strong>
+                For websites with a larger number of endpoints, providing the full documentation directly within the prompt was impractical due to the size limitations of agent inputs. 
+                To address this, we employed a two-stage documentation retrieval process, which allowed access to only the relevant information as needed, keeping the initial prompt concise.
+                In the first stage, the user prompt could provide a description of the task, with a list of all available API endpoints along with a very brief description of each API. 
+                This initial summary helps facilitating understanding the scope of the available APIs while staying within the prompt size constraints.
+                In the second stage, if the model determines that it needs detailed information about a specific API endpoint or some API endpoints, it can use a tool called <code>get_api_documentation</code>. 
+                This tool searches a dictionary that maps an API to its documentation, enabling the model to retrieve the full README or YAML documentation for any given endpoint by calling <code>get_api_documentation</code> with the endpoint's identifier. 
+                This might include the input parameters, output formats, and examples of how to interact with the endpoint. 
+                For example, to retrieve the documentation for the endpoint <code>GET /api/{id}/commits</code>, the agent would call <code>get_api_documentation("GET /api/{id}/commits")</code>, and an example returned API documentation is the documentation in <a href="#fig:api">Figure 3</a>. 
+            </p>
+        </div>
+
+        <div id='hybrid' class="hybrid-block">
+            <h1 class="text">Hybrid Browsing+API Calling Agents</h1>
+            <p class="text">
+                Then, the question arises: given the benefits of API calling, <strong>should we discard web browsing altogether?</strong> 
+                The key limitation is that not all websites provide comprehensive or well-documented APIs, necessitating traditional web browsing in certain cases. 
+                To address this, we propose a hybrid agent that dynamically switches between API calls and web browsing based on task requirements. 
+                This agent has three options per step: communicating in natural language, generating Python code for API calls, or performing web browsing actions. 
+                The hybrid agent's prompt includes both API documentation and web-browsing instructions, allowing it to adapt flexibly to each task's demands. 
+                This approach improves performance by leveraging the strengths of both methods, depending on API availability and documentation quality.
+            </p>
+        </div>
+
+        <div id='experiment' class="experiment-block">
+            <h1 class="text">Experimental Setup</h1>
+            <div id="tab:quality" style="display: flex; flex-direction: column; align-items: center;" class="figure">
+                <div class="table-container">
+                    <table class="data-table" style="border-collapse: collapse; width: 100%; text-align: center;">
+                        <thead>
+                            <tr>
+                                <th style="border: 1px solid #000; padding: 8px;">Websites</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Gitlab</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Map</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Shopping</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Admin</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Reddit</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">Number of Endpoints</td>
+                                <td style="border: 1px solid #000; padding: 8px;">988</td>
+                                <td style="border: 1px solid #000; padding: 8px;">53</td>
+                                <td style="border: 1px solid #000; padding: 8px;">556</td>
+                                <td style="border: 1px solid #000; padding: 8px;">556</td>
+                                <td style="border: 1px solid #000; padding: 8px;">31</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">API Quality</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Good</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Good</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Fair</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Fair</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Poor</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">Documentation Quality</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Good</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Good</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Fair</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Fair</td>
+                                <td style="border: 1px solid #000; padding: 8px;">Poor</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+            <figcaption style="text-align: center; width: 100%;">
+                Table 1: Number of endpoints, quality of API, and documentation quality for WebArena websites.
+            </figcaption>
+            
+            <p class="text">
+                Here, we provide a detailed analysis of the API support for various websites used in the WebArena tasks, categorized into three levels: good, fair, and poor. 
+                The availability, functionality, and documentation of APIs, as described in <a href="#tab:quality">Table 1</a>, play a crucial role in the efficiency and flexibility of our agents.
+            </p>    
+            <p class="text">
+                <strong>Good API support:</strong> Gitlab and Map demonstrates good API support, since they provide significant coverage for the tasks in WebArena and maintain good API documentation.
+            </p>
+            <p class="text">
+                <strong>Fair API support:</strong> The Shopping and Shopping Admin websites provide a reasonable level of support for common shopping tasks such as managing products, categories, and customer accounts, while some features are absent, such as the ability to add items to a wish list. The API documentation is fairly detailed and covers most core functionalities.
+            </p>
+            <p class="text">
+                <strong>Poort API support:</strong> The Reddit tasks in WebArena are based on a self-hosted limited clone of the <a href="https://codeberg.org/Postmill/Postmill" target="_blank">Reddit website</a>, with limited functionalities as compared to the official site. It offers no API documentation, making it the least API-friendly website in the benchmark.
+            </p>
+
+            <h3 class="text">Evaluation Framework</h3>
+            <p class="text">
+                We employed OpenHands as our primary evaluation framework for developing and testing our agents, as it is an open-source platform designed for creating AI agents that interact with both software and web environments <d-cite key="wang2024opendevin"></d-cite>. 
+                OpenHands supports a variety of agent interfaces, allowing agents to execute actions while maintaining a detailed record of past steps. 
+                For coding tasks, it incorporates CodeAct <d-cite key="wang2024executable"></d-cite>, providing a sandboxed bash environment and Jupyter IPython capabilities. 
+                Additionally, OpenHands includes a web navigation agent using BrowserGym, which operates within a Chromium web browser powered by Playwright <d-cite key="workarena2024"></d-cite>. 
+                However, a limitation is that existing agents within OpenHands are specialized either in web browsing or coding/API-based interactions, but not both. 
+                To address this, we developed two new agents: an API-based agent that leverages the CodeAct framework and specialized instructions for API usage, and a hybrid agent that integrates web browsing functionalities with API calls. 
+                The hybrid agent dynamically selects between browsing actions and API calls based on task requirements, leveraging the current browser state, prior actions, and action outcomes. 
+                All agents use GPT-4o as the base large language model.
+            </p>
+
+        </div>
+
+        <div id='result' class="result-block">
+            <h1 class="text">Results</h1>
+            <div id="main-results" style="display: flex; flex-direction: column; align-items: center;" class="figure">
+                <div class="table-container">
+                    <table class="data-table" style="border-collapse: collapse; width: 100%; text-align: center;">
+                        <thead>
+                            <tr>
+                                <th style="border: 1px solid #000; padding: 8px;">Agents</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Gitlab</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Map</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Shopping</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Admin</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Reddit</th>
+                                <th style="border: 1px solid #000; padding: 8px;">Multi</th>
+                                <th style="border: 1px solid #000; padding: 8px;">AVG.</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">WebArena Base</td>
+                                <td style="border: 1px solid #000; padding: 8px;">15.0</td>
+                                <td style="border: 1px solid #000; padding: 8px;">15.6</td>
+                                <td style="border: 1px solid #000; padding: 8px;">13.9</td>
+                                <td style="border: 1px solid #000; padding: 8px;">10.4</td>
+                                <td style="border: 1px solid #000; padding: 8px;">6.6</td>
+                                <td style="border: 1px solid #000; padding: 8px;">8.3</td>
+                                <td style="border: 1px solid #000; padding: 8px;">12.3</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">AutoEval</td>
+                                <td style="border: 1px solid #000; padding: 8px;">25.0</td>
+                                <td style="border: 1px solid #000; padding: 8px;">27.5</td>
+                                <td style="border: 1px solid #000; padding: 8px;">39.6</td>
+                                <td style="border: 1px solid #000; padding: 8px;">20.9</td>
+                                <td style="border: 1px solid #000; padding: 8px;">20.8</td>
+                                <td style="border: 1px solid #000; padding: 8px;">16.7</td>
+                                <td style="border: 1px solid #000; padding: 8px;">26.9</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">AWM</td>
+                                <td style="border: 1px solid #000; padding: 8px;">35.0</td>
+                                <td style="border: 1px solid #000; padding: 8px;">42.2</td>
+                                <td style="border: 1px solid #000; padding: 8px;">32.1</td>
+                                <td style="border: 1px solid #000; padding: 8px;">29.1</td>
+                                <td style="border: 1px solid #000; padding: 8px;">54.7</td>
+                                <td style="border: 1px solid #000; padding: 8px;"><strong>18.8</strong></td>
+                                <td style="border: 1px solid #000; padding: 8px;"><strong>36.5</strong></td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">SteP</td>
+                                <td style="border: 1px solid #000; padding: 8px;">32.2</td>
+                                <td style="border: 1px solid #000; padding: 8px;">31.2</td>
+                                <td style="border: 1px solid #000; padding: 8px;"><strong>50.8</strong></td>
+                                <td style="border: 1px solid #000; padding: 8px;">23.6</td>
+                                <td style="border: 1px solid #000; padding: 8px;"><strong>57.5</strong></td>
+                                <td style="border: 1px solid #000; padding: 8px;">10.4</td>
+                                <td style="border: 1px solid #000; padding: 8px;">36.5</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">Browsing Agent</td>
+                                <td style="border: 1px solid #000; padding: 8px;">12.8</td>
+                                <td style="border: 1px solid #000; padding: 8px;">20.2</td>
+                                <td style="border: 1px solid #000; padding: 8px;">10.2</td>
+                                <td style="border: 1px solid #000; padding: 8px;">22.0</td>
+                                <td style="border: 1px solid #000; padding: 8px;">10.4</td>
+                                <td style="border: 1px solid #000; padding: 8px;">10.4</td>
+                                <td style="border: 1px solid #000; padding: 8px;">14.8</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">API-Based Agent</td>
+                                <td style="border: 1px solid #000; padding: 8px;">43.9</td>
+                                <td style="border: 1px solid #000; padding: 8px;">45.4</td>
+                                <td style="border: 1px solid #000; padding: 8px;">25.1</td>
+                                <td style="border: 1px solid #000; padding: 8px;">20.3</td>
+                                <td style="border: 1px solid #000; padding: 8px;">18.9</td>
+                                <td style="border: 1px solid #000; padding: 8px;">8.3</td>
+                                <td style="border: 1px solid #000; padding: 8px;">29.2</td>
+                            </tr>
+                            <tr>
+                                <td style="border: 1px solid #000; padding: 8px;">Hybrid Agent</td>
+                                <td style="border: 1px solid #000; padding: 8px;"><strong>44.4</strong></td>
+                                <td style="border: 1px solid #000; padding: 8px;"><strong>45.9</strong></td>
+                                <td style="border: 1px solid #000; padding: 8px;">25.7</td>
+                                <td style="border: 1px solid #000; padding: 8px;"><strong>41.2</strong></td>
+                                <td style="border: 1px solid #000; padding: 8px;">28.3</td>
+                                <td style="border: 1px solid #000; padding: 8px;">16.7</td>
+                                <td style="border: 1px solid #000; padding: 8px;">35.8</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>            
+            <figcaption style="text-align: center; width: 100%;">
+                Table 2: Performance of Agents across WebArena Websites. Note that SteP uses prompts inspired specifically by WebArena test set tasks, while other methods are task-agnostic. We achieve the highest performance among the task-agnostic agents.
+            </figcaption>
+            <p class="text">
+                The main results, shown in <a href="#main-results">Table 2</a>, highlight the performance of agents across websites in the WebArena benchmark. 
+                The API-Based Agent performed consistently well, achieving higher scores than the Browsing Agent due to its optimized API-calling capabilities, allowing it to efficiently complete tasks with minimal web browsing. 
+                The Browsing Agent, focused solely on navigating web interfaces, struggled in most domains. 
+                The Hybrid Agent, which integrates both API calling and web browsing, outperformed the API-Based and the Browsing agents in all categories. 
+                Its ability to switch dynamically between API and web interactions provided flexibility, enabling higher performance even in cases where APIs were incomplete or unavailable. 
+                By combining both approaches, the hybrid agent ensures success in situations where API-only methods fall short, using web browsing as a necessary backup.
+                Therefore, the hybrid agent achieves sota performance among agents that are task-agnostic.
+            </p>
+
+            <h3 class="text">Does API Quality Matter?</h3>
+            <p class="text">
+                The short answer is yes, API quality does significantly impact the performance of the API-based agent.
+                High-quality APIs, with comprehensive, well-documented endpoints, enable efficient and accurate task execution. 
+                This allows the API-based agent to rely on fewer web browsing actions, while hybrid agents can switch more flexibly between methods. 
+                Websites like Gitlab and Map, which offer robust APIs, result in the highest task completion accuracy. 
+                Conversely, low-quality APIs hinder agent performance, forcing hybrid agents to rely more on web browsing. 
+                For instance, on Reddit, the initial API-based agent struggled due to limited API availability. 
+                After manually introducing additional APIs, performance improved from 9.43% to 18.9%, highlighting the importance of thorough API support.
+            </p>
+
+            <figure id="fig:case1">
+                <img data-zoomable="" draggable="false" src="static/img/case1.png" alt="case1" style="width: 60%" class="center">
+                <figcaption>
+                    <strong>Figure 4:</strong> Case 1: the hybrid agent succeeds while the browsing agent and API-based agent both fail
+                </figcaption>
+            </figure> 
+            <h3 class="text">Case Study 1</h3>
+            <p class="text">
+                One example where the hybrid agent succeeded, while both the API-based and browsing agents failed, involved a task from the Shopping Admin domain. 
+                The query was to "delete all negative reviews for Sybil running short," a product listed in the shopping admin interface. 
+                In this instance, the API-based agent failed because no relevant API endpoints were available for retrieving or deleting reviews. 
+                Similarly, the browsing agent failed, as completing this task purely through web navigation required too many steps, as depicted in <a href="#fig:case1">Figure 4</a>. 
+                This complexity made the task challenging for an agent relying solely on web interactions.
+                However, the hybrid agent successfully completed the task by leveraging both API and browsing functionalities. An example trace of the hybrid agent shown in Figure <a href="#fig:case1">Figure 4</a>.
+                This case highlights the hybrid agent's ability to efficiently combine API calls with web interactions, allowing it to tackle complex multi-step tasks that would be difficult or impossible for solely browsing or solely API-based agents.
+            </p>
+            
+            <figure id="fig:case2">
+                <img data-zoomable="" draggable="false" src="static/img/case2.png" alt="case2" style="width: 60%" class="center">
+                <figcaption>
+                    <strong>Figure 5:</strong> Case 2: the API-based agent succeeds while the browsing agent and the hybrid agent fails.
+                </figcaption>
+            </figure> 
+
+            <h3 class="text">Case Study 2</h3>
+            <p class="text">
+                Conversely, there are instances where the API-based agent outperforms the hybrid agent. 
+                One such case occurred in the GitLab website, where the task was to "tell me the email address of the contributor who has the most commits to <code>ai</code>". 
+                The API-based agent successfully completed this task by utilizing the <code>GET /api/{id}/contributors</code> API endpoint to retrieve the contributor with the highest number of commits and their associated email address.
+                On the other hand, the hybrid agent attempted to solve the task through browsing but encountered significant challenges. Accessing this information through web browsing required navigating GitLab's interface, locating the correct repository and branch, and identifying the top contributor manually, a task that might be too difficult to perform through web navigation alone. 
+                As a result, both the browsing agent and the hybrid agent failed to complete the task. This case demonstrates an example where API access provides a more straightforward solution than browsing in contexts requiring structured data retrieval.
+            </p>
+        </div>
+
+    </div>
+
+        <div id="conclusion" style="position: relative; margin-top: 40px; margin-bottom: 0px;">
+            <h2 class="text" style="margin-top:0px; margin-bottom:10px">Conclusion</h2>
+            <p class="text">
+                We propose new web agents that use APIs instead of traditionally browsers. 
+                We found that API-based agents outperform browsing-based counterparts, especially on websites with sufficient API support. 
+                Hence we further propose an agent that is capable of switching between using APIs or browsers and empirically outperforms agents that only uses one of the two interfaces. 
+                For future work, we aim to explore methods for automatically inducing APIs using techniques such as Agent Workflow Memory (AWM) <d-cite key="wang2024agent"></d-cite>. 
+                These methods could identify and generate API calls for websites lacking formal API support, further expanding the applicability and efficiency of API-based approaches. 
+                By automating the discovery and utilization of APIs, we envision even more robust agents capable of handling diverse web tasks with minimal reliance on manual interaction through browsing.
+            </p>
+        </div>
+
+        <div id="acknowledgement" style="position: relative; margin-top: 40px; margin-bottom: 0px;">
+            <h2 class="text" style="margin-top:0px; margin-bottom:10px">Acknowledgement</h2>
+            <p class="text">
+                This work was supported in part by a grant from DSTA Singapore.  
+                The authors would like to thank CMU NeuLab colleagues for their constructive comments. 
+                The authors would like to thank Cambrian team for their <a href="https://cambrian-mllm.github.io/" target="_blank">project webpage template</a>. 
+            </p>
+        </div>
+
+        </d-article>
+        <d-appendix>
+            <h3>BibTeX</h3>
+            <p class="bibtex">
+                @article{tong2024cambrian,<br>
+                &nbsp;&nbsp;title={{Beyond Browsing: API-Based Web Agents}},<br>
+                &nbsp;&nbsp;author={Song, Yueqi and Xu, Frank and Zhou, Shuyan and Neubig, Graham},<br>
+                &nbsp;&nbsp;journal={arXiv preprint arXiv:2406.16860},<br>
+                &nbsp;&nbsp;year={2024}<br>
+                }
+            </p>
+
+            <d-footnote-list></d-footnote-list>
+            <d-citation-list></d-citation-list>
+        </d-appendix>   
+        <!-- bibliography will be inlined during Distill pipeline's pre-rendering -->
+        <d-bibliography src="bibliography.bib"></d-bibliography>
+        <script src="./static/js/nav-bar.js"></script>
+    </body>
+</html>
