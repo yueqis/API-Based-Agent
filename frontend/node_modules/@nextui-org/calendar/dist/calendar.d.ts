@@ -1,0 +1,25 @@
+import { DateValue } from '@internationalized/date';
+import { Ref, ReactElement } from 'react';
+import { UseCalendarProps } from './use-calendar.js';
+import '@nextui-org/theme';
+import 'tailwind-variants';
+import '@nextui-org/system';
+import '@react-types/calendar';
+import '@nextui-org/button';
+import '@react-stately/calendar';
+import './use-calendar-base.js';
+import '@react-types/shared';
+import '@react-aria/calendar';
+import '@react-types/button';
+import '@nextui-org/react-utils';
+import './calendar-base.js';
+import 'react/jsx-runtime';
+
+interface Props<T extends DateValue> extends Omit<UseCalendarProps<T>, "isHeaderWrapperExpanded"> {
+}
+type CalendarProps<T extends DateValue = DateValue> = Props<T> & {
+    ref?: Ref<HTMLElement>;
+};
+declare const _default: <T extends DateValue>(props: CalendarProps<T>) => ReactElement;
+
+export { CalendarProps, _default as default };

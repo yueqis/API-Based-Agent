@@ -1,0 +1,21 @@
+"use client";
+import {
+  useDropdownContext
+} from "./chunk-WRRPXIUB.mjs";
+
+// src/dropdown-menu.tsx
+import { PopoverContent } from "@nextui-org/popover";
+import { FocusScope } from "@react-aria/focus";
+import { forwardRef } from "@nextui-org/system";
+import { Menu } from "@nextui-org/menu";
+import { jsx } from "react/jsx-runtime";
+function DropdownMenu(props, ref) {
+  const { getMenuProps } = useDropdownContext();
+  return /* @__PURE__ */ jsx(PopoverContent, { children: /* @__PURE__ */ jsx(FocusScope, { contain: true, restoreFocus: true, children: /* @__PURE__ */ jsx(Menu, { ...getMenuProps(props, ref) }) }) });
+}
+var dropdown_menu_default = forwardRef(DropdownMenu);
+DropdownMenu.displayName = "NextUI.DropdownMenu";
+
+export {
+  dropdown_menu_default
+};

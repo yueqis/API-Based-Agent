@@ -1,0 +1,56 @@
+"use client";
+import {
+  ListboxSelectedIcon
+} from "./chunk-65JTUBIW.mjs";
+import {
+  useListboxItem
+} from "./chunk-CEGW72HH.mjs";
+
+// src/listbox-item.tsx
+import { useMemo } from "react";
+import { forwardRef } from "@nextui-org/system";
+import { jsx, jsxs } from "react/jsx-runtime";
+var ListboxItem = forwardRef((props, _) => {
+  const {
+    Component,
+    rendered,
+    description,
+    isSelectable,
+    isSelected,
+    isDisabled,
+    selectedIcon,
+    startContent,
+    endContent,
+    hideSelectedIcon,
+    disableAnimation,
+    getItemProps,
+    getLabelProps,
+    getWrapperProps,
+    getDescriptionProps,
+    getSelectedIconProps
+  } = useListboxItem(props);
+  const selectedContent = useMemo(() => {
+    const defaultIcon = /* @__PURE__ */ jsx(ListboxSelectedIcon, { disableAnimation, isSelected });
+    if (typeof selectedIcon === "function") {
+      return selectedIcon({ icon: defaultIcon, isSelected, isDisabled });
+    }
+    if (selectedIcon)
+      return selectedIcon;
+    return defaultIcon;
+  }, [selectedIcon, isSelected, isDisabled, disableAnimation]);
+  return /* @__PURE__ */ jsxs(Component, { ...getItemProps(), children: [
+    startContent,
+    description ? /* @__PURE__ */ jsxs("div", { ...getWrapperProps(), children: [
+      /* @__PURE__ */ jsx("span", { ...getLabelProps(), children: rendered }),
+      /* @__PURE__ */ jsx("span", { ...getDescriptionProps(), children: description })
+    ] }) : /* @__PURE__ */ jsx("span", { ...getLabelProps(), children: rendered }),
+    isSelectable && !hideSelectedIcon && /* @__PURE__ */ jsx("span", { ...getSelectedIconProps(), children: selectedContent }),
+    endContent
+  ] });
+});
+ListboxItem.displayName = "NextUI.ListboxItem";
+var listbox_item_default = ListboxItem;
+
+export {
+  listbox_item_default
+};

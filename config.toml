@@ -1,0 +1,9 @@
+[core]
+workspace_base="./workspace"
+ssh_password="hello"
+
+[llm]
+model="openai/gpt-4o"
+api_key=""
+base_url="https://cmu.litellm.ai"
+embedding_model="openai"
