@@ -464,11 +464,26 @@
                 For instance, on Reddit, the initial API-based agent struggled due to limited API availability. 
                 After manually introducing additional APIs, performance improved from 9.43% to 18.9%, highlighting the importance of thorough API support.
             </p>
-
+            <figure id="fig:error_analysis">
+                <img data-zoomable="" draggable="false" src="static/img/error_analysis.png" alt="error analysis" style="width: 60%" class="center">
+                <figcaption>
+                    <strong>Figure 4:</strong> Error analysis of the API-Based Agent on 100 randomly samples WebArena tasks.
+                </figcaption>
+            </figure> 
+            <h3 class="text">Error Analysis</h3>
+            <p class="text">
+                We randomly sampled 100 tasks from WebArena and performed error analysis on the API-Based Agent. 
+                <a href="#fig:error_analysis">Figure 4</a> shows the distribution of error categories among these 100 tasks. 
+                We found that 33% of the tasks are correctly performed with only API calling, 50% are unsolvable with solely APIs, 6% are incorrect due to incorrect task understanding, and 11% are incorrect due to error in calling APIs such as mal-formatting and wrong input. 
+                In other words, among the 50 API solvable tasks, 66% are performed correctly by the API-Based Agent. 
+                This showcases the strong capability of the API-Based Agent when given sufficient APIs to solve the task.
+                Additionally, the average API calls required to solve API solvable tasks are 2.1 API calls, demonstrating how API calling could reduce operational complexity for web tasks. 
+                Although the API-Based Agent took an average of 7.8 steps to complete WebArena tasks, most of the steps were taken to retrieve API documentation, resolve errors from it's previous generations, or verify it's outputs.
+            </p>
             <figure id="fig:case1">
                 <img data-zoomable="" draggable="false" src="static/img/case1.png" alt="case1" style="width: 60%" class="center">
                 <figcaption>
-                    <strong>Figure 4:</strong> Case 1: the hybrid agent succeeds while the browsing agent and API-based agent both fail
+                    <strong>Figure 5:</strong> Case 1: the hybrid agent succeeds while the browsing agent and API-based agent both fail
                 </figcaption>
             </figure> 
             <h3 class="text">Case Study 1</h3>
@@ -476,23 +491,23 @@
                 One example where the hybrid agent succeeded, while both the API-based and browsing agents failed, involved a task from the Shopping Admin domain. 
                 The query was to "delete all negative reviews for Sybil running short," a product listed in the shopping admin interface. 
                 In this instance, the API-based agent failed because no relevant API endpoints were available for retrieving or deleting reviews. 
-                Similarly, the browsing agent failed, as completing this task purely through web navigation required too many steps, as depicted in <a href="#fig:case1">Figure 4</a>. 
+                Similarly, the browsing agent failed, as completing this task purely through web navigation required too many steps, as depicted in <a href="#fig:case1">Figure 5</a>. 
                 This complexity made the task challenging for an agent relying solely on web interactions.
-                However, the hybrid agent successfully completed the task by leveraging both API and browsing functionalities. An example trace of the hybrid agent shown in Figure <a href="#fig:case1">Figure 4</a>.
+                However, the hybrid agent successfully completed the task by leveraging both API and browsing functionalities. An example trace of the hybrid agent shown in <a href="#fig:case1">Figure 5</a>.
                 This case highlights the hybrid agent's ability to efficiently combine API calls with web interactions, allowing it to tackle complex multi-step tasks that would be difficult or impossible for solely browsing or solely API-based agents.
             </p>
             
             <figure id="fig:case2">
                 <img data-zoomable="" draggable="false" src="static/img/case2.png" alt="case2" style="width: 60%" class="center">
                 <figcaption>
-                    <strong>Figure 5:</strong> Case 2: the API-based agent succeeds while the browsing agent and the hybrid agent fails.
+                    <strong>Figure 6:</strong> Case 2: the API-based agent succeeds while the browsing agent and the hybrid agent fails.
                 </figcaption>
             </figure> 
 
             <h3 class="text">Case Study 2</h3>
             <p class="text">
                 Conversely, there are instances where the API-based agent outperforms the hybrid agent. 
-                One such case occurred in the GitLab website, where the task was to "tell me the email address of the contributor who has the most commits to <code>ai</code>". 
+                One such case occurred in the GitLab website, as shown in <a href="#fig:case2">Figure 6</a>, where the task was to "tell me the email address of the contributor who has the most commits to <code>ai</code>". 
                 The API-based agent successfully completed this task by utilizing the <code>GET /api/{id}/contributors</code> API endpoint to retrieve the contributor with the highest number of commits and their associated email address.
                 On the other hand, the hybrid agent attempted to solve the task through browsing but encountered significant challenges. Accessing this information through web browsing required navigating GitLab's interface, locating the correct repository and branch, and identifying the top contributor manually, a task that might be too difficult to perform through web navigation alone. 
                 As a result, both the browsing agent and the hybrid agent failed to complete the task. This case demonstrates an example where API access provides a more straightforward solution than browsing in contexts requiring structured data retrieval.
